@@ -15,4 +15,11 @@ class HomeScreen extends BaseView<HomeController> {
     );
   }
 
+  @override
+  PreferredSizeWidget? appBar(BuildContext context) {
+    return AppBar(
+      title: Text("Jake's Git"),
+    );
+  }
+
 }

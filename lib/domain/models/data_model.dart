@@ -65,7 +65,7 @@ class DataModel with _$DataModel {
     required String sshUrl,
     required String cloneUrl,
     required String svnUrl,
-    required String homepage,
+    @Default("") required String homepage,
     required int size,
     required int stargazersCount,
     required int watchersCount,

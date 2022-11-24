@@ -6,6 +6,8 @@ import 'package:task_preview_tech/app/core/di.dart';
 import 'package:task_preview_tech/app/theme/color_manager.dart';
 import 'package:task_preview_tech/app/values/assets_manager.dart';
 import 'package:task_preview_tech/domain/use_cases/get_otp_use_case.dart';
+import 'package:task_preview_tech/infrastructure/navigation/routes.dart';
+import 'package:task_preview_tech/presentation/login/views/otp_verify_screen.dart';
 import '../../app/widgets/load_assets_image.dart';
 import '../../app/widgets/load_assets_svg_image.dart';
 import 'controllers/login_controller.dart';
@@ -32,6 +34,7 @@ class LoginScreen extends BaseView<LoginController> {
               style: Get.textTheme.titleLarge?.copyWith(
                 fontWeight: FontWeight.bold,
                 color: ColorManager.blackColor,
+                fontSize: 22,
               ),
             ),
           ),
@@ -62,8 +65,8 @@ class LoginScreen extends BaseView<LoginController> {
             margin: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
             padding: const EdgeInsets.all(4),
             child: Row(
-              children: [
-                const Padding(
+              children: const [
+                Padding(
                   padding: EdgeInsets.symmetric(horizontal: 12.0),
                   child: Text(
                     "+91",
@@ -74,7 +77,7 @@ class LoginScreen extends BaseView<LoginController> {
                     ),
                   ),
                 ),
-                const Expanded(
+                Expanded(
                   child: TextField(
                     decoration: InputDecoration(
                       border: InputBorder.none,
@@ -94,17 +97,29 @@ class LoginScreen extends BaseView<LoginController> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12),
             child: ElevatedButton(
-              onPressed: () async {},
+              onPressed: () {
+                showDialog(
+                  context: context,
+                  builder: (context) {
+                    return  OTPVerifyScreen(
+                      onSubmitTap: () async{
+                        Get.back();
+                        Get.toNamed(Routes.home);
+                      },
+                    );
+                  }
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  padding: const EdgeInsets.symmetric(vertical: 12)),
               child: Text(
                 "Proceed",
                 style: Get.textTheme.titleMedium
                     ?.copyWith(color: ColorManager.whiteColor),
               ),
-              style: ElevatedButton.styleFrom(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  padding: EdgeInsets.symmetric(vertical: 12)),
             ),
           ),
           SizedBox(
