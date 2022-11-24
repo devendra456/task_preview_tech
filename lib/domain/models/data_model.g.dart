@@ -7,85 +7,96 @@ part of 'data_model.dart';
 // **************************************************************************
 
 _$_DataModel _$$_DataModelFromJson(Map<String, dynamic> json) => _$_DataModel(
-      id: json['id'] as int,
-      nodeId: json['nodeId'] as String,
-      name: json['name'] as String,
-      fullName: json['fullName'] as String,
-      private: json['private'] as bool,
-      owner: Owner.fromJson(json['owner'] as Map<String, dynamic>),
-      htmlUrl: json['htmlUrl'] as String,
-      description: json['description'] as String,
-      fork: json['fork'] as bool,
-      url: json['url'] as String,
-      forksUrl: json['forksUrl'] as String,
-      keysUrl: json['keysUrl'] as String,
-      collaboratorsUrl: json['collaboratorsUrl'] as String,
-      teamsUrl: json['teamsUrl'] as String,
-      hooksUrl: json['hooksUrl'] as String,
-      issueEventsUrl: json['issueEventsUrl'] as String,
-      eventsUrl: json['eventsUrl'] as String,
-      assigneesUrl: json['assigneesUrl'] as String,
-      branchesUrl: json['branchesUrl'] as String,
-      tagsUrl: json['tagsUrl'] as String,
-      blobsUrl: json['blobsUrl'] as String,
-      gitTagsUrl: json['gitTagsUrl'] as String,
-      gitRefsUrl: json['gitRefsUrl'] as String,
-      treesUrl: json['treesUrl'] as String,
-      statusesUrl: json['statusesUrl'] as String,
-      languagesUrl: json['languagesUrl'] as String,
-      stargazersUrl: json['stargazersUrl'] as String,
-      contributorsUrl: json['contributorsUrl'] as String,
-      subscribersUrl: json['subscribersUrl'] as String,
-      subscriptionUrl: json['subscriptionUrl'] as String,
-      commitsUrl: json['commitsUrl'] as String,
-      gitCommitsUrl: json['gitCommitsUrl'] as String,
-      commentsUrl: json['commentsUrl'] as String,
-      issueCommentUrl: json['issueCommentUrl'] as String,
-      contentsUrl: json['contentsUrl'] as String,
-      compareUrl: json['compareUrl'] as String,
-      mergesUrl: json['mergesUrl'] as String,
-      archiveUrl: json['archiveUrl'] as String,
-      downloadsUrl: json['downloadsUrl'] as String,
-      issuesUrl: json['issuesUrl'] as String,
-      pullsUrl: json['pullsUrl'] as String,
-      milestonesUrl: json['milestonesUrl'] as String,
-      notificationsUrl: json['notificationsUrl'] as String,
-      labelsUrl: json['labelsUrl'] as String,
-      releasesUrl: json['releasesUrl'] as String,
-      deploymentsUrl: json['deploymentsUrl'] as String,
-      createdAt: DateTime.parse(json['createdAt'] as String),
-      updatedAt: DateTime.parse(json['updatedAt'] as String),
-      pushedAt: DateTime.parse(json['pushedAt'] as String),
-      gitUrl: json['gitUrl'] as String,
-      sshUrl: json['sshUrl'] as String,
-      cloneUrl: json['cloneUrl'] as String,
-      svnUrl: json['svnUrl'] as String,
-      homepage: json['homepage'] as String,
-      size: json['size'] as int,
-      stargazersCount: json['stargazersCount'] as int,
-      watchersCount: json['watchersCount'] as int,
-      language: json['language'] as String,
-      hasIssues: json['hasIssues'] as bool,
-      hasProjects: json['hasProjects'] as bool,
-      hasDownloads: json['hasDownloads'] as bool,
-      hasWiki: json['hasWiki'] as bool,
-      hasPages: json['hasPages'] as bool,
-      hasDiscussions: json['hasDiscussions'] as bool,
-      forksCount: json['forksCount'] as int,
+      id: json['id'] as int? ?? 0,
+      nodeId: json['nodeId'] as String? ?? "",
+      name: json['name'] as String? ?? "",
+      fullName: json['fullName'] as String? ?? "",
+      private: json['private'] as bool? ?? false,
+      owner: json['owner'] == null
+          ? null
+          : Owner.fromJson(json['owner'] as Map<String, dynamic>),
+      htmlUrl: json['htmlUrl'] as String? ?? "",
+      description: json['description'] as String? ?? "",
+      fork: json['fork'] as bool? ?? false,
+      url: json['url'] as String? ?? "",
+      forksUrl: json['forksUrl'] as String? ?? "",
+      keysUrl: json['keysUrl'] as String? ?? "",
+      collaboratorsUrl: json['collaboratorsUrl'] as String? ?? "",
+      teamsUrl: json['teamsUrl'] as String? ?? "",
+      hooksUrl: json['hooksUrl'] as String? ?? "",
+      issueEventsUrl: json['issueEventsUrl'] as String? ?? "",
+      eventsUrl: json['eventsUrl'] as String? ?? "",
+      assigneesUrl: json['assigneesUrl'] as String? ?? "",
+      branchesUrl: json['branchesUrl'] as String? ?? "",
+      tagsUrl: json['tagsUrl'] as String? ?? "",
+      blobsUrl: json['blobsUrl'] as String? ?? "",
+      gitTagsUrl: json['gitTagsUrl'] as String? ?? "",
+      gitRefsUrl: json['gitRefsUrl'] as String? ?? "",
+      treesUrl: json['treesUrl'] as String? ?? "",
+      statusesUrl: json['statusesUrl'] as String? ?? "",
+      languagesUrl: json['languagesUrl'] as String? ?? "",
+      stargazersUrl: json['stargazersUrl'] as String? ?? "",
+      contributorsUrl: json['contributorsUrl'] as String? ?? "",
+      subscribersUrl: json['subscribersUrl'] as String? ?? "",
+      subscriptionUrl: json['subscriptionUrl'] as String? ?? "",
+      commitsUrl: json['commitsUrl'] as String? ?? "",
+      gitCommitsUrl: json['gitCommitsUrl'] as String? ?? "",
+      commentsUrl: json['commentsUrl'] as String? ?? "",
+      issueCommentUrl: json['issueCommentUrl'] as String? ?? "",
+      contentsUrl: json['contentsUrl'] as String? ?? "",
+      compareUrl: json['compareUrl'] as String? ?? "",
+      mergesUrl: json['mergesUrl'] as String? ?? "",
+      archiveUrl: json['archiveUrl'] as String? ?? "",
+      downloadsUrl: json['downloadsUrl'] as String? ?? "",
+      issuesUrl: json['issuesUrl'] as String? ?? "",
+      pullsUrl: json['pullsUrl'] as String? ?? "",
+      milestonesUrl: json['milestonesUrl'] as String? ?? "",
+      notificationsUrl: json['notificationsUrl'] as String? ?? "",
+      labelsUrl: json['labelsUrl'] as String? ?? "",
+      releasesUrl: json['releasesUrl'] as String? ?? "",
+      deploymentsUrl: json['deploymentsUrl'] as String? ?? "",
+      createdAt: json['createdAt'] == null
+          ? null
+          : DateTime.parse(json['createdAt'] as String),
+      updatedAt: json['updatedAt'] == null
+          ? null
+          : DateTime.parse(json['updatedAt'] as String),
+      pushedAt: json['pushedAt'] == null
+          ? null
+          : DateTime.parse(json['pushedAt'] as String),
+      gitUrl: json['gitUrl'] as String? ?? "",
+      sshUrl: json['sshUrl'] as String? ?? "",
+      cloneUrl: json['cloneUrl'] as String? ?? "",
+      svnUrl: json['svnUrl'] as String? ?? "",
+      homepage: json['homepage'] as String? ?? "",
+      size: json['size'] as int? ?? 0,
+      stargazersCount: json['stargazersCount'] as int? ?? 0,
+      watchersCount: json['watchersCount'] as int? ?? 0,
+      language: json['language'] as String? ?? "",
+      hasIssues: json['hasIssues'] as bool? ?? false,
+      hasProjects: json['hasProjects'] as bool? ?? false,
+      hasDownloads: json['hasDownloads'] as bool? ?? false,
+      hasWiki: json['hasWiki'] as bool? ?? false,
+      hasPages: json['hasPages'] as bool? ?? false,
+      hasDiscussions: json['hasDiscussions'] as bool? ?? false,
+      forksCount: json['forksCount'] as int? ?? 0,
       mirrorUrl: json['mirrorUrl'],
-      archived: json['archived'] as bool,
-      disabled: json['disabled'] as bool,
-      openIssuesCount: json['openIssuesCount'] as int,
-      license: License.fromJson(json['license'] as Map<String, dynamic>),
-      allowForking: json['allowForking'] as bool,
-      isTemplate: json['isTemplate'] as bool,
-      webCommitSignoffRequired: json['webCommitSignoffRequired'] as bool,
-      topics: json['topics'] as List<dynamic>,
-      visibility: $enumDecode(_$VisibilityEnumMap, json['visibility']),
-      forks: json['forks'] as int,
-      openIssues: json['openIssues'] as int,
-      watchers: json['watchers'] as int,
-      defaultBranch: $enumDecode(_$DefaultBranchEnumMap, json['defaultBranch']),
+      archived: json['archived'] as bool? ?? false,
+      disabled: json['disabled'] as bool? ?? false,
+      openIssuesCount: json['openIssuesCount'] as int? ?? 0,
+      license: json['license'] == null
+          ? null
+          : License.fromJson(json['license'] as Map<String, dynamic>),
+      allowForking: json['allowForking'] as bool? ?? false,
+      isTemplate: json['isTemplate'] as bool? ?? false,
+      webCommitSignoffRequired:
+          json['webCommitSignoffRequired'] as bool? ?? false,
+      topics: json['topics'] as List<dynamic>? ?? const [],
+      visibility: json['visibility'] as String? ?? "",
+      forks: json['forks'] as int? ?? 0,
+      open_issues: json['open_issues'] as int? ?? 0,
+      watchers: json['watchers'] as int? ?? 0,
+      defaultBranch: json['defaultBranch'] as String? ?? "",
     );
 
 Map<String, dynamic> _$$_DataModelToJson(_$_DataModel instance) =>
@@ -136,9 +147,9 @@ Map<String, dynamic> _$$_DataModelToJson(_$_DataModel instance) =>
       'labelsUrl': instance.labelsUrl,
       'releasesUrl': instance.releasesUrl,
       'deploymentsUrl': instance.deploymentsUrl,
-      'createdAt': instance.createdAt.toIso8601String(),
-      'updatedAt': instance.updatedAt.toIso8601String(),
-      'pushedAt': instance.pushedAt.toIso8601String(),
+      'createdAt': instance.createdAt?.toIso8601String(),
+      'updatedAt': instance.updatedAt?.toIso8601String(),
+      'pushedAt': instance.pushedAt?.toIso8601String(),
       'gitUrl': instance.gitUrl,
       'sshUrl': instance.sshUrl,
       'cloneUrl': instance.cloneUrl,
@@ -164,28 +175,19 @@ Map<String, dynamic> _$$_DataModelToJson(_$_DataModel instance) =>
       'isTemplate': instance.isTemplate,
       'webCommitSignoffRequired': instance.webCommitSignoffRequired,
       'topics': instance.topics,
-      'visibility': _$VisibilityEnumMap[instance.visibility]!,
+      'visibility': instance.visibility,
       'forks': instance.forks,
-      'openIssues': instance.openIssues,
+      'open_issues': instance.open_issues,
       'watchers': instance.watchers,
-      'defaultBranch': _$DefaultBranchEnumMap[instance.defaultBranch]!,
+      'defaultBranch': instance.defaultBranch,
     };
 
-const _$VisibilityEnumMap = {
-  Visibility.PUBLIC: 'PUBLIC',
-};
-
-const _$DefaultBranchEnumMap = {
-  DefaultBranch.MASTER: 'MASTER',
-  DefaultBranch.TRUNK: 'TRUNK',
-};
-
 _$_License _$$_LicenseFromJson(Map<String, dynamic> json) => _$_License(
-      key: json['key'] as String,
-      name: json['name'] as String,
-      spdxId: json['spdxId'] as String,
-      url: json['url'] as String,
-      nodeId: json['nodeId'] as String,
+      key: json['key'] as String? ?? "",
+      name: json['name'] as String? ?? "",
+      spdxId: json['spdxId'] as String? ?? "",
+      url: json['url'] as String? ?? "",
+      nodeId: json['nodeId'] as String? ?? "",
     );
 
 Map<String, dynamic> _$$_LicenseToJson(_$_License instance) =>
@@ -198,75 +200,43 @@ Map<String, dynamic> _$$_LicenseToJson(_$_License instance) =>
     };
 
 _$_Owner _$$_OwnerFromJson(Map<String, dynamic> json) => _$_Owner(
-      login: $enumDecode(_$LoginEnumMap, json['login']),
-      id: json['id'] as int,
-      nodeId: $enumDecode(_$NodeIdEnumMap, json['nodeId']),
-      avatarUrl: json['avatarUrl'] as String,
-      gravatarId: json['gravatarId'] as String,
-      url: json['url'] as String,
-      htmlUrl: json['htmlUrl'] as String,
-      followersUrl: json['followersUrl'] as String,
-      followingUrl: $enumDecode(_$FollowingUrlEnumMap, json['followingUrl']),
-      gistsUrl: $enumDecode(_$GistsUrlEnumMap, json['gistsUrl']),
-      starredUrl: $enumDecode(_$StarredUrlEnumMap, json['starredUrl']),
-      subscriptionsUrl: json['subscriptionsUrl'] as String,
-      organizationsUrl: json['organizationsUrl'] as String,
-      reposUrl: json['reposUrl'] as String,
-      eventsUrl: $enumDecode(_$EventsUrlEnumMap, json['eventsUrl']),
-      receivedEventsUrl: json['receivedEventsUrl'] as String,
-      type: $enumDecode(_$TypeEnumMap, json['type']),
-      siteAdmin: json['siteAdmin'] as bool,
+      login: json['login'] as String? ?? "",
+      id: json['id'] as int? ?? 0,
+      nodeId: json['nodeId'] as String? ?? "",
+      avatarUrl: json['avatarUrl'] as String? ?? "",
+      gravatarId: json['gravatarId'] as String? ?? "",
+      url: json['url'] as String? ?? "",
+      htmlUrl: json['htmlUrl'] as String? ?? "",
+      followersUrl: json['followersUrl'] as String? ?? "",
+      followingUrl: json['followingUrl'] as String? ?? "",
+      gistsUrl: json['gistsUrl'] as String? ?? "",
+      starredUrl: json['starredUrl'] as String? ?? "",
+      subscriptionsUrl: json['subscriptionsUrl'] as String? ?? "",
+      organizationsUrl: json['organizationsUrl'] as String? ?? "",
+      reposUrl: json['reposUrl'] as String? ?? "",
+      eventsUrl: json['eventsUrl'] as String? ?? "",
+      receivedEventsUrl: json['receivedEventsUrl'] as String? ?? "",
+      type: json['type'] as String? ?? "",
+      siteAdmin: json['siteAdmin'] as bool? ?? false,
     );
 
 Map<String, dynamic> _$$_OwnerToJson(_$_Owner instance) => <String, dynamic>{
-      'login': _$LoginEnumMap[instance.login]!,
+      'login': instance.login,
       'id': instance.id,
-      'nodeId': _$NodeIdEnumMap[instance.nodeId]!,
+      'nodeId': instance.nodeId,
       'avatarUrl': instance.avatarUrl,
       'gravatarId': instance.gravatarId,
       'url': instance.url,
       'htmlUrl': instance.htmlUrl,
       'followersUrl': instance.followersUrl,
-      'followingUrl': _$FollowingUrlEnumMap[instance.followingUrl]!,
-      'gistsUrl': _$GistsUrlEnumMap[instance.gistsUrl]!,
-      'starredUrl': _$StarredUrlEnumMap[instance.starredUrl]!,
+      'followingUrl': instance.followingUrl,
+      'gistsUrl': instance.gistsUrl,
+      'starredUrl': instance.starredUrl,
       'subscriptionsUrl': instance.subscriptionsUrl,
       'organizationsUrl': instance.organizationsUrl,
       'reposUrl': instance.reposUrl,
-      'eventsUrl': _$EventsUrlEnumMap[instance.eventsUrl]!,
+      'eventsUrl': instance.eventsUrl,
       'receivedEventsUrl': instance.receivedEventsUrl,
-      'type': _$TypeEnumMap[instance.type]!,
+      'type': instance.type,
       'siteAdmin': instance.siteAdmin,
     };
-
-const _$LoginEnumMap = {
-  Login.JAKE_WHARTON: 'JAKE_WHARTON',
-};
-
-const _$NodeIdEnumMap = {
-  NodeId.MDQ6_VX_NLCJ_Y2_N_TC3: 'MDQ6_VX_NLCJ_Y2_N_TC3',
-};
-
-const _$FollowingUrlEnumMap = {
-  FollowingUrl.HTTPS_API_GITHUB_COM_USERS_JAKE_WHARTON_FOLLOWING_OTHER_USER:
-      'HTTPS_API_GITHUB_COM_USERS_JAKE_WHARTON_FOLLOWING_OTHER_USER',
-};
-
-const _$GistsUrlEnumMap = {
-  GistsUrl.HTTPS_API_GITHUB_COM_USERS_JAKE_WHARTON_GISTS_GIST_ID:
-      'HTTPS_API_GITHUB_COM_USERS_JAKE_WHARTON_GISTS_GIST_ID',
-};
-
-const _$StarredUrlEnumMap = {
-  StarredUrl.HTTPS_API_GITHUB_COM_USERS_JAKE_WHARTON_STARRED_OWNER_REPO:
-      'HTTPS_API_GITHUB_COM_USERS_JAKE_WHARTON_STARRED_OWNER_REPO',
-};
-
-const _$EventsUrlEnumMap = {
-  EventsUrl.HTTPS_API_GITHUB_COM_USERS_JAKE_WHARTON_EVENTS_PRIVACY:
-      'HTTPS_API_GITHUB_COM_USERS_JAKE_WHARTON_EVENTS_PRIVACY',
-};
-
-const _$TypeEnumMap = {
-  Type.USER: 'USER',
-};

@@ -12,14 +12,6 @@ import '../di.dart';
 abstract class BaseController extends GetxController {
   final Logger logger = ConfigEnvironments.logger;
 
-  Future<Either<Failure, T>> apiCallWithLoader<T>(
-      Future<Either<Failure, T>> future) async {
-    showLoading();
-    final response = await future;
-    hideLoading();
-    return response;
-  }
-
   Future<void> showLoading() async {
     await Get.dialog(const LoaderWidget(), barrierDismissible: false);
   }

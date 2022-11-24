@@ -20,85 +20,85 @@ DataModel _$DataModelFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$DataModel {
-  int get id => throw _privateConstructorUsedError;
-  String get nodeId => throw _privateConstructorUsedError;
-  String get name => throw _privateConstructorUsedError;
-  String get fullName => throw _privateConstructorUsedError;
-  bool get private => throw _privateConstructorUsedError;
-  Owner get owner => throw _privateConstructorUsedError;
-  String get htmlUrl => throw _privateConstructorUsedError;
-  String get description => throw _privateConstructorUsedError;
-  bool get fork => throw _privateConstructorUsedError;
-  String get url => throw _privateConstructorUsedError;
-  String get forksUrl => throw _privateConstructorUsedError;
-  String get keysUrl => throw _privateConstructorUsedError;
-  String get collaboratorsUrl => throw _privateConstructorUsedError;
-  String get teamsUrl => throw _privateConstructorUsedError;
-  String get hooksUrl => throw _privateConstructorUsedError;
-  String get issueEventsUrl => throw _privateConstructorUsedError;
-  String get eventsUrl => throw _privateConstructorUsedError;
-  String get assigneesUrl => throw _privateConstructorUsedError;
-  String get branchesUrl => throw _privateConstructorUsedError;
-  String get tagsUrl => throw _privateConstructorUsedError;
-  String get blobsUrl => throw _privateConstructorUsedError;
-  String get gitTagsUrl => throw _privateConstructorUsedError;
-  String get gitRefsUrl => throw _privateConstructorUsedError;
-  String get treesUrl => throw _privateConstructorUsedError;
-  String get statusesUrl => throw _privateConstructorUsedError;
-  String get languagesUrl => throw _privateConstructorUsedError;
-  String get stargazersUrl => throw _privateConstructorUsedError;
-  String get contributorsUrl => throw _privateConstructorUsedError;
-  String get subscribersUrl => throw _privateConstructorUsedError;
-  String get subscriptionUrl => throw _privateConstructorUsedError;
-  String get commitsUrl => throw _privateConstructorUsedError;
-  String get gitCommitsUrl => throw _privateConstructorUsedError;
-  String get commentsUrl => throw _privateConstructorUsedError;
-  String get issueCommentUrl => throw _privateConstructorUsedError;
-  String get contentsUrl => throw _privateConstructorUsedError;
-  String get compareUrl => throw _privateConstructorUsedError;
-  String get mergesUrl => throw _privateConstructorUsedError;
-  String get archiveUrl => throw _privateConstructorUsedError;
-  String get downloadsUrl => throw _privateConstructorUsedError;
-  String get issuesUrl => throw _privateConstructorUsedError;
-  String get pullsUrl => throw _privateConstructorUsedError;
-  String get milestonesUrl => throw _privateConstructorUsedError;
-  String get notificationsUrl => throw _privateConstructorUsedError;
-  String get labelsUrl => throw _privateConstructorUsedError;
-  String get releasesUrl => throw _privateConstructorUsedError;
-  String get deploymentsUrl => throw _privateConstructorUsedError;
-  DateTime get createdAt => throw _privateConstructorUsedError;
-  DateTime get updatedAt => throw _privateConstructorUsedError;
-  DateTime get pushedAt => throw _privateConstructorUsedError;
-  String get gitUrl => throw _privateConstructorUsedError;
-  String get sshUrl => throw _privateConstructorUsedError;
-  String get cloneUrl => throw _privateConstructorUsedError;
-  String get svnUrl => throw _privateConstructorUsedError;
-  String get homepage => throw _privateConstructorUsedError;
-  int get size => throw _privateConstructorUsedError;
-  int get stargazersCount => throw _privateConstructorUsedError;
-  int get watchersCount => throw _privateConstructorUsedError;
-  String get language => throw _privateConstructorUsedError;
-  bool get hasIssues => throw _privateConstructorUsedError;
-  bool get hasProjects => throw _privateConstructorUsedError;
-  bool get hasDownloads => throw _privateConstructorUsedError;
-  bool get hasWiki => throw _privateConstructorUsedError;
-  bool get hasPages => throw _privateConstructorUsedError;
-  bool get hasDiscussions => throw _privateConstructorUsedError;
-  int get forksCount => throw _privateConstructorUsedError;
+  int? get id => throw _privateConstructorUsedError;
+  String? get nodeId => throw _privateConstructorUsedError;
+  String? get name => throw _privateConstructorUsedError;
+  String? get fullName => throw _privateConstructorUsedError;
+  bool? get private => throw _privateConstructorUsedError;
+  Owner? get owner => throw _privateConstructorUsedError;
+  String? get htmlUrl => throw _privateConstructorUsedError;
+  String? get description => throw _privateConstructorUsedError;
+  bool? get fork => throw _privateConstructorUsedError;
+  String? get url => throw _privateConstructorUsedError;
+  String? get forksUrl => throw _privateConstructorUsedError;
+  String? get keysUrl => throw _privateConstructorUsedError;
+  String? get collaboratorsUrl => throw _privateConstructorUsedError;
+  String? get teamsUrl => throw _privateConstructorUsedError;
+  String? get hooksUrl => throw _privateConstructorUsedError;
+  String? get issueEventsUrl => throw _privateConstructorUsedError;
+  String? get eventsUrl => throw _privateConstructorUsedError;
+  String? get assigneesUrl => throw _privateConstructorUsedError;
+  String? get branchesUrl => throw _privateConstructorUsedError;
+  String? get tagsUrl => throw _privateConstructorUsedError;
+  String? get blobsUrl => throw _privateConstructorUsedError;
+  String? get gitTagsUrl => throw _privateConstructorUsedError;
+  String? get gitRefsUrl => throw _privateConstructorUsedError;
+  String? get treesUrl => throw _privateConstructorUsedError;
+  String? get statusesUrl => throw _privateConstructorUsedError;
+  String? get languagesUrl => throw _privateConstructorUsedError;
+  String? get stargazersUrl => throw _privateConstructorUsedError;
+  String? get contributorsUrl => throw _privateConstructorUsedError;
+  String? get subscribersUrl => throw _privateConstructorUsedError;
+  String? get subscriptionUrl => throw _privateConstructorUsedError;
+  String? get commitsUrl => throw _privateConstructorUsedError;
+  String? get gitCommitsUrl => throw _privateConstructorUsedError;
+  String? get commentsUrl => throw _privateConstructorUsedError;
+  String? get issueCommentUrl => throw _privateConstructorUsedError;
+  String? get contentsUrl => throw _privateConstructorUsedError;
+  String? get compareUrl => throw _privateConstructorUsedError;
+  String? get mergesUrl => throw _privateConstructorUsedError;
+  String? get archiveUrl => throw _privateConstructorUsedError;
+  String? get downloadsUrl => throw _privateConstructorUsedError;
+  String? get issuesUrl => throw _privateConstructorUsedError;
+  String? get pullsUrl => throw _privateConstructorUsedError;
+  String? get milestonesUrl => throw _privateConstructorUsedError;
+  String? get notificationsUrl => throw _privateConstructorUsedError;
+  String? get labelsUrl => throw _privateConstructorUsedError;
+  String? get releasesUrl => throw _privateConstructorUsedError;
+  String? get deploymentsUrl => throw _privateConstructorUsedError;
+  DateTime? get createdAt => throw _privateConstructorUsedError;
+  DateTime? get updatedAt => throw _privateConstructorUsedError;
+  DateTime? get pushedAt => throw _privateConstructorUsedError;
+  String? get gitUrl => throw _privateConstructorUsedError;
+  String? get sshUrl => throw _privateConstructorUsedError;
+  String? get cloneUrl => throw _privateConstructorUsedError;
+  String? get svnUrl => throw _privateConstructorUsedError;
+  String? get homepage => throw _privateConstructorUsedError;
+  int? get size => throw _privateConstructorUsedError;
+  int? get stargazersCount => throw _privateConstructorUsedError;
+  int? get watchersCount => throw _privateConstructorUsedError;
+  String? get language => throw _privateConstructorUsedError;
+  bool? get hasIssues => throw _privateConstructorUsedError;
+  bool? get hasProjects => throw _privateConstructorUsedError;
+  bool? get hasDownloads => throw _privateConstructorUsedError;
+  bool? get hasWiki => throw _privateConstructorUsedError;
+  bool? get hasPages => throw _privateConstructorUsedError;
+  bool? get hasDiscussions => throw _privateConstructorUsedError;
+  int? get forksCount => throw _privateConstructorUsedError;
   dynamic get mirrorUrl => throw _privateConstructorUsedError;
-  bool get archived => throw _privateConstructorUsedError;
-  bool get disabled => throw _privateConstructorUsedError;
-  int get openIssuesCount => throw _privateConstructorUsedError;
-  License get license => throw _privateConstructorUsedError;
-  bool get allowForking => throw _privateConstructorUsedError;
-  bool get isTemplate => throw _privateConstructorUsedError;
-  bool get webCommitSignoffRequired => throw _privateConstructorUsedError;
-  List<dynamic> get topics => throw _privateConstructorUsedError;
-  Visibility get visibility => throw _privateConstructorUsedError;
-  int get forks => throw _privateConstructorUsedError;
-  int get openIssues => throw _privateConstructorUsedError;
-  int get watchers => throw _privateConstructorUsedError;
-  DefaultBranch get defaultBranch => throw _privateConstructorUsedError;
+  bool? get archived => throw _privateConstructorUsedError;
+  bool? get disabled => throw _privateConstructorUsedError;
+  int? get openIssuesCount => throw _privateConstructorUsedError;
+  License? get license => throw _privateConstructorUsedError;
+  bool? get allowForking => throw _privateConstructorUsedError;
+  bool? get isTemplate => throw _privateConstructorUsedError;
+  bool? get webCommitSignoffRequired => throw _privateConstructorUsedError;
+  List<dynamic>? get topics => throw _privateConstructorUsedError;
+  String? get visibility => throw _privateConstructorUsedError;
+  int? get forks => throw _privateConstructorUsedError;
+  int? get open_issues => throw _privateConstructorUsedError;
+  int? get watchers => throw _privateConstructorUsedError;
+  String? get defaultBranch => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -112,88 +112,88 @@ abstract class $DataModelCopyWith<$Res> {
       _$DataModelCopyWithImpl<$Res, DataModel>;
   @useResult
   $Res call(
-      {int id,
-      String nodeId,
-      String name,
-      String fullName,
-      bool private,
-      Owner owner,
-      String htmlUrl,
-      String description,
-      bool fork,
-      String url,
-      String forksUrl,
-      String keysUrl,
-      String collaboratorsUrl,
-      String teamsUrl,
-      String hooksUrl,
-      String issueEventsUrl,
-      String eventsUrl,
-      String assigneesUrl,
-      String branchesUrl,
-      String tagsUrl,
-      String blobsUrl,
-      String gitTagsUrl,
-      String gitRefsUrl,
-      String treesUrl,
-      String statusesUrl,
-      String languagesUrl,
-      String stargazersUrl,
-      String contributorsUrl,
-      String subscribersUrl,
-      String subscriptionUrl,
-      String commitsUrl,
-      String gitCommitsUrl,
-      String commentsUrl,
-      String issueCommentUrl,
-      String contentsUrl,
-      String compareUrl,
-      String mergesUrl,
-      String archiveUrl,
-      String downloadsUrl,
-      String issuesUrl,
-      String pullsUrl,
-      String milestonesUrl,
-      String notificationsUrl,
-      String labelsUrl,
-      String releasesUrl,
-      String deploymentsUrl,
-      DateTime createdAt,
-      DateTime updatedAt,
-      DateTime pushedAt,
-      String gitUrl,
-      String sshUrl,
-      String cloneUrl,
-      String svnUrl,
-      String homepage,
-      int size,
-      int stargazersCount,
-      int watchersCount,
-      String language,
-      bool hasIssues,
-      bool hasProjects,
-      bool hasDownloads,
-      bool hasWiki,
-      bool hasPages,
-      bool hasDiscussions,
-      int forksCount,
+      {int? id,
+      String? nodeId,
+      String? name,
+      String? fullName,
+      bool? private,
+      Owner? owner,
+      String? htmlUrl,
+      String? description,
+      bool? fork,
+      String? url,
+      String? forksUrl,
+      String? keysUrl,
+      String? collaboratorsUrl,
+      String? teamsUrl,
+      String? hooksUrl,
+      String? issueEventsUrl,
+      String? eventsUrl,
+      String? assigneesUrl,
+      String? branchesUrl,
+      String? tagsUrl,
+      String? blobsUrl,
+      String? gitTagsUrl,
+      String? gitRefsUrl,
+      String? treesUrl,
+      String? statusesUrl,
+      String? languagesUrl,
+      String? stargazersUrl,
+      String? contributorsUrl,
+      String? subscribersUrl,
+      String? subscriptionUrl,
+      String? commitsUrl,
+      String? gitCommitsUrl,
+      String? commentsUrl,
+      String? issueCommentUrl,
+      String? contentsUrl,
+      String? compareUrl,
+      String? mergesUrl,
+      String? archiveUrl,
+      String? downloadsUrl,
+      String? issuesUrl,
+      String? pullsUrl,
+      String? milestonesUrl,
+      String? notificationsUrl,
+      String? labelsUrl,
+      String? releasesUrl,
+      String? deploymentsUrl,
+      DateTime? createdAt,
+      DateTime? updatedAt,
+      DateTime? pushedAt,
+      String? gitUrl,
+      String? sshUrl,
+      String? cloneUrl,
+      String? svnUrl,
+      String? homepage,
+      int? size,
+      int? stargazersCount,
+      int? watchersCount,
+      String? language,
+      bool? hasIssues,
+      bool? hasProjects,
+      bool? hasDownloads,
+      bool? hasWiki,
+      bool? hasPages,
+      bool? hasDiscussions,
+      int? forksCount,
       dynamic mirrorUrl,
-      bool archived,
-      bool disabled,
-      int openIssuesCount,
-      License license,
-      bool allowForking,
-      bool isTemplate,
-      bool webCommitSignoffRequired,
-      List<dynamic> topics,
-      Visibility visibility,
-      int forks,
-      int openIssues,
-      int watchers,
-      DefaultBranch defaultBranch});
+      bool? archived,
+      bool? disabled,
+      int? openIssuesCount,
+      License? license,
+      bool? allowForking,
+      bool? isTemplate,
+      bool? webCommitSignoffRequired,
+      List<dynamic>? topics,
+      String? visibility,
+      int? forks,
+      int? open_issues,
+      int? watchers,
+      String? defaultBranch});
 
-  $OwnerCopyWith<$Res> get owner;
-  $LicenseCopyWith<$Res> get license;
+  $OwnerCopyWith<$Res>? get owner;
+  $LicenseCopyWith<$Res>? get license;
 }
 
 /// @nodoc
@@ -209,418 +209,426 @@ class _$DataModelCopyWithImpl<$Res, $Val extends DataModel>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? id = null,
-    Object? nodeId = null,
-    Object? name = null,
-    Object? fullName = null,
-    Object? private = null,
-    Object? owner = null,
-    Object? htmlUrl = null,
-    Object? description = null,
-    Object? fork = null,
-    Object? url = null,
-    Object? forksUrl = null,
-    Object? keysUrl = null,
-    Object? collaboratorsUrl = null,
-    Object? teamsUrl = null,
-    Object? hooksUrl = null,
-    Object? issueEventsUrl = null,
-    Object? eventsUrl = null,
-    Object? assigneesUrl = null,
-    Object? branchesUrl = null,
-    Object? tagsUrl = null,
-    Object? blobsUrl = null,
-    Object? gitTagsUrl = null,
-    Object? gitRefsUrl = null,
-    Object? treesUrl = null,
-    Object? statusesUrl = null,
-    Object? languagesUrl = null,
-    Object? stargazersUrl = null,
-    Object? contributorsUrl = null,
-    Object? subscribersUrl = null,
-    Object? subscriptionUrl = null,
-    Object? commitsUrl = null,
-    Object? gitCommitsUrl = null,
-    Object? commentsUrl = null,
-    Object? issueCommentUrl = null,
-    Object? contentsUrl = null,
-    Object? compareUrl = null,
-    Object? mergesUrl = null,
-    Object? archiveUrl = null,
-    Object? downloadsUrl = null,
-    Object? issuesUrl = null,
-    Object? pullsUrl = null,
-    Object? milestonesUrl = null,
-    Object? notificationsUrl = null,
-    Object? labelsUrl = null,
-    Object? releasesUrl = null,
-    Object? deploymentsUrl = null,
-    Object? createdAt = null,
-    Object? updatedAt = null,
-    Object? pushedAt = null,
-    Object? gitUrl = null,
-    Object? sshUrl = null,
-    Object? cloneUrl = null,
-    Object? svnUrl = null,
-    Object? homepage = null,
-    Object? size = null,
-    Object? stargazersCount = null,
-    Object? watchersCount = null,
-    Object? language = null,
-    Object? hasIssues = null,
-    Object? hasProjects = null,
-    Object? hasDownloads = null,
-    Object? hasWiki = null,
-    Object? hasPages = null,
-    Object? hasDiscussions = null,
-    Object? forksCount = null,
+    Object? id = freezed,
+    Object? nodeId = freezed,
+    Object? name = freezed,
+    Object? fullName = freezed,
+    Object? private = freezed,
+    Object? owner = freezed,
+    Object? htmlUrl = freezed,
+    Object? description = freezed,
+    Object? fork = freezed,
+    Object? url = freezed,
+    Object? forksUrl = freezed,
+    Object? keysUrl = freezed,
+    Object? collaboratorsUrl = freezed,
+    Object? teamsUrl = freezed,
+    Object? hooksUrl = freezed,
+    Object? issueEventsUrl = freezed,
+    Object? eventsUrl = freezed,
+    Object? assigneesUrl = freezed,
+    Object? branchesUrl = freezed,
+    Object? tagsUrl = freezed,
+    Object? blobsUrl = freezed,
+    Object? gitTagsUrl = freezed,
+    Object? gitRefsUrl = freezed,
+    Object? treesUrl = freezed,
+    Object? statusesUrl = freezed,
+    Object? languagesUrl = freezed,
+    Object? stargazersUrl = freezed,
+    Object? contributorsUrl = freezed,
+    Object? subscribersUrl = freezed,
+    Object? subscriptionUrl = freezed,
+    Object? commitsUrl = freezed,
+    Object? gitCommitsUrl = freezed,
+    Object? commentsUrl = freezed,
+    Object? issueCommentUrl = freezed,
+    Object? contentsUrl = freezed,
+    Object? compareUrl = freezed,
+    Object? mergesUrl = freezed,
+    Object? archiveUrl = freezed,
+    Object? downloadsUrl = freezed,
+    Object? issuesUrl = freezed,
+    Object? pullsUrl = freezed,
+    Object? milestonesUrl = freezed,
+    Object? notificationsUrl = freezed,
+    Object? labelsUrl = freezed,
+    Object? releasesUrl = freezed,
+    Object? deploymentsUrl = freezed,
+    Object? createdAt = freezed,
+    Object? updatedAt = freezed,
+    Object? pushedAt = freezed,
+    Object? gitUrl = freezed,
+    Object? sshUrl = freezed,
+    Object? cloneUrl = freezed,
+    Object? svnUrl = freezed,
+    Object? homepage = freezed,
+    Object? size = freezed,
+    Object? stargazersCount = freezed,
+    Object? watchersCount = freezed,
+    Object? language = freezed,
+    Object? hasIssues = freezed,
+    Object? hasProjects = freezed,
+    Object? hasDownloads = freezed,
+    Object? hasWiki = freezed,
+    Object? hasPages = freezed,
+    Object? hasDiscussions = freezed,
+    Object? forksCount = freezed,
     Object? mirrorUrl = null,
-    Object? archived = null,
-    Object? disabled = null,
-    Object? openIssuesCount = null,
-    Object? license = null,
-    Object? allowForking = null,
-    Object? isTemplate = null,
-    Object? webCommitSignoffRequired = null,
-    Object? topics = null,
-    Object? visibility = null,
-    Object? forks = null,
-    Object? openIssues = null,
-    Object? watchers = null,
-    Object? defaultBranch = null,
+    Object? archived = freezed,
+    Object? disabled = freezed,
+    Object? openIssuesCount = freezed,
+    Object? license = freezed,
+    Object? allowForking = freezed,
+    Object? isTemplate = freezed,
+    Object? webCommitSignoffRequired = freezed,
+    Object? topics = freezed,
+    Object? visibility = freezed,
+    Object? forks = freezed,
+    Object? open_issues = freezed,
+    Object? watchers = freezed,
+    Object? defaultBranch = freezed,
   }) {
     return _then(_value.copyWith(
-      id: null == id
+      id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
-              as int,
-      nodeId: null == nodeId
+              as int?,
+      nodeId: freezed == nodeId
           ? _value.nodeId
           : nodeId // ignore: cast_nullable_to_non_nullable
-              as String,
-      name: null == name
+              as String?,
+      name: freezed == name
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
-              as String,
-      fullName: null == fullName
+              as String?,
+      fullName: freezed == fullName
           ? _value.fullName
           : fullName // ignore: cast_nullable_to_non_nullable
-              as String,
-      private: null == private
+              as String?,
+      private: freezed == private
           ? _value.private
           : private // ignore: cast_nullable_to_non_nullable
-              as bool,
-      owner: null == owner
+              as bool?,
+      owner: freezed == owner
           ? _value.owner
           : owner // ignore: cast_nullable_to_non_nullable
-              as Owner,
-      htmlUrl: null == htmlUrl
+              as Owner?,
+      htmlUrl: freezed == htmlUrl
           ? _value.htmlUrl
           : htmlUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      description: null == description
+              as String?,
+      description: freezed == description
           ? _value.description
           : description // ignore: cast_nullable_to_non_nullable
-              as String,
-      fork: null == fork
+              as String?,
+      fork: freezed == fork
           ? _value.fork
           : fork // ignore: cast_nullable_to_non_nullable
-              as bool,
-      url: null == url
+              as bool?,
+      url: freezed == url
           ? _value.url
           : url // ignore: cast_nullable_to_non_nullable
-              as String,
-      forksUrl: null == forksUrl
+              as String?,
+      forksUrl: freezed == forksUrl
           ? _value.forksUrl
           : forksUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      keysUrl: null == keysUrl
+              as String?,
+      keysUrl: freezed == keysUrl
           ? _value.keysUrl
           : keysUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      collaboratorsUrl: null == collaboratorsUrl
+              as String?,
+      collaboratorsUrl: freezed == collaboratorsUrl
           ? _value.collaboratorsUrl
           : collaboratorsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      teamsUrl: null == teamsUrl
+              as String?,
+      teamsUrl: freezed == teamsUrl
           ? _value.teamsUrl
           : teamsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      hooksUrl: null == hooksUrl
+              as String?,
+      hooksUrl: freezed == hooksUrl
           ? _value.hooksUrl
           : hooksUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      issueEventsUrl: null == issueEventsUrl
+              as String?,
+      issueEventsUrl: freezed == issueEventsUrl
           ? _value.issueEventsUrl
           : issueEventsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      eventsUrl: null == eventsUrl
+              as String?,
+      eventsUrl: freezed == eventsUrl
           ? _value.eventsUrl
           : eventsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      assigneesUrl: null == assigneesUrl
+              as String?,
+      assigneesUrl: freezed == assigneesUrl
           ? _value.assigneesUrl
           : assigneesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      branchesUrl: null == branchesUrl
+              as String?,
+      branchesUrl: freezed == branchesUrl
           ? _value.branchesUrl
           : branchesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      tagsUrl: null == tagsUrl
+              as String?,
+      tagsUrl: freezed == tagsUrl
           ? _value.tagsUrl
           : tagsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      blobsUrl: null == blobsUrl
+              as String?,
+      blobsUrl: freezed == blobsUrl
           ? _value.blobsUrl
           : blobsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      gitTagsUrl: null == gitTagsUrl
+              as String?,
+      gitTagsUrl: freezed == gitTagsUrl
           ? _value.gitTagsUrl
           : gitTagsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      gitRefsUrl: null == gitRefsUrl
+              as String?,
+      gitRefsUrl: freezed == gitRefsUrl
           ? _value.gitRefsUrl
           : gitRefsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      treesUrl: null == treesUrl
+              as String?,
+      treesUrl: freezed == treesUrl
           ? _value.treesUrl
           : treesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      statusesUrl: null == statusesUrl
+              as String?,
+      statusesUrl: freezed == statusesUrl
           ? _value.statusesUrl
           : statusesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      languagesUrl: null == languagesUrl
+              as String?,
+      languagesUrl: freezed == languagesUrl
           ? _value.languagesUrl
           : languagesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      stargazersUrl: null == stargazersUrl
+              as String?,
+      stargazersUrl: freezed == stargazersUrl
           ? _value.stargazersUrl
           : stargazersUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      contributorsUrl: null == contributorsUrl
+              as String?,
+      contributorsUrl: freezed == contributorsUrl
           ? _value.contributorsUrl
           : contributorsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      subscribersUrl: null == subscribersUrl
+              as String?,
+      subscribersUrl: freezed == subscribersUrl
           ? _value.subscribersUrl
           : subscribersUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      subscriptionUrl: null == subscriptionUrl
+              as String?,
+      subscriptionUrl: freezed == subscriptionUrl
           ? _value.subscriptionUrl
           : subscriptionUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      commitsUrl: null == commitsUrl
+              as String?,
+      commitsUrl: freezed == commitsUrl
           ? _value.commitsUrl
           : commitsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      gitCommitsUrl: null == gitCommitsUrl
+              as String?,
+      gitCommitsUrl: freezed == gitCommitsUrl
           ? _value.gitCommitsUrl
           : gitCommitsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      commentsUrl: null == commentsUrl
+              as String?,
+      commentsUrl: freezed == commentsUrl
           ? _value.commentsUrl
           : commentsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      issueCommentUrl: null == issueCommentUrl
+              as String?,
+      issueCommentUrl: freezed == issueCommentUrl
           ? _value.issueCommentUrl
           : issueCommentUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      contentsUrl: null == contentsUrl
+              as String?,
+      contentsUrl: freezed == contentsUrl
           ? _value.contentsUrl
           : contentsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      compareUrl: null == compareUrl
+              as String?,
+      compareUrl: freezed == compareUrl
           ? _value.compareUrl
           : compareUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      mergesUrl: null == mergesUrl
+              as String?,
+      mergesUrl: freezed == mergesUrl
           ? _value.mergesUrl
           : mergesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      archiveUrl: null == archiveUrl
+              as String?,
+      archiveUrl: freezed == archiveUrl
           ? _value.archiveUrl
           : archiveUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      downloadsUrl: null == downloadsUrl
+              as String?,
+      downloadsUrl: freezed == downloadsUrl
           ? _value.downloadsUrl
           : downloadsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      issuesUrl: null == issuesUrl
+              as String?,
+      issuesUrl: freezed == issuesUrl
           ? _value.issuesUrl
           : issuesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      pullsUrl: null == pullsUrl
+              as String?,
+      pullsUrl: freezed == pullsUrl
           ? _value.pullsUrl
           : pullsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      milestonesUrl: null == milestonesUrl
+              as String?,
+      milestonesUrl: freezed == milestonesUrl
           ? _value.milestonesUrl
           : milestonesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      notificationsUrl: null == notificationsUrl
+              as String?,
+      notificationsUrl: freezed == notificationsUrl
           ? _value.notificationsUrl
           : notificationsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      labelsUrl: null == labelsUrl
+              as String?,
+      labelsUrl: freezed == labelsUrl
           ? _value.labelsUrl
           : labelsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      releasesUrl: null == releasesUrl
+              as String?,
+      releasesUrl: freezed == releasesUrl
           ? _value.releasesUrl
           : releasesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      deploymentsUrl: null == deploymentsUrl
+              as String?,
+      deploymentsUrl: freezed == deploymentsUrl
           ? _value.deploymentsUrl
           : deploymentsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      createdAt: null == createdAt
+              as String?,
+      createdAt: freezed == createdAt
           ? _value.createdAt
           : createdAt // ignore: cast_nullable_to_non_nullable
-              as DateTime,
-      updatedAt: null == updatedAt
+              as DateTime?,
+      updatedAt: freezed == updatedAt
           ? _value.updatedAt
           : updatedAt // ignore: cast_nullable_to_non_nullable
-              as DateTime,
-      pushedAt: null == pushedAt
+              as DateTime?,
+      pushedAt: freezed == pushedAt
           ? _value.pushedAt
           : pushedAt // ignore: cast_nullable_to_non_nullable
-              as DateTime,
-      gitUrl: null == gitUrl
+              as DateTime?,
+      gitUrl: freezed == gitUrl
           ? _value.gitUrl
           : gitUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      sshUrl: null == sshUrl
+              as String?,
+      sshUrl: freezed == sshUrl
           ? _value.sshUrl
           : sshUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      cloneUrl: null == cloneUrl
+              as String?,
+      cloneUrl: freezed == cloneUrl
           ? _value.cloneUrl
           : cloneUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      svnUrl: null == svnUrl
+              as String?,
+      svnUrl: freezed == svnUrl
           ? _value.svnUrl
           : svnUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      homepage: null == homepage
+              as String?,
+      homepage: freezed == homepage
           ? _value.homepage
           : homepage // ignore: cast_nullable_to_non_nullable
-              as String,
-      size: null == size
+              as String?,
+      size: freezed == size
           ? _value.size
           : size // ignore: cast_nullable_to_non_nullable
-              as int,
-      stargazersCount: null == stargazersCount
+              as int?,
+      stargazersCount: freezed == stargazersCount
           ? _value.stargazersCount
           : stargazersCount // ignore: cast_nullable_to_non_nullable
-              as int,
-      watchersCount: null == watchersCount
+              as int?,
+      watchersCount: freezed == watchersCount
           ? _value.watchersCount
           : watchersCount // ignore: cast_nullable_to_non_nullable
-              as int,
-      language: null == language
+              as int?,
+      language: freezed == language
           ? _value.language
           : language // ignore: cast_nullable_to_non_nullable
-              as String,
-      hasIssues: null == hasIssues
+              as String?,
+      hasIssues: freezed == hasIssues
           ? _value.hasIssues
           : hasIssues // ignore: cast_nullable_to_non_nullable
-              as bool,
-      hasProjects: null == hasProjects
+              as bool?,
+      hasProjects: freezed == hasProjects
           ? _value.hasProjects
           : hasProjects // ignore: cast_nullable_to_non_nullable
-              as bool,
-      hasDownloads: null == hasDownloads
+              as bool?,
+      hasDownloads: freezed == hasDownloads
           ? _value.hasDownloads
           : hasDownloads // ignore: cast_nullable_to_non_nullable
-              as bool,
-      hasWiki: null == hasWiki
+              as bool?,
+      hasWiki: freezed == hasWiki
           ? _value.hasWiki
           : hasWiki // ignore: cast_nullable_to_non_nullable
-              as bool,
-      hasPages: null == hasPages
+              as bool?,
+      hasPages: freezed == hasPages
           ? _value.hasPages
           : hasPages // ignore: cast_nullable_to_non_nullable
-              as bool,
-      hasDiscussions: null == hasDiscussions
+              as bool?,
+      hasDiscussions: freezed == hasDiscussions
           ? _value.hasDiscussions
           : hasDiscussions // ignore: cast_nullable_to_non_nullable
-              as bool,
-      forksCount: null == forksCount
+              as bool?,
+      forksCount: freezed == forksCount
           ? _value.forksCount
           : forksCount // ignore: cast_nullable_to_non_nullable
-              as int,
+              as int?,
       mirrorUrl: null == mirrorUrl
           ? _value.mirrorUrl
           : mirrorUrl // ignore: cast_nullable_to_non_nullable
               as dynamic,
-      archived: null == archived
+      archived: freezed == archived
           ? _value.archived
           : archived // ignore: cast_nullable_to_non_nullable
-              as bool,
-      disabled: null == disabled
+              as bool?,
+      disabled: freezed == disabled
           ? _value.disabled
           : disabled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      openIssuesCount: null == openIssuesCount
+              as bool?,
+      openIssuesCount: freezed == openIssuesCount
           ? _value.openIssuesCount
           : openIssuesCount // ignore: cast_nullable_to_non_nullable
-              as int,
-      license: null == license
+              as int?,
+      license: freezed == license
           ? _value.license
           : license // ignore: cast_nullable_to_non_nullable
-              as License,
-      allowForking: null == allowForking
+              as License?,
+      allowForking: freezed == allowForking
           ? _value.allowForking
           : allowForking // ignore: cast_nullable_to_non_nullable
-              as bool,
-      isTemplate: null == isTemplate
+              as bool?,
+      isTemplate: freezed == isTemplate
           ? _value.isTemplate
           : isTemplate // ignore: cast_nullable_to_non_nullable
-              as bool,
-      webCommitSignoffRequired: null == webCommitSignoffRequired
+              as bool?,
+      webCommitSignoffRequired: freezed == webCommitSignoffRequired
           ? _value.webCommitSignoffRequired
           : webCommitSignoffRequired // ignore: cast_nullable_to_non_nullable
-              as bool,
-      topics: null == topics
+              as bool?,
+      topics: freezed == topics
           ? _value.topics
           : topics // ignore: cast_nullable_to_non_nullable
-              as List<dynamic>,
-      visibility: null == visibility
+              as List<dynamic>?,
+      visibility: freezed == visibility
           ? _value.visibility
           : visibility // ignore: cast_nullable_to_non_nullable
-              as Visibility,
-      forks: null == forks
+              as String?,
+      forks: freezed == forks
           ? _value.forks
           : forks // ignore: cast_nullable_to_non_nullable
-              as int,
-      openIssues: null == openIssues
-          ? _value.openIssues
-          : openIssues // ignore: cast_nullable_to_non_nullable
-              as int,
-      watchers: null == watchers
+              as int?,
+      open_issues: freezed == open_issues
+          ? _value.open_issues
+          : open_issues // ignore: cast_nullable_to_non_nullable
+              as int?,
+      watchers: freezed == watchers
           ? _value.watchers
           : watchers // ignore: cast_nullable_to_non_nullable
-              as int,
-      defaultBranch: null == defaultBranch
+              as int?,
+      defaultBranch: freezed == defaultBranch
           ? _value.defaultBranch
           : defaultBranch // ignore: cast_nullable_to_non_nullable
-              as DefaultBranch,
+              as String?,
     ) as $Val);
   }
 
   @override
   @pragma('vm:prefer-inline')
-  $OwnerCopyWith<$Res> get owner {
-    return $OwnerCopyWith<$Res>(_value.owner, (value) {
+  $OwnerCopyWith<$Res>? get owner {
+    if (_value.owner == null) {
+      return null;
+    }
+
+    return $OwnerCopyWith<$Res>(_value.owner!, (value) {
       return _then(_value.copyWith(owner: value) as $Val);
     });
   }
 
   @override
   @pragma('vm:prefer-inline')
-  $LicenseCopyWith<$Res> get license {
-    return $LicenseCopyWith<$Res>(_value.license, (value) {
+  $LicenseCopyWith<$Res>? get license {
+    if (_value.license == null) {
+      return null;
+    }
+
+    return $LicenseCopyWith<$Res>(_value.license!, (value) {
       return _then(_value.copyWith(license: value) as $Val);
     });
   }
@@ -634,90 +642,90 @@ abstract class _$$_DataModelCopyWith<$Res> implements $DataModelCopyWith<$Res> {
   @override
   @useResult
   $Res call(
-      {int id,
-      String nodeId,
-      String name,
-      String fullName,
-      bool private,
-      Owner owner,
-      String htmlUrl,
-      String description,
-      bool fork,
-      String url,
-      String forksUrl,
-      String keysUrl,
-      String collaboratorsUrl,
-      String teamsUrl,
-      String hooksUrl,
-      String issueEventsUrl,
-      String eventsUrl,
-      String assigneesUrl,
-      String branchesUrl,
-      String tagsUrl,
-      String blobsUrl,
-      String gitTagsUrl,
-      String gitRefsUrl,
-      String treesUrl,
-      String statusesUrl,
-      String languagesUrl,
-      String stargazersUrl,
-      String contributorsUrl,
-      String subscribersUrl,
-      String subscriptionUrl,
-      String commitsUrl,
-      String gitCommitsUrl,
-      String commentsUrl,
-      String issueCommentUrl,
-      String contentsUrl,
-      String compareUrl,
-      String mergesUrl,
-      String archiveUrl,
-      String downloadsUrl,
-      String issuesUrl,
-      String pullsUrl,
-      String milestonesUrl,
-      String notificationsUrl,
-      String labelsUrl,
-      String releasesUrl,
-      String deploymentsUrl,
-      DateTime createdAt,
-      DateTime updatedAt,
-      DateTime pushedAt,
-      String gitUrl,
-      String sshUrl,
-      String cloneUrl,
-      String svnUrl,
-      String homepage,
-      int size,
-      int stargazersCount,
-      int watchersCount,
-      String language,
-      bool hasIssues,
-      bool hasProjects,
-      bool hasDownloads,
-      bool hasWiki,
-      bool hasPages,
-      bool hasDiscussions,
-      int forksCount,
+      {int? id,
+      String? nodeId,
+      String? name,
+      String? fullName,
+      bool? private,
+      Owner? owner,
+      String? htmlUrl,
+      String? description,
+      bool? fork,
+      String? url,
+      String? forksUrl,
+      String? keysUrl,
+      String? collaboratorsUrl,
+      String? teamsUrl,
+      String? hooksUrl,
+      String? issueEventsUrl,
+      String? eventsUrl,
+      String? assigneesUrl,
+      String? branchesUrl,
+      String? tagsUrl,
+      String? blobsUrl,
+      String? gitTagsUrl,
+      String? gitRefsUrl,
+      String? treesUrl,
+      String? statusesUrl,
+      String? languagesUrl,
+      String? stargazersUrl,
+      String? contributorsUrl,
+      String? subscribersUrl,
+      String? subscriptionUrl,
+      String? commitsUrl,
+      String? gitCommitsUrl,
+      String? commentsUrl,
+      String? issueCommentUrl,
+      String? contentsUrl,
+      String? compareUrl,
+      String? mergesUrl,
+      String? archiveUrl,
+      String? downloadsUrl,
+      String? issuesUrl,
+      String? pullsUrl,
+      String? milestonesUrl,
+      String? notificationsUrl,
+      String? labelsUrl,
+      String? releasesUrl,
+      String? deploymentsUrl,
+      DateTime? createdAt,
+      DateTime? updatedAt,
+      DateTime? pushedAt,
+      String? gitUrl,
+      String? sshUrl,
+      String? cloneUrl,
+      String? svnUrl,
+      String? homepage,
+      int? size,
+      int? stargazersCount,
+      int? watchersCount,
+      String? language,
+      bool? hasIssues,
+      bool? hasProjects,
+      bool? hasDownloads,
+      bool? hasWiki,
+      bool? hasPages,
+      bool? hasDiscussions,
+      int? forksCount,
       dynamic mirrorUrl,
-      bool archived,
-      bool disabled,
-      int openIssuesCount,
-      License license,
-      bool allowForking,
-      bool isTemplate,
-      bool webCommitSignoffRequired,
-      List<dynamic> topics,
-      Visibility visibility,
-      int forks,
-      int openIssues,
-      int watchers,
-      DefaultBranch defaultBranch});
+      bool? archived,
+      bool? disabled,
+      int? openIssuesCount,
+      License? license,
+      bool? allowForking,
+      bool? isTemplate,
+      bool? webCommitSignoffRequired,
+      List<dynamic>? topics,
+      String? visibility,
+      int? forks,
+      int? open_issues,
+      int? watchers,
+      String? defaultBranch});
 
   @override
-  $OwnerCopyWith<$Res> get owner;
+  $OwnerCopyWith<$Res>? get owner;
   @override
-  $LicenseCopyWith<$Res> get license;
+  $LicenseCopyWith<$Res>? get license;
 }
 
 /// @nodoc
@@ -731,403 +739,403 @@ class __$$_DataModelCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? id = null,
-    Object? nodeId = null,
-    Object? name = null,
-    Object? fullName = null,
-    Object? private = null,
-    Object? owner = null,
-    Object? htmlUrl = null,
-    Object? description = null,
-    Object? fork = null,
-    Object? url = null,
-    Object? forksUrl = null,
-    Object? keysUrl = null,
-    Object? collaboratorsUrl = null,
-    Object? teamsUrl = null,
-    Object? hooksUrl = null,
-    Object? issueEventsUrl = null,
-    Object? eventsUrl = null,
-    Object? assigneesUrl = null,
-    Object? branchesUrl = null,
-    Object? tagsUrl = null,
-    Object? blobsUrl = null,
-    Object? gitTagsUrl = null,
-    Object? gitRefsUrl = null,
-    Object? treesUrl = null,
-    Object? statusesUrl = null,
-    Object? languagesUrl = null,
-    Object? stargazersUrl = null,
-    Object? contributorsUrl = null,
-    Object? subscribersUrl = null,
-    Object? subscriptionUrl = null,
-    Object? commitsUrl = null,
-    Object? gitCommitsUrl = null,
-    Object? commentsUrl = null,
-    Object? issueCommentUrl = null,
-    Object? contentsUrl = null,
-    Object? compareUrl = null,
-    Object? mergesUrl = null,
-    Object? archiveUrl = null,
-    Object? downloadsUrl = null,
-    Object? issuesUrl = null,
-    Object? pullsUrl = null,
-    Object? milestonesUrl = null,
-    Object? notificationsUrl = null,
-    Object? labelsUrl = null,
-    Object? releasesUrl = null,
-    Object? deploymentsUrl = null,
-    Object? createdAt = null,
-    Object? updatedAt = null,
-    Object? pushedAt = null,
-    Object? gitUrl = null,
-    Object? sshUrl = null,
-    Object? cloneUrl = null,
-    Object? svnUrl = null,
-    Object? homepage = null,
-    Object? size = null,
-    Object? stargazersCount = null,
-    Object? watchersCount = null,
-    Object? language = null,
-    Object? hasIssues = null,
-    Object? hasProjects = null,
-    Object? hasDownloads = null,
-    Object? hasWiki = null,
-    Object? hasPages = null,
-    Object? hasDiscussions = null,
-    Object? forksCount = null,
+    Object? id = freezed,
+    Object? nodeId = freezed,
+    Object? name = freezed,
+    Object? fullName = freezed,
+    Object? private = freezed,
+    Object? owner = freezed,
+    Object? htmlUrl = freezed,
+    Object? description = freezed,
+    Object? fork = freezed,
+    Object? url = freezed,
+    Object? forksUrl = freezed,
+    Object? keysUrl = freezed,
+    Object? collaboratorsUrl = freezed,
+    Object? teamsUrl = freezed,
+    Object? hooksUrl = freezed,
+    Object? issueEventsUrl = freezed,
+    Object? eventsUrl = freezed,
+    Object? assigneesUrl = freezed,
+    Object? branchesUrl = freezed,
+    Object? tagsUrl = freezed,
+    Object? blobsUrl = freezed,
+    Object? gitTagsUrl = freezed,
+    Object? gitRefsUrl = freezed,
+    Object? treesUrl = freezed,
+    Object? statusesUrl = freezed,
+    Object? languagesUrl = freezed,
+    Object? stargazersUrl = freezed,
+    Object? contributorsUrl = freezed,
+    Object? subscribersUrl = freezed,
+    Object? subscriptionUrl = freezed,
+    Object? commitsUrl = freezed,
+    Object? gitCommitsUrl = freezed,
+    Object? commentsUrl = freezed,
+    Object? issueCommentUrl = freezed,
+    Object? contentsUrl = freezed,
+    Object? compareUrl = freezed,
+    Object? mergesUrl = freezed,
+    Object? archiveUrl = freezed,
+    Object? downloadsUrl = freezed,
+    Object? issuesUrl = freezed,
+    Object? pullsUrl = freezed,
+    Object? milestonesUrl = freezed,
+    Object? notificationsUrl = freezed,
+    Object? labelsUrl = freezed,
+    Object? releasesUrl = freezed,
+    Object? deploymentsUrl = freezed,
+    Object? createdAt = freezed,
+    Object? updatedAt = freezed,
+    Object? pushedAt = freezed,
+    Object? gitUrl = freezed,
+    Object? sshUrl = freezed,
+    Object? cloneUrl = freezed,
+    Object? svnUrl = freezed,
+    Object? homepage = freezed,
+    Object? size = freezed,
+    Object? stargazersCount = freezed,
+    Object? watchersCount = freezed,
+    Object? language = freezed,
+    Object? hasIssues = freezed,
+    Object? hasProjects = freezed,
+    Object? hasDownloads = freezed,
+    Object? hasWiki = freezed,
+    Object? hasPages = freezed,
+    Object? hasDiscussions = freezed,
+    Object? forksCount = freezed,
     Object? mirrorUrl = null,
-    Object? archived = null,
-    Object? disabled = null,
-    Object? openIssuesCount = null,
-    Object? license = null,
-    Object? allowForking = null,
-    Object? isTemplate = null,
-    Object? webCommitSignoffRequired = null,
-    Object? topics = null,
-    Object? visibility = null,
-    Object? forks = null,
-    Object? openIssues = null,
-    Object? watchers = null,
-    Object? defaultBranch = null,
+    Object? archived = freezed,
+    Object? disabled = freezed,
+    Object? openIssuesCount = freezed,
+    Object? license = freezed,
+    Object? allowForking = freezed,
+    Object? isTemplate = freezed,
+    Object? webCommitSignoffRequired = freezed,
+    Object? topics = freezed,
+    Object? visibility = freezed,
+    Object? forks = freezed,
+    Object? open_issues = freezed,
+    Object? watchers = freezed,
+    Object? defaultBranch = freezed,
   }) {
     return _then(_$_DataModel(
-      id: null == id
+      id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
-              as int,
-      nodeId: null == nodeId
+              as int?,
+      nodeId: freezed == nodeId
           ? _value.nodeId
           : nodeId // ignore: cast_nullable_to_non_nullable
-              as String,
-      name: null == name
+              as String?,
+      name: freezed == name
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
-              as String,
-      fullName: null == fullName
+              as String?,
+      fullName: freezed == fullName
           ? _value.fullName
           : fullName // ignore: cast_nullable_to_non_nullable
-              as String,
-      private: null == private
+              as String?,
+      private: freezed == private
           ? _value.private
           : private // ignore: cast_nullable_to_non_nullable
-              as bool,
-      owner: null == owner
+              as bool?,
+      owner: freezed == owner
           ? _value.owner
           : owner // ignore: cast_nullable_to_non_nullable
-              as Owner,
-      htmlUrl: null == htmlUrl
+              as Owner?,
+      htmlUrl: freezed == htmlUrl
           ? _value.htmlUrl
           : htmlUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      description: null == description
+              as String?,
+      description: freezed == description
           ? _value.description
           : description // ignore: cast_nullable_to_non_nullable
-              as String,
-      fork: null == fork
+              as String?,
+      fork: freezed == fork
           ? _value.fork
           : fork // ignore: cast_nullable_to_non_nullable
-              as bool,
-      url: null == url
+              as bool?,
+      url: freezed == url
           ? _value.url
           : url // ignore: cast_nullable_to_non_nullable
-              as String,
-      forksUrl: null == forksUrl
+              as String?,
+      forksUrl: freezed == forksUrl
           ? _value.forksUrl
           : forksUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      keysUrl: null == keysUrl
+              as String?,
+      keysUrl: freezed == keysUrl
           ? _value.keysUrl
           : keysUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      collaboratorsUrl: null == collaboratorsUrl
+              as String?,
+      collaboratorsUrl: freezed == collaboratorsUrl
           ? _value.collaboratorsUrl
           : collaboratorsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      teamsUrl: null == teamsUrl
+              as String?,
+      teamsUrl: freezed == teamsUrl
           ? _value.teamsUrl
           : teamsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      hooksUrl: null == hooksUrl
+              as String?,
+      hooksUrl: freezed == hooksUrl
           ? _value.hooksUrl
           : hooksUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      issueEventsUrl: null == issueEventsUrl
+              as String?,
+      issueEventsUrl: freezed == issueEventsUrl
           ? _value.issueEventsUrl
           : issueEventsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      eventsUrl: null == eventsUrl
+              as String?,
+      eventsUrl: freezed == eventsUrl
           ? _value.eventsUrl
           : eventsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      assigneesUrl: null == assigneesUrl
+              as String?,
+      assigneesUrl: freezed == assigneesUrl
           ? _value.assigneesUrl
           : assigneesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      branchesUrl: null == branchesUrl
+              as String?,
+      branchesUrl: freezed == branchesUrl
           ? _value.branchesUrl
           : branchesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      tagsUrl: null == tagsUrl
+              as String?,
+      tagsUrl: freezed == tagsUrl
           ? _value.tagsUrl
           : tagsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      blobsUrl: null == blobsUrl
+              as String?,
+      blobsUrl: freezed == blobsUrl
           ? _value.blobsUrl
           : blobsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      gitTagsUrl: null == gitTagsUrl
+              as String?,
+      gitTagsUrl: freezed == gitTagsUrl
           ? _value.gitTagsUrl
           : gitTagsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      gitRefsUrl: null == gitRefsUrl
+              as String?,
+      gitRefsUrl: freezed == gitRefsUrl
           ? _value.gitRefsUrl
           : gitRefsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      treesUrl: null == treesUrl
+              as String?,
+      treesUrl: freezed == treesUrl
           ? _value.treesUrl
           : treesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      statusesUrl: null == statusesUrl
+              as String?,
+      statusesUrl: freezed == statusesUrl
           ? _value.statusesUrl
           : statusesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      languagesUrl: null == languagesUrl
+              as String?,
+      languagesUrl: freezed == languagesUrl
           ? _value.languagesUrl
           : languagesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      stargazersUrl: null == stargazersUrl
+              as String?,
+      stargazersUrl: freezed == stargazersUrl
           ? _value.stargazersUrl
           : stargazersUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      contributorsUrl: null == contributorsUrl
+              as String?,
+      contributorsUrl: freezed == contributorsUrl
           ? _value.contributorsUrl
           : contributorsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      subscribersUrl: null == subscribersUrl
+              as String?,
+      subscribersUrl: freezed == subscribersUrl
           ? _value.subscribersUrl
           : subscribersUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      subscriptionUrl: null == subscriptionUrl
+              as String?,
+      subscriptionUrl: freezed == subscriptionUrl
           ? _value.subscriptionUrl
           : subscriptionUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      commitsUrl: null == commitsUrl
+              as String?,
+      commitsUrl: freezed == commitsUrl
           ? _value.commitsUrl
           : commitsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      gitCommitsUrl: null == gitCommitsUrl
+              as String?,
+      gitCommitsUrl: freezed == gitCommitsUrl
           ? _value.gitCommitsUrl
           : gitCommitsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      commentsUrl: null == commentsUrl
+              as String?,
+      commentsUrl: freezed == commentsUrl
           ? _value.commentsUrl
           : commentsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      issueCommentUrl: null == issueCommentUrl
+              as String?,
+      issueCommentUrl: freezed == issueCommentUrl
           ? _value.issueCommentUrl
           : issueCommentUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      contentsUrl: null == contentsUrl
+              as String?,
+      contentsUrl: freezed == contentsUrl
           ? _value.contentsUrl
           : contentsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      compareUrl: null == compareUrl
+              as String?,
+      compareUrl: freezed == compareUrl
           ? _value.compareUrl
           : compareUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      mergesUrl: null == mergesUrl
+              as String?,
+      mergesUrl: freezed == mergesUrl
           ? _value.mergesUrl
           : mergesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      archiveUrl: null == archiveUrl
+              as String?,
+      archiveUrl: freezed == archiveUrl
           ? _value.archiveUrl
           : archiveUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      downloadsUrl: null == downloadsUrl
+              as String?,
+      downloadsUrl: freezed == downloadsUrl
           ? _value.downloadsUrl
           : downloadsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      issuesUrl: null == issuesUrl
+              as String?,
+      issuesUrl: freezed == issuesUrl
           ? _value.issuesUrl
           : issuesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      pullsUrl: null == pullsUrl
+              as String?,
+      pullsUrl: freezed == pullsUrl
           ? _value.pullsUrl
           : pullsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      milestonesUrl: null == milestonesUrl
+              as String?,
+      milestonesUrl: freezed == milestonesUrl
           ? _value.milestonesUrl
           : milestonesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      notificationsUrl: null == notificationsUrl
+              as String?,
+      notificationsUrl: freezed == notificationsUrl
           ? _value.notificationsUrl
           : notificationsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      labelsUrl: null == labelsUrl
+              as String?,
+      labelsUrl: freezed == labelsUrl
           ? _value.labelsUrl
           : labelsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      releasesUrl: null == releasesUrl
+              as String?,
+      releasesUrl: freezed == releasesUrl
           ? _value.releasesUrl
           : releasesUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      deploymentsUrl: null == deploymentsUrl
+              as String?,
+      deploymentsUrl: freezed == deploymentsUrl
           ? _value.deploymentsUrl
           : deploymentsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      createdAt: null == createdAt
+              as String?,
+      createdAt: freezed == createdAt
           ? _value.createdAt
           : createdAt // ignore: cast_nullable_to_non_nullable
-              as DateTime,
-      updatedAt: null == updatedAt
+              as DateTime?,
+      updatedAt: freezed == updatedAt
           ? _value.updatedAt
           : updatedAt // ignore: cast_nullable_to_non_nullable
-              as DateTime,
-      pushedAt: null == pushedAt
+              as DateTime?,
+      pushedAt: freezed == pushedAt
           ? _value.pushedAt
           : pushedAt // ignore: cast_nullable_to_non_nullable
-              as DateTime,
-      gitUrl: null == gitUrl
+              as DateTime?,
+      gitUrl: freezed == gitUrl
           ? _value.gitUrl
           : gitUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      sshUrl: null == sshUrl
+              as String?,
+      sshUrl: freezed == sshUrl
           ? _value.sshUrl
           : sshUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      cloneUrl: null == cloneUrl
+              as String?,
+      cloneUrl: freezed == cloneUrl
           ? _value.cloneUrl
           : cloneUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      svnUrl: null == svnUrl
+              as String?,
+      svnUrl: freezed == svnUrl
           ? _value.svnUrl
           : svnUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      homepage: null == homepage
+              as String?,
+      homepage: freezed == homepage
           ? _value.homepage
           : homepage // ignore: cast_nullable_to_non_nullable
-              as String,
-      size: null == size
+              as String?,
+      size: freezed == size
           ? _value.size
           : size // ignore: cast_nullable_to_non_nullable
-              as int,
-      stargazersCount: null == stargazersCount
+              as int?,
+      stargazersCount: freezed == stargazersCount
           ? _value.stargazersCount
           : stargazersCount // ignore: cast_nullable_to_non_nullable
-              as int,
-      watchersCount: null == watchersCount
+              as int?,
+      watchersCount: freezed == watchersCount
           ? _value.watchersCount
           : watchersCount // ignore: cast_nullable_to_non_nullable
-              as int,
-      language: null == language
+              as int?,
+      language: freezed == language
           ? _value.language
           : language // ignore: cast_nullable_to_non_nullable
-              as String,
-      hasIssues: null == hasIssues
+              as String?,
+      hasIssues: freezed == hasIssues
           ? _value.hasIssues
           : hasIssues // ignore: cast_nullable_to_non_nullable
-              as bool,
-      hasProjects: null == hasProjects
+              as bool?,
+      hasProjects: freezed == hasProjects
           ? _value.hasProjects
           : hasProjects // ignore: cast_nullable_to_non_nullable
-              as bool,
-      hasDownloads: null == hasDownloads
+              as bool?,
+      hasDownloads: freezed == hasDownloads
           ? _value.hasDownloads
           : hasDownloads // ignore: cast_nullable_to_non_nullable
-              as bool,
-      hasWiki: null == hasWiki
+              as bool?,
+      hasWiki: freezed == hasWiki
           ? _value.hasWiki
           : hasWiki // ignore: cast_nullable_to_non_nullable
-              as bool,
-      hasPages: null == hasPages
+              as bool?,
+      hasPages: freezed == hasPages
           ? _value.hasPages
           : hasPages // ignore: cast_nullable_to_non_nullable
-              as bool,
-      hasDiscussions: null == hasDiscussions
+              as bool?,
+      hasDiscussions: freezed == hasDiscussions
           ? _value.hasDiscussions
           : hasDiscussions // ignore: cast_nullable_to_non_nullable
-              as bool,
-      forksCount: null == forksCount
+              as bool?,
+      forksCount: freezed == forksCount
           ? _value.forksCount
           : forksCount // ignore: cast_nullable_to_non_nullable
-              as int,
+              as int?,
       mirrorUrl: null == mirrorUrl
           ? _value.mirrorUrl
           : mirrorUrl // ignore: cast_nullable_to_non_nullable
               as dynamic,
-      archived: null == archived
+      archived: freezed == archived
           ? _value.archived
           : archived // ignore: cast_nullable_to_non_nullable
-              as bool,
-      disabled: null == disabled
+              as bool?,
+      disabled: freezed == disabled
           ? _value.disabled
           : disabled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      openIssuesCount: null == openIssuesCount
+              as bool?,
+      openIssuesCount: freezed == openIssuesCount
           ? _value.openIssuesCount
           : openIssuesCount // ignore: cast_nullable_to_non_nullable
-              as int,
-      license: null == license
+              as int?,
+      license: freezed == license
           ? _value.license
           : license // ignore: cast_nullable_to_non_nullable
-              as License,
-      allowForking: null == allowForking
+              as License?,
+      allowForking: freezed == allowForking
           ? _value.allowForking
           : allowForking // ignore: cast_nullable_to_non_nullable
-              as bool,
-      isTemplate: null == isTemplate
+              as bool?,
+      isTemplate: freezed == isTemplate
           ? _value.isTemplate
           : isTemplate // ignore: cast_nullable_to_non_nullable
-              as bool,
-      webCommitSignoffRequired: null == webCommitSignoffRequired
+              as bool?,
+      webCommitSignoffRequired: freezed == webCommitSignoffRequired
           ? _value.webCommitSignoffRequired
           : webCommitSignoffRequired // ignore: cast_nullable_to_non_nullable
-              as bool,
-      topics: null == topics
+              as bool?,
+      topics: freezed == topics
           ? _value._topics
           : topics // ignore: cast_nullable_to_non_nullable
-              as List<dynamic>,
-      visibility: null == visibility
+              as List<dynamic>?,
+      visibility: freezed == visibility
           ? _value.visibility
           : visibility // ignore: cast_nullable_to_non_nullable
-              as Visibility,
-      forks: null == forks
+              as String?,
+      forks: freezed == forks
           ? _value.forks
           : forks // ignore: cast_nullable_to_non_nullable
-              as int,
-      openIssues: null == openIssues
-          ? _value.openIssues
-          : openIssues // ignore: cast_nullable_to_non_nullable
-              as int,
-      watchers: null == watchers
+              as int?,
+      open_issues: freezed == open_issues
+          ? _value.open_issues
+          : open_issues // ignore: cast_nullable_to_non_nullable
+              as int?,
+      watchers: freezed == watchers
           ? _value.watchers
           : watchers // ignore: cast_nullable_to_non_nullable
-              as int,
-      defaultBranch: null == defaultBranch
+              as int?,
+      defaultBranch: freezed == defaultBranch
           ? _value.defaultBranch
           : defaultBranch // ignore: cast_nullable_to_non_nullable
-              as DefaultBranch,
+              as String?,
     ));
   }
 }
@@ -1136,257 +1144,332 @@ class __$$_DataModelCopyWithImpl<$Res>
 @JsonSerializable()
 class _$_DataModel implements _DataModel {
   const _$_DataModel(
-      {required this.id,
-      required this.nodeId,
-      required this.name,
-      required this.fullName,
-      required this.private,
+      {this.id = 0,
+      this.nodeId = "",
+      this.name = "",
+      this.fullName = "",
+      this.private = false,
       required this.owner,
-      required this.htmlUrl,
-      required this.description,
-      required this.fork,
-      required this.url,
-      required this.forksUrl,
-      required this.keysUrl,
-      required this.collaboratorsUrl,
-      required this.teamsUrl,
-      required this.hooksUrl,
-      required this.issueEventsUrl,
-      required this.eventsUrl,
-      required this.assigneesUrl,
-      required this.branchesUrl,
-      required this.tagsUrl,
-      required this.blobsUrl,
-      required this.gitTagsUrl,
-      required this.gitRefsUrl,
-      required this.treesUrl,
-      required this.statusesUrl,
-      required this.languagesUrl,
-      required this.stargazersUrl,
-      required this.contributorsUrl,
-      required this.subscribersUrl,
-      required this.subscriptionUrl,
-      required this.commitsUrl,
-      required this.gitCommitsUrl,
-      required this.commentsUrl,
-      required this.issueCommentUrl,
-      required this.contentsUrl,
-      required this.compareUrl,
-      required this.mergesUrl,
-      required this.archiveUrl,
-      required this.downloadsUrl,
-      required this.issuesUrl,
-      required this.pullsUrl,
-      required this.milestonesUrl,
-      required this.notificationsUrl,
-      required this.labelsUrl,
-      required this.releasesUrl,
-      required this.deploymentsUrl,
+      this.htmlUrl = "",
+      this.description = "",
+      this.fork = false,
+      this.url = "",
+      this.forksUrl = "",
+      this.keysUrl = "",
+      this.collaboratorsUrl = "",
+      this.teamsUrl = "",
+      this.hooksUrl = "",
+      this.issueEventsUrl = "",
+      this.eventsUrl = "",
+      this.assigneesUrl = "",
+      this.branchesUrl = "",
+      this.tagsUrl = "",
+      this.blobsUrl = "",
+      this.gitTagsUrl = "",
+      this.gitRefsUrl = "",
+      this.treesUrl = "",
+      this.statusesUrl = "",
+      this.languagesUrl = "",
+      this.stargazersUrl = "",
+      this.contributorsUrl = "",
+      this.subscribersUrl = "",
+      this.subscriptionUrl = "",
+      this.commitsUrl = "",
+      this.gitCommitsUrl = "",
+      this.commentsUrl = "",
+      this.issueCommentUrl = "",
+      this.contentsUrl = "",
+      this.compareUrl = "",
+      this.mergesUrl = "",
+      this.archiveUrl = "",
+      this.downloadsUrl = "",
+      this.issuesUrl = "",
+      this.pullsUrl = "",
+      this.milestonesUrl = "",
+      this.notificationsUrl = "",
+      this.labelsUrl = "",
+      this.releasesUrl = "",
+      this.deploymentsUrl = "",
       required this.createdAt,
       required this.updatedAt,
       required this.pushedAt,
-      required this.gitUrl,
-      required this.sshUrl,
-      required this.cloneUrl,
-      required this.svnUrl,
-      required this.homepage,
-      required this.size,
-      required this.stargazersCount,
-      required this.watchersCount,
-      required this.language,
-      required this.hasIssues,
-      required this.hasProjects,
-      required this.hasDownloads,
-      required this.hasWiki,
-      required this.hasPages,
-      required this.hasDiscussions,
-      required this.forksCount,
+      this.gitUrl = "",
+      this.sshUrl = "",
+      this.cloneUrl = "",
+      this.svnUrl = "",
+      this.homepage = "",
+      this.size = 0,
+      this.stargazersCount = 0,
+      this.watchersCount = 0,
+      this.language = "",
+      this.hasIssues = false,
+      this.hasProjects = false,
+      this.hasDownloads = false,
+      this.hasWiki = false,
+      this.hasPages = false,
+      this.hasDiscussions = false,
+      this.forksCount = 0,
       required this.mirrorUrl,
-      required this.archived,
-      required this.disabled,
-      required this.openIssuesCount,
+      this.archived = false,
+      this.disabled = false,
+      this.openIssuesCount = 0,
       required this.license,
-      required this.allowForking,
-      required this.isTemplate,
-      required this.webCommitSignoffRequired,
-      required final List<dynamic> topics,
-      required this.visibility,
-      required this.forks,
-      required this.openIssues,
-      required this.watchers,
-      required this.defaultBranch})
+      this.allowForking = false,
+      this.isTemplate = false,
+      this.webCommitSignoffRequired = false,
+      final List<dynamic>? topics = const [],
+      this.visibility = "",
+      this.forks = 0,
+      this.open_issues = 0,
+      this.watchers = 0,
+      this.defaultBranch = ""})
       : _topics = topics;
 
   factory _$_DataModel.fromJson(Map<String, dynamic> json) =>
       _$$_DataModelFromJson(json);
 
   @override
-  final int id;
+  @JsonKey()
+  final int? id;
   @override
-  final String nodeId;
+  @JsonKey()
+  final String? nodeId;
   @override
-  final String name;
+  @JsonKey()
+  final String? name;
   @override
-  final String fullName;
+  @JsonKey()
+  final String? fullName;
   @override
-  final bool private;
+  @JsonKey()
+  final bool? private;
   @override
-  final Owner owner;
+  final Owner? owner;
   @override
-  final String htmlUrl;
+  @JsonKey()
+  final String? htmlUrl;
   @override
-  final String description;
+  @JsonKey()
+  final String? description;
   @override
-  final bool fork;
+  @JsonKey()
+  final bool? fork;
   @override
-  final String url;
+  @JsonKey()
+  final String? url;
   @override
-  final String forksUrl;
+  @JsonKey()
+  final String? forksUrl;
   @override
-  final String keysUrl;
+  @JsonKey()
+  final String? keysUrl;
   @override
-  final String collaboratorsUrl;
+  @JsonKey()
+  final String? collaboratorsUrl;
   @override
-  final String teamsUrl;
+  @JsonKey()
+  final String? teamsUrl;
   @override
-  final String hooksUrl;
+  @JsonKey()
+  final String? hooksUrl;
   @override
-  final String issueEventsUrl;
+  @JsonKey()
+  final String? issueEventsUrl;
   @override
-  final String eventsUrl;
+  @JsonKey()
+  final String? eventsUrl;
   @override
-  final String assigneesUrl;
+  @JsonKey()
+  final String? assigneesUrl;
   @override
-  final String branchesUrl;
+  @JsonKey()
+  final String? branchesUrl;
   @override
-  final String tagsUrl;
+  @JsonKey()
+  final String? tagsUrl;
   @override
-  final String blobsUrl;
+  @JsonKey()
+  final String? blobsUrl;
   @override
-  final String gitTagsUrl;
+  @JsonKey()
+  final String? gitTagsUrl;
   @override
-  final String gitRefsUrl;
+  @JsonKey()
+  final String? gitRefsUrl;
   @override
-  final String treesUrl;
+  @JsonKey()
+  final String? treesUrl;
   @override
-  final String statusesUrl;
+  @JsonKey()
+  final String? statusesUrl;
   @override
-  final String languagesUrl;
+  @JsonKey()
+  final String? languagesUrl;
   @override
-  final String stargazersUrl;
+  @JsonKey()
+  final String? stargazersUrl;
   @override
-  final String contributorsUrl;
+  @JsonKey()
+  final String? contributorsUrl;
   @override
-  final String subscribersUrl;
+  @JsonKey()
+  final String? subscribersUrl;
   @override
-  final String subscriptionUrl;
+  @JsonKey()
+  final String? subscriptionUrl;
   @override
-  final String commitsUrl;
+  @JsonKey()
+  final String? commitsUrl;
   @override
-  final String gitCommitsUrl;
+  @JsonKey()
+  final String? gitCommitsUrl;
   @override
-  final String commentsUrl;
+  @JsonKey()
+  final String? commentsUrl;
   @override
-  final String issueCommentUrl;
+  @JsonKey()
+  final String? issueCommentUrl;
   @override
-  final String contentsUrl;
+  @JsonKey()
+  final String? contentsUrl;
   @override
-  final String compareUrl;
+  @JsonKey()
+  final String? compareUrl;
   @override
-  final String mergesUrl;
+  @JsonKey()
+  final String? mergesUrl;
   @override
-  final String archiveUrl;
+  @JsonKey()
+  final String? archiveUrl;
   @override
-  final String downloadsUrl;
+  @JsonKey()
+  final String? downloadsUrl;
   @override
-  final String issuesUrl;
+  @JsonKey()
+  final String? issuesUrl;
   @override
-  final String pullsUrl;
+  @JsonKey()
+  final String? pullsUrl;
   @override
-  final String milestonesUrl;
+  @JsonKey()
+  final String? milestonesUrl;
   @override
-  final String notificationsUrl;
+  @JsonKey()
+  final String? notificationsUrl;
   @override
-  final String labelsUrl;
+  @JsonKey()
+  final String? labelsUrl;
   @override
-  final String releasesUrl;
+  @JsonKey()
+  final String? releasesUrl;
   @override
-  final String deploymentsUrl;
+  @JsonKey()
+  final String? deploymentsUrl;
   @override
-  final DateTime createdAt;
+  final DateTime? createdAt;
   @override
-  final DateTime updatedAt;
+  final DateTime? updatedAt;
   @override
-  final DateTime pushedAt;
+  final DateTime? pushedAt;
   @override
-  final String gitUrl;
+  @JsonKey()
+  final String? gitUrl;
   @override
-  final String sshUrl;
+  @JsonKey()
+  final String? sshUrl;
   @override
-  final String cloneUrl;
+  @JsonKey()
+  final String? cloneUrl;
   @override
-  final String svnUrl;
+  @JsonKey()
+  final String? svnUrl;
   @override
-  final String homepage;
+  @JsonKey()
+  final String? homepage;
   @override
-  final int size;
+  @JsonKey()
+  final int? size;
   @override
-  final int stargazersCount;
+  @JsonKey()
+  final int? stargazersCount;
   @override
-  final int watchersCount;
+  @JsonKey()
+  final int? watchersCount;
   @override
-  final String language;
+  @JsonKey()
+  final String? language;
   @override
-  final bool hasIssues;
+  @JsonKey()
+  final bool? hasIssues;
   @override
-  final bool hasProjects;
+  @JsonKey()
+  final bool? hasProjects;
   @override
-  final bool hasDownloads;
+  @JsonKey()
+  final bool? hasDownloads;
   @override
-  final bool hasWiki;
+  @JsonKey()
+  final bool? hasWiki;
   @override
-  final bool hasPages;
+  @JsonKey()
+  final bool? hasPages;
   @override
-  final bool hasDiscussions;
+  @JsonKey()
+  final bool? hasDiscussions;
   @override
-  final int forksCount;
+  @JsonKey()
+  final int? forksCount;
   @override
   final dynamic mirrorUrl;
   @override
-  final bool archived;
+  @JsonKey()
+  final bool? archived;
   @override
-  final bool disabled;
+  @JsonKey()
+  final bool? disabled;
   @override
-  final int openIssuesCount;
+  @JsonKey()
+  final int? openIssuesCount;
   @override
-  final License license;
+  final License? license;
   @override
-  final bool allowForking;
+  @JsonKey()
+  final bool? allowForking;
   @override
-  final bool isTemplate;
+  @JsonKey()
+  final bool? isTemplate;
   @override
-  final bool webCommitSignoffRequired;
-  final List<dynamic> _topics;
+  @JsonKey()
+  final bool? webCommitSignoffRequired;
+  final List<dynamic>? _topics;
   @override
-  List<dynamic> get topics {
+  @JsonKey()
+  List<dynamic>? get topics {
+    final value = _topics;
+    if (value == null) return null;
     // ignore: implicit_dynamic_type
-    return EqualUnmodifiableListView(_topics);
+    return EqualUnmodifiableListView(value);
   }
 
   @override
-  final Visibility visibility;
+  @JsonKey()
+  final String? visibility;
   @override
-  final int forks;
+  @JsonKey()
+  final int? forks;
   @override
-  final int openIssues;
+  @JsonKey()
+  final int? open_issues;
   @override
-  final int watchers;
+  @JsonKey()
+  final int? watchers;
   @override
-  final DefaultBranch defaultBranch;
+  @JsonKey()
+  final String? defaultBranch;
 
   @override
   String toString() {
-    return 'DataModel(id: $id, nodeId: $nodeId, name: $name, fullName: $fullName, private: $private, owner: $owner, htmlUrl: $htmlUrl, description: $description, fork: $fork, url: $url, forksUrl: $forksUrl, keysUrl: $keysUrl, collaboratorsUrl: $collaboratorsUrl, teamsUrl: $teamsUrl, hooksUrl: $hooksUrl, issueEventsUrl: $issueEventsUrl, eventsUrl: $eventsUrl, assigneesUrl: $assigneesUrl, branchesUrl: $branchesUrl, tagsUrl: $tagsUrl, blobsUrl: $blobsUrl, gitTagsUrl: $gitTagsUrl, gitRefsUrl: $gitRefsUrl, treesUrl: $treesUrl, statusesUrl: $statusesUrl, languagesUrl: $languagesUrl, stargazersUrl: $stargazersUrl, contributorsUrl: $contributorsUrl, subscribersUrl: $subscribersUrl, subscriptionUrl: $subscriptionUrl, commitsUrl: $commitsUrl, gitCommitsUrl: $gitCommitsUrl, commentsUrl: $commentsUrl, issueCommentUrl: $issueCommentUrl, contentsUrl: $contentsUrl, compareUrl: $compareUrl, mergesUrl: $mergesUrl, archiveUrl: $archiveUrl, downloadsUrl: $downloadsUrl, issuesUrl: $issuesUrl, pullsUrl: $pullsUrl, milestonesUrl: $milestonesUrl, notificationsUrl: $notificationsUrl, labelsUrl: $labelsUrl, releasesUrl: $releasesUrl, deploymentsUrl: $deploymentsUrl, createdAt: $createdAt, updatedAt: $updatedAt, pushedAt: $pushedAt, gitUrl: $gitUrl, sshUrl: $sshUrl, cloneUrl: $cloneUrl, svnUrl: $svnUrl, homepage: $homepage, size: $size, stargazersCount: $stargazersCount, watchersCount: $watchersCount, language: $language, hasIssues: $hasIssues, hasProjects: $hasProjects, hasDownloads: $hasDownloads, hasWiki: $hasWiki, hasPages: $hasPages, hasDiscussions: $hasDiscussions, forksCount: $forksCount, mirrorUrl: $mirrorUrl, archived: $archived, disabled: $disabled, openIssuesCount: $openIssuesCount, license: $license, allowForking: $allowForking, isTemplate: $isTemplate, webCommitSignoffRequired: $webCommitSignoffRequired, topics: $topics, visibility: $visibility, forks: $forks, openIssues: $openIssues, watchers: $watchers, defaultBranch: $defaultBranch)';
+    return 'DataModel(id: $id, nodeId: $nodeId, name: $name, fullName: $fullName, private: $private, owner: $owner, htmlUrl: $htmlUrl, description: $description, fork: $fork, url: $url, forksUrl: $forksUrl, keysUrl: $keysUrl, collaboratorsUrl: $collaboratorsUrl, teamsUrl: $teamsUrl, hooksUrl: $hooksUrl, issueEventsUrl: $issueEventsUrl, eventsUrl: $eventsUrl, assigneesUrl: $assigneesUrl, branchesUrl: $branchesUrl, tagsUrl: $tagsUrl, blobsUrl: $blobsUrl, gitTagsUrl: $gitTagsUrl, gitRefsUrl: $gitRefsUrl, treesUrl: $treesUrl, statusesUrl: $statusesUrl, languagesUrl: $languagesUrl, stargazersUrl: $stargazersUrl, contributorsUrl: $contributorsUrl, subscribersUrl: $subscribersUrl, subscriptionUrl: $subscriptionUrl, commitsUrl: $commitsUrl, gitCommitsUrl: $gitCommitsUrl, commentsUrl: $commentsUrl, issueCommentUrl: $issueCommentUrl, contentsUrl: $contentsUrl, compareUrl: $compareUrl, mergesUrl: $mergesUrl, archiveUrl: $archiveUrl, downloadsUrl: $downloadsUrl, issuesUrl: $issuesUrl, pullsUrl: $pullsUrl, milestonesUrl: $milestonesUrl, notificationsUrl: $notificationsUrl, labelsUrl: $labelsUrl, releasesUrl: $releasesUrl, deploymentsUrl: $deploymentsUrl, createdAt: $createdAt, updatedAt: $updatedAt, pushedAt: $pushedAt, gitUrl: $gitUrl, sshUrl: $sshUrl, cloneUrl: $cloneUrl, svnUrl: $svnUrl, homepage: $homepage, size: $size, stargazersCount: $stargazersCount, watchersCount: $watchersCount, language: $language, hasIssues: $hasIssues, hasProjects: $hasProjects, hasDownloads: $hasDownloads, hasWiki: $hasWiki, hasPages: $hasPages, hasDiscussions: $hasDiscussions, forksCount: $forksCount, mirrorUrl: $mirrorUrl, archived: $archived, disabled: $disabled, openIssuesCount: $openIssuesCount, license: $license, allowForking: $allowForking, isTemplate: $isTemplate, webCommitSignoffRequired: $webCommitSignoffRequired, topics: $topics, visibility: $visibility, forks: $forks, open_issues: $open_issues, watchers: $watchers, defaultBranch: $defaultBranch)';
   }
 
   @override
@@ -1513,7 +1596,7 @@ class _$_DataModel implements _DataModel {
             const DeepCollectionEquality().equals(other._topics, _topics) &&
             (identical(other.visibility, visibility) || other.visibility == visibility) &&
             (identical(other.forks, forks) || other.forks == forks) &&
-            (identical(other.openIssues, openIssues) || other.openIssues == openIssues) &&
+            (identical(other.open_issues, open_issues) || other.open_issues == open_issues) &&
             (identical(other.watchers, watchers) || other.watchers == watchers) &&
             (identical(other.defaultBranch, defaultBranch) || other.defaultBranch == defaultBranch));
   }
@@ -1598,7 +1681,7 @@ class _$_DataModel implements _DataModel {
         const DeepCollectionEquality().hash(_topics),
         visibility,
         forks,
-        openIssues,
+        open_issues,
         watchers,
         defaultBranch
       ]);
@@ -1619,247 +1702,247 @@ class _$_DataModel implements _DataModel {
 
 abstract class _DataModel implements DataModel {
   const factory _DataModel(
-      {required final int id,
-      required final String nodeId,
-      required final String name,
-      required final String fullName,
-      required final bool private,
-      required final Owner owner,
-      required final String htmlUrl,
-      required final String description,
-      required final bool fork,
-      required final String url,
-      required final String forksUrl,
-      required final String keysUrl,
-      required final String collaboratorsUrl,
-      required final String teamsUrl,
-      required final String hooksUrl,
-      required final String issueEventsUrl,
-      required final String eventsUrl,
-      required final String assigneesUrl,
-      required final String branchesUrl,
-      required final String tagsUrl,
-      required final String blobsUrl,
-      required final String gitTagsUrl,
-      required final String gitRefsUrl,
-      required final String treesUrl,
-      required final String statusesUrl,
-      required final String languagesUrl,
-      required final String stargazersUrl,
-      required final String contributorsUrl,
-      required final String subscribersUrl,
-      required final String subscriptionUrl,
-      required final String commitsUrl,
-      required final String gitCommitsUrl,
-      required final String commentsUrl,
-      required final String issueCommentUrl,
-      required final String contentsUrl,
-      required final String compareUrl,
-      required final String mergesUrl,
-      required final String archiveUrl,
-      required final String downloadsUrl,
-      required final String issuesUrl,
-      required final String pullsUrl,
-      required final String milestonesUrl,
-      required final String notificationsUrl,
-      required final String labelsUrl,
-      required final String releasesUrl,
-      required final String deploymentsUrl,
-      required final DateTime createdAt,
-      required final DateTime updatedAt,
-      required final DateTime pushedAt,
-      required final String gitUrl,
-      required final String sshUrl,
-      required final String cloneUrl,
-      required final String svnUrl,
-      required final String homepage,
-      required final int size,
-      required final int stargazersCount,
-      required final int watchersCount,
-      required final String language,
-      required final bool hasIssues,
-      required final bool hasProjects,
-      required final bool hasDownloads,
-      required final bool hasWiki,
-      required final bool hasPages,
-      required final bool hasDiscussions,
-      required final int forksCount,
+      {final int? id,
+      final String? nodeId,
+      final String? name,
+      final String? fullName,
+      final bool? private,
+      required final Owner? owner,
+      final String? htmlUrl,
+      final String? description,
+      final bool? fork,
+      final String? url,
+      final String? forksUrl,
+      final String? keysUrl,
+      final String? collaboratorsUrl,
+      final String? teamsUrl,
+      final String? hooksUrl,
+      final String? issueEventsUrl,
+      final String? eventsUrl,
+      final String? assigneesUrl,
+      final String? branchesUrl,
+      final String? tagsUrl,
+      final String? blobsUrl,
+      final String? gitTagsUrl,
+      final String? gitRefsUrl,
+      final String? treesUrl,
+      final String? statusesUrl,
+      final String? languagesUrl,
+      final String? stargazersUrl,
+      final String? contributorsUrl,
+      final String? subscribersUrl,
+      final String? subscriptionUrl,
+      final String? commitsUrl,
+      final String? gitCommitsUrl,
+      final String? commentsUrl,
+      final String? issueCommentUrl,
+      final String? contentsUrl,
+      final String? compareUrl,
+      final String? mergesUrl,
+      final String? archiveUrl,
+      final String? downloadsUrl,
+      final String? issuesUrl,
+      final String? pullsUrl,
+      final String? milestonesUrl,
+      final String? notificationsUrl,
+      final String? labelsUrl,
+      final String? releasesUrl,
+      final String? deploymentsUrl,
+      required final DateTime? createdAt,
+      required final DateTime? updatedAt,
+      required final DateTime? pushedAt,
+      final String? gitUrl,
+      final String? sshUrl,
+      final String? cloneUrl,
+      final String? svnUrl,
+      final String? homepage,
+      final int? size,
+      final int? stargazersCount,
+      final int? watchersCount,
+      final String? language,
+      final bool? hasIssues,
+      final bool? hasProjects,
+      final bool? hasDownloads,
+      final bool? hasWiki,
+      final bool? hasPages,
+      final bool? hasDiscussions,
+      final int? forksCount,
       required final dynamic mirrorUrl,
-      required final bool archived,
-      required final bool disabled,
-      required final int openIssuesCount,
-      required final License license,
-      required final bool allowForking,
-      required final bool isTemplate,
-      required final bool webCommitSignoffRequired,
-      required final List<dynamic> topics,
-      required final Visibility visibility,
-      required final int forks,
-      required final int openIssues,
-      required final int watchers,
-      required final DefaultBranch defaultBranch}) = _$_DataModel;
+      final bool? archived,
+      final bool? disabled,
+      final int? openIssuesCount,
+      required final License? license,
+      final bool? allowForking,
+      final bool? isTemplate,
+      final bool? webCommitSignoffRequired,
+      final List<dynamic>? topics,
+      final String? visibility,
+      final int? forks,
+      final int? open_issues,
+      final int? watchers,
+      final String? defaultBranch}) = _$_DataModel;
 
   factory _DataModel.fromJson(Map<String, dynamic> json) =
       _$_DataModel.fromJson;
 
   @override
-  int get id;
+  int? get id;
   @override
-  String get nodeId;
+  String? get nodeId;
   @override
-  String get name;
+  String? get name;
   @override
-  String get fullName;
+  String? get fullName;
   @override
-  bool get private;
+  bool? get private;
   @override
-  Owner get owner;
+  Owner? get owner;
   @override
-  String get htmlUrl;
+  String? get htmlUrl;
   @override
-  String get description;
+  String? get description;
   @override
-  bool get fork;
+  bool? get fork;
   @override
-  String get url;
+  String? get url;
   @override
-  String get forksUrl;
+  String? get forksUrl;
   @override
-  String get keysUrl;
+  String? get keysUrl;
   @override
-  String get collaboratorsUrl;
+  String? get collaboratorsUrl;
   @override
-  String get teamsUrl;
+  String? get teamsUrl;
   @override
-  String get hooksUrl;
+  String? get hooksUrl;
   @override
-  String get issueEventsUrl;
+  String? get issueEventsUrl;
   @override
-  String get eventsUrl;
+  String? get eventsUrl;
   @override
-  String get assigneesUrl;
+  String? get assigneesUrl;
   @override
-  String get branchesUrl;
+  String? get branchesUrl;
   @override
-  String get tagsUrl;
+  String? get tagsUrl;
   @override
-  String get blobsUrl;
+  String? get blobsUrl;
   @override
-  String get gitTagsUrl;
+  String? get gitTagsUrl;
   @override
-  String get gitRefsUrl;
+  String? get gitRefsUrl;
   @override
-  String get treesUrl;
+  String? get treesUrl;
   @override
-  String get statusesUrl;
+  String? get statusesUrl;
   @override
-  String get languagesUrl;
+  String? get languagesUrl;
   @override
-  String get stargazersUrl;
+  String? get stargazersUrl;
   @override
-  String get contributorsUrl;
+  String? get contributorsUrl;
   @override
-  String get subscribersUrl;
+  String? get subscribersUrl;
   @override
-  String get subscriptionUrl;
+  String? get subscriptionUrl;
   @override
-  String get commitsUrl;
+  String? get commitsUrl;
   @override
-  String get gitCommitsUrl;
+  String? get gitCommitsUrl;
   @override
-  String get commentsUrl;
+  String? get commentsUrl;
   @override
-  String get issueCommentUrl;
+  String? get issueCommentUrl;
   @override
-  String get contentsUrl;
+  String? get contentsUrl;
   @override
-  String get compareUrl;
+  String? get compareUrl;
   @override
-  String get mergesUrl;
+  String? get mergesUrl;
   @override
-  String get archiveUrl;
+  String? get archiveUrl;
   @override
-  String get downloadsUrl;
+  String? get downloadsUrl;
   @override
-  String get issuesUrl;
+  String? get issuesUrl;
   @override
-  String get pullsUrl;
+  String? get pullsUrl;
   @override
-  String get milestonesUrl;
+  String? get milestonesUrl;
   @override
-  String get notificationsUrl;
+  String? get notificationsUrl;
   @override
-  String get labelsUrl;
+  String? get labelsUrl;
   @override
-  String get releasesUrl;
+  String? get releasesUrl;
   @override
-  String get deploymentsUrl;
+  String? get deploymentsUrl;
   @override
-  DateTime get createdAt;
+  DateTime? get createdAt;
   @override
-  DateTime get updatedAt;
+  DateTime? get updatedAt;
   @override
-  DateTime get pushedAt;
+  DateTime? get pushedAt;
   @override
-  String get gitUrl;
+  String? get gitUrl;
   @override
-  String get sshUrl;
+  String? get sshUrl;
   @override
-  String get cloneUrl;
+  String? get cloneUrl;
   @override
-  String get svnUrl;
+  String? get svnUrl;
   @override
-  String get homepage;
+  String? get homepage;
   @override
-  int get size;
+  int? get size;
   @override
-  int get stargazersCount;
+  int? get stargazersCount;
   @override
-  int get watchersCount;
+  int? get watchersCount;
   @override
-  String get language;
+  String? get language;
   @override
-  bool get hasIssues;
+  bool? get hasIssues;
   @override
-  bool get hasProjects;
+  bool? get hasProjects;
   @override
-  bool get hasDownloads;
+  bool? get hasDownloads;
   @override
-  bool get hasWiki;
+  bool? get hasWiki;
   @override
-  bool get hasPages;
+  bool? get hasPages;
   @override
-  bool get hasDiscussions;
+  bool? get hasDiscussions;
   @override
-  int get forksCount;
+  int? get forksCount;
   @override
   dynamic get mirrorUrl;
   @override
-  bool get archived;
+  bool? get archived;
   @override
-  bool get disabled;
+  bool? get disabled;
   @override
-  int get openIssuesCount;
+  int? get openIssuesCount;
   @override
-  License get license;
+  License? get license;
   @override
-  bool get allowForking;
+  bool? get allowForking;
   @override
-  bool get isTemplate;
+  bool? get isTemplate;
   @override
-  bool get webCommitSignoffRequired;
+  bool? get webCommitSignoffRequired;
   @override
-  List<dynamic> get topics;
+  List<dynamic>? get topics;
   @override
-  Visibility get visibility;
+  String? get visibility;
   @override
-  int get forks;
+  int? get forks;
   @override
-  int get openIssues;
+  int? get open_issues;
   @override
-  int get watchers;
+  int? get watchers;
   @override
-  DefaultBranch get defaultBranch;
+  String? get defaultBranch;
   @override
   @JsonKey(ignore: true)
   _$$_DataModelCopyWith<_$_DataModel> get copyWith =>
@@ -1872,11 +1955,11 @@ License _$LicenseFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$License {
-  String get key => throw _privateConstructorUsedError;
-  String get name => throw _privateConstructorUsedError;
-  String get spdxId => throw _privateConstructorUsedError;
-  String get url => throw _privateConstructorUsedError;
-  String get nodeId => throw _privateConstructorUsedError;
+  String? get key => throw _privateConstructorUsedError;
+  String? get name => throw _privateConstructorUsedError;
+  String? get spdxId => throw _privateConstructorUsedError;
+  String? get url => throw _privateConstructorUsedError;
+  String? get nodeId => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -1889,7 +1972,7 @@ abstract class $LicenseCopyWith<$Res> {
       _$LicenseCopyWithImpl<$Res, License>;
   @useResult
   $Res call(
-      {String key, String name, String spdxId, String url, String nodeId});
+      {String? key, String? name, String? spdxId, String? url, String? nodeId});
 }
 
 /// @nodoc
@@ -1905,33 +1988,33 @@ class _$LicenseCopyWithImpl<$Res, $Val extends License>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? key = null,
-    Object? name = null,
-    Object? spdxId = null,
-    Object? url = null,
-    Object? nodeId = null,
+    Object? key = freezed,
+    Object? name = freezed,
+    Object? spdxId = freezed,
+    Object? url = freezed,
+    Object? nodeId = freezed,
   }) {
     return _then(_value.copyWith(
-      key: null == key
+      key: freezed == key
           ? _value.key
           : key // ignore: cast_nullable_to_non_nullable
-              as String,
-      name: null == name
+              as String?,
+      name: freezed == name
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
-              as String,
-      spdxId: null == spdxId
+              as String?,
+      spdxId: freezed == spdxId
           ? _value.spdxId
           : spdxId // ignore: cast_nullable_to_non_nullable
-              as String,
-      url: null == url
+              as String?,
+      url: freezed == url
           ? _value.url
           : url // ignore: cast_nullable_to_non_nullable
-              as String,
-      nodeId: null == nodeId
+              as String?,
+      nodeId: freezed == nodeId
           ? _value.nodeId
           : nodeId // ignore: cast_nullable_to_non_nullable
-              as String,
+              as String?,
     ) as $Val);
   }
 }
@@ -1944,7 +2027,7 @@ abstract class _$$_LicenseCopyWith<$Res> implements $LicenseCopyWith<$Res> {
   @override
   @useResult
   $Res call(
-      {String key, String name, String spdxId, String url, String nodeId});
+      {String? key, String? name, String? spdxId, String? url, String? nodeId});
 }
 
 /// @nodoc
@@ -1957,33 +2040,33 @@ class __$$_LicenseCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? key = null,
-    Object? name = null,
-    Object? spdxId = null,
-    Object? url = null,
-    Object? nodeId = null,
+    Object? key = freezed,
+    Object? name = freezed,
+    Object? spdxId = freezed,
+    Object? url = freezed,
+    Object? nodeId = freezed,
   }) {
     return _then(_$_License(
-      key: null == key
+      key: freezed == key
           ? _value.key
           : key // ignore: cast_nullable_to_non_nullable
-              as String,
-      name: null == name
+              as String?,
+      name: freezed == name
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
-              as String,
-      spdxId: null == spdxId
+              as String?,
+      spdxId: freezed == spdxId
           ? _value.spdxId
           : spdxId // ignore: cast_nullable_to_non_nullable
-              as String,
-      url: null == url
+              as String?,
+      url: freezed == url
           ? _value.url
           : url // ignore: cast_nullable_to_non_nullable
-              as String,
-      nodeId: null == nodeId
+              as String?,
+      nodeId: freezed == nodeId
           ? _value.nodeId
           : nodeId // ignore: cast_nullable_to_non_nullable
-              as String,
+              as String?,
     ));
   }
 }
@@ -1992,25 +2075,30 @@ class __$$_LicenseCopyWithImpl<$Res>
 @JsonSerializable()
 class _$_License implements _License {
   const _$_License(
-      {required this.key,
-      required this.name,
-      required this.spdxId,
-      required this.url,
-      required this.nodeId});
+      {this.key = "",
+      this.name = "",
+      this.spdxId = "",
+      this.url = "",
+      this.nodeId = ""});
 
   factory _$_License.fromJson(Map<String, dynamic> json) =>
       _$$_LicenseFromJson(json);
 
   @override
-  final String key;
+  @JsonKey()
+  final String? key;
   @override
-  final String name;
+  @JsonKey()
+  final String? name;
   @override
-  final String spdxId;
+  @JsonKey()
+  final String? spdxId;
   @override
-  final String url;
+  @JsonKey()
+  final String? url;
   @override
-  final String nodeId;
+  @JsonKey()
+  final String? nodeId;
 
   @override
   String toString() {
@@ -2049,24 +2137,24 @@ class _$_License implements _License {
 
 abstract class _License implements License {
   const factory _License(
-      {required final String key,
-      required final String name,
-      required final String spdxId,
-      required final String url,
-      required final String nodeId}) = _$_License;
+      {final String? key,
+      final String? name,
+      final String? spdxId,
+      final String? url,
+      final String? nodeId}) = _$_License;
 
   factory _License.fromJson(Map<String, dynamic> json) = _$_License.fromJson;
 
   @override
-  String get key;
+  String? get key;
   @override
-  String get name;
+  String? get name;
   @override
-  String get spdxId;
+  String? get spdxId;
   @override
-  String get url;
+  String? get url;
   @override
-  String get nodeId;
+  String? get nodeId;
   @override
   @JsonKey(ignore: true)
   _$$_LicenseCopyWith<_$_License> get copyWith =>
@@ -2079,24 +2167,24 @@ Owner _$OwnerFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$Owner {
-  Login get login => throw _privateConstructorUsedError;
-  int get id => throw _privateConstructorUsedError;
-  NodeId get nodeId => throw _privateConstructorUsedError;
-  String get avatarUrl => throw _privateConstructorUsedError;
-  String get gravatarId => throw _privateConstructorUsedError;
-  String get url => throw _privateConstructorUsedError;
-  String get htmlUrl => throw _privateConstructorUsedError;
-  String get followersUrl => throw _privateConstructorUsedError;
-  FollowingUrl get followingUrl => throw _privateConstructorUsedError;
-  GistsUrl get gistsUrl => throw _privateConstructorUsedError;
-  StarredUrl get starredUrl => throw _privateConstructorUsedError;
-  String get subscriptionsUrl => throw _privateConstructorUsedError;
-  String get organizationsUrl => throw _privateConstructorUsedError;
-  String get reposUrl => throw _privateConstructorUsedError;
-  EventsUrl get eventsUrl => throw _privateConstructorUsedError;
-  String get receivedEventsUrl => throw _privateConstructorUsedError;
-  Type get type => throw _privateConstructorUsedError;
-  bool get siteAdmin => throw _privateConstructorUsedError;
+  String? get login => throw _privateConstructorUsedError;
+  int? get id => throw _privateConstructorUsedError;
+  String? get nodeId => throw _privateConstructorUsedError;
+  String? get avatarUrl => throw _privateConstructorUsedError;
+  String? get gravatarId => throw _privateConstructorUsedError;
+  String? get url => throw _privateConstructorUsedError;
+  String? get htmlUrl => throw _privateConstructorUsedError;
+  String? get followersUrl => throw _privateConstructorUsedError;
+  String? get followingUrl => throw _privateConstructorUsedError;
+  String? get gistsUrl => throw _privateConstructorUsedError;
+  String? get starredUrl => throw _privateConstructorUsedError;
+  String? get subscriptionsUrl => throw _privateConstructorUsedError;
+  String? get organizationsUrl => throw _privateConstructorUsedError;
+  String? get reposUrl => throw _privateConstructorUsedError;
+  String? get eventsUrl => throw _privateConstructorUsedError;
+  String? get receivedEventsUrl => throw _privateConstructorUsedError;
+  String? get type => throw _privateConstructorUsedError;
+  bool? get siteAdmin => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -2109,24 +2197,24 @@ abstract class $OwnerCopyWith<$Res> {
       _$OwnerCopyWithImpl<$Res, Owner>;
   @useResult
   $Res call(
-      {Login login,
-      int id,
-      NodeId nodeId,
-      String avatarUrl,
-      String gravatarId,
-      String url,
-      String htmlUrl,
-      String followersUrl,
-      FollowingUrl followingUrl,
-      GistsUrl gistsUrl,
-      StarredUrl starredUrl,
-      String subscriptionsUrl,
-      String organizationsUrl,
-      String reposUrl,
-      EventsUrl eventsUrl,
-      String receivedEventsUrl,
-      Type type,
-      bool siteAdmin});
+      {String? login,
+      int? id,
+      String? nodeId,
+      String? avatarUrl,
+      String? gravatarId,
+      String? url,
+      String? htmlUrl,
+      String? followersUrl,
+      String? followingUrl,
+      String? gistsUrl,
+      String? starredUrl,
+      String? subscriptionsUrl,
+      String? organizationsUrl,
+      String? reposUrl,
+      String? eventsUrl,
+      String? receivedEventsUrl,
+      String? type,
+      bool? siteAdmin});
 }
 
 /// @nodoc
@@ -2142,98 +2230,98 @@ class _$OwnerCopyWithImpl<$Res, $Val extends Owner>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? login = null,
-    Object? id = null,
-    Object? nodeId = null,
-    Object? avatarUrl = null,
-    Object? gravatarId = null,
-    Object? url = null,
-    Object? htmlUrl = null,
-    Object? followersUrl = null,
-    Object? followingUrl = null,
-    Object? gistsUrl = null,
-    Object? starredUrl = null,
-    Object? subscriptionsUrl = null,
-    Object? organizationsUrl = null,
-    Object? reposUrl = null,
-    Object? eventsUrl = null,
-    Object? receivedEventsUrl = null,
-    Object? type = null,
-    Object? siteAdmin = null,
+    Object? login = freezed,
+    Object? id = freezed,
+    Object? nodeId = freezed,
+    Object? avatarUrl = freezed,
+    Object? gravatarId = freezed,
+    Object? url = freezed,
+    Object? htmlUrl = freezed,
+    Object? followersUrl = freezed,
+    Object? followingUrl = freezed,
+    Object? gistsUrl = freezed,
+    Object? starredUrl = freezed,
+    Object? subscriptionsUrl = freezed,
+    Object? organizationsUrl = freezed,
+    Object? reposUrl = freezed,
+    Object? eventsUrl = freezed,
+    Object? receivedEventsUrl = freezed,
+    Object? type = freezed,
+    Object? siteAdmin = freezed,
   }) {
     return _then(_value.copyWith(
-      login: null == login
+      login: freezed == login
           ? _value.login
           : login // ignore: cast_nullable_to_non_nullable
-              as Login,
-      id: null == id
+              as String?,
+      id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
-              as int,
-      nodeId: null == nodeId
+              as int?,
+      nodeId: freezed == nodeId
           ? _value.nodeId
           : nodeId // ignore: cast_nullable_to_non_nullable
-              as NodeId,
-      avatarUrl: null == avatarUrl
+              as String?,
+      avatarUrl: freezed == avatarUrl
           ? _value.avatarUrl
           : avatarUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      gravatarId: null == gravatarId
+              as String?,
+      gravatarId: freezed == gravatarId
           ? _value.gravatarId
           : gravatarId // ignore: cast_nullable_to_non_nullable
-              as String,
-      url: null == url
+              as String?,
+      url: freezed == url
           ? _value.url
           : url // ignore: cast_nullable_to_non_nullable
-              as String,
-      htmlUrl: null == htmlUrl
+              as String?,
+      htmlUrl: freezed == htmlUrl
           ? _value.htmlUrl
           : htmlUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      followersUrl: null == followersUrl
+              as String?,
+      followersUrl: freezed == followersUrl
           ? _value.followersUrl
           : followersUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      followingUrl: null == followingUrl
+              as String?,
+      followingUrl: freezed == followingUrl
           ? _value.followingUrl
           : followingUrl // ignore: cast_nullable_to_non_nullable
-              as FollowingUrl,
-      gistsUrl: null == gistsUrl
+              as String?,
+      gistsUrl: freezed == gistsUrl
           ? _value.gistsUrl
           : gistsUrl // ignore: cast_nullable_to_non_nullable
-              as GistsUrl,
-      starredUrl: null == starredUrl
+              as String?,
+      starredUrl: freezed == starredUrl
           ? _value.starredUrl
           : starredUrl // ignore: cast_nullable_to_non_nullable
-              as StarredUrl,
-      subscriptionsUrl: null == subscriptionsUrl
+              as String?,
+      subscriptionsUrl: freezed == subscriptionsUrl
           ? _value.subscriptionsUrl
           : subscriptionsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      organizationsUrl: null == organizationsUrl
+              as String?,
+      organizationsUrl: freezed == organizationsUrl
           ? _value.organizationsUrl
           : organizationsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      reposUrl: null == reposUrl
+              as String?,
+      reposUrl: freezed == reposUrl
           ? _value.reposUrl
           : reposUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      eventsUrl: null == eventsUrl
+              as String?,
+      eventsUrl: freezed == eventsUrl
           ? _value.eventsUrl
           : eventsUrl // ignore: cast_nullable_to_non_nullable
-              as EventsUrl,
-      receivedEventsUrl: null == receivedEventsUrl
+              as String?,
+      receivedEventsUrl: freezed == receivedEventsUrl
           ? _value.receivedEventsUrl
           : receivedEventsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      type: null == type
+              as String?,
+      type: freezed == type
           ? _value.type
           : type // ignore: cast_nullable_to_non_nullable
-              as Type,
-      siteAdmin: null == siteAdmin
+              as String?,
+      siteAdmin: freezed == siteAdmin
           ? _value.siteAdmin
           : siteAdmin // ignore: cast_nullable_to_non_nullable
-              as bool,
+              as bool?,
     ) as $Val);
   }
 }
@@ -2245,24 +2333,24 @@ abstract class _$$_OwnerCopyWith<$Res> implements $OwnerCopyWith<$Res> {
   @override
   @useResult
   $Res call(
-      {Login login,
-      int id,
-      NodeId nodeId,
-      String avatarUrl,
-      String gravatarId,
-      String url,
-      String htmlUrl,
-      String followersUrl,
-      FollowingUrl followingUrl,
-      GistsUrl gistsUrl,
-      StarredUrl starredUrl,
-      String subscriptionsUrl,
-      String organizationsUrl,
-      String reposUrl,
-      EventsUrl eventsUrl,
-      String receivedEventsUrl,
-      Type type,
-      bool siteAdmin});
+      {String? login,
+      int? id,
+      String? nodeId,
+      String? avatarUrl,
+      String? gravatarId,
+      String? url,
+      String? htmlUrl,
+      String? followersUrl,
+      String? followingUrl,
+      String? gistsUrl,
+      String? starredUrl,
+      String? subscriptionsUrl,
+      String? organizationsUrl,
+      String? reposUrl,
+      String? eventsUrl,
+      String? receivedEventsUrl,
+      String? type,
+      bool? siteAdmin});
 }
 
 /// @nodoc
@@ -2274,98 +2362,98 @@ class __$$_OwnerCopyWithImpl<$Res> extends _$OwnerCopyWithImpl<$Res, _$_Owner>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? login = null,
-    Object? id = null,
-    Object? nodeId = null,
-    Object? avatarUrl = null,
-    Object? gravatarId = null,
-    Object? url = null,
-    Object? htmlUrl = null,
-    Object? followersUrl = null,
-    Object? followingUrl = null,
-    Object? gistsUrl = null,
-    Object? starredUrl = null,
-    Object? subscriptionsUrl = null,
-    Object? organizationsUrl = null,
-    Object? reposUrl = null,
-    Object? eventsUrl = null,
-    Object? receivedEventsUrl = null,
-    Object? type = null,
-    Object? siteAdmin = null,
+    Object? login = freezed,
+    Object? id = freezed,
+    Object? nodeId = freezed,
+    Object? avatarUrl = freezed,
+    Object? gravatarId = freezed,
+    Object? url = freezed,
+    Object? htmlUrl = freezed,
+    Object? followersUrl = freezed,
+    Object? followingUrl = freezed,
+    Object? gistsUrl = freezed,
+    Object? starredUrl = freezed,
+    Object? subscriptionsUrl = freezed,
+    Object? organizationsUrl = freezed,
+    Object? reposUrl = freezed,
+    Object? eventsUrl = freezed,
+    Object? receivedEventsUrl = freezed,
+    Object? type = freezed,
+    Object? siteAdmin = freezed,
   }) {
     return _then(_$_Owner(
-      login: null == login
+      login: freezed == login
           ? _value.login
           : login // ignore: cast_nullable_to_non_nullable
-              as Login,
-      id: null == id
+              as String?,
+      id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
-              as int,
-      nodeId: null == nodeId
+              as int?,
+      nodeId: freezed == nodeId
           ? _value.nodeId
           : nodeId // ignore: cast_nullable_to_non_nullable
-              as NodeId,
-      avatarUrl: null == avatarUrl
+              as String?,
+      avatarUrl: freezed == avatarUrl
           ? _value.avatarUrl
           : avatarUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      gravatarId: null == gravatarId
+              as String?,
+      gravatarId: freezed == gravatarId
           ? _value.gravatarId
           : gravatarId // ignore: cast_nullable_to_non_nullable
-              as String,
-      url: null == url
+              as String?,
+      url: freezed == url
           ? _value.url
           : url // ignore: cast_nullable_to_non_nullable
-              as String,
-      htmlUrl: null == htmlUrl
+              as String?,
+      htmlUrl: freezed == htmlUrl
           ? _value.htmlUrl
           : htmlUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      followersUrl: null == followersUrl
+              as String?,
+      followersUrl: freezed == followersUrl
           ? _value.followersUrl
           : followersUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      followingUrl: null == followingUrl
+              as String?,
+      followingUrl: freezed == followingUrl
           ? _value.followingUrl
           : followingUrl // ignore: cast_nullable_to_non_nullable
-              as FollowingUrl,
-      gistsUrl: null == gistsUrl
+              as String?,
+      gistsUrl: freezed == gistsUrl
           ? _value.gistsUrl
           : gistsUrl // ignore: cast_nullable_to_non_nullable
-              as GistsUrl,
-      starredUrl: null == starredUrl
+              as String?,
+      starredUrl: freezed == starredUrl
           ? _value.starredUrl
           : starredUrl // ignore: cast_nullable_to_non_nullable
-              as StarredUrl,
-      subscriptionsUrl: null == subscriptionsUrl
+              as String?,
+      subscriptionsUrl: freezed == subscriptionsUrl
           ? _value.subscriptionsUrl
           : subscriptionsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      organizationsUrl: null == organizationsUrl
+              as String?,
+      organizationsUrl: freezed == organizationsUrl
           ? _value.organizationsUrl
           : organizationsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      reposUrl: null == reposUrl
+              as String?,
+      reposUrl: freezed == reposUrl
           ? _value.reposUrl
           : reposUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      eventsUrl: null == eventsUrl
+              as String?,
+      eventsUrl: freezed == eventsUrl
           ? _value.eventsUrl
           : eventsUrl // ignore: cast_nullable_to_non_nullable
-              as EventsUrl,
-      receivedEventsUrl: null == receivedEventsUrl
+              as String?,
+      receivedEventsUrl: freezed == receivedEventsUrl
           ? _value.receivedEventsUrl
           : receivedEventsUrl // ignore: cast_nullable_to_non_nullable
-              as String,
-      type: null == type
+              as String?,
+      type: freezed == type
           ? _value.type
           : type // ignore: cast_nullable_to_non_nullable
-              as Type,
-      siteAdmin: null == siteAdmin
+              as String?,
+      siteAdmin: freezed == siteAdmin
           ? _value.siteAdmin
           : siteAdmin // ignore: cast_nullable_to_non_nullable
-              as bool,
+              as bool?,
     ));
   }
 }
@@ -2374,64 +2462,82 @@ class __$$_OwnerCopyWithImpl<$Res> extends _$OwnerCopyWithImpl<$Res, _$_Owner>
 @JsonSerializable()
 class _$_Owner implements _Owner {
   const _$_Owner(
-      {required this.login,
-      required this.id,
-      required this.nodeId,
-      required this.avatarUrl,
-      required this.gravatarId,
-      required this.url,
-      required this.htmlUrl,
-      required this.followersUrl,
-      required this.followingUrl,
-      required this.gistsUrl,
-      required this.starredUrl,
-      required this.subscriptionsUrl,
-      required this.organizationsUrl,
-      required this.reposUrl,
-      required this.eventsUrl,
-      required this.receivedEventsUrl,
-      required this.type,
-      required this.siteAdmin});
+      {this.login = "",
+      this.id = 0,
+      this.nodeId = "",
+      this.avatarUrl = "",
+      this.gravatarId = "",
+      this.url = "",
+      this.htmlUrl = "",
+      this.followersUrl = "",
+      this.followingUrl = "",
+      this.gistsUrl = "",
+      this.starredUrl = "",
+      this.subscriptionsUrl = "",
+      this.organizationsUrl = "",
+      this.reposUrl = "",
+      this.eventsUrl = "",
+      this.receivedEventsUrl = "",
+      this.type = "",
+      this.siteAdmin = false});
 
   factory _$_Owner.fromJson(Map<String, dynamic> json) =>
       _$$_OwnerFromJson(json);
 
   @override
-  final Login login;
+  @JsonKey()
+  final String? login;
   @override
-  final int id;
+  @JsonKey()
+  final int? id;
   @override
-  final NodeId nodeId;
+  @JsonKey()
+  final String? nodeId;
   @override
-  final String avatarUrl;
+  @JsonKey()
+  final String? avatarUrl;
   @override
-  final String gravatarId;
+  @JsonKey()
+  final String? gravatarId;
   @override
-  final String url;
+  @JsonKey()
+  final String? url;
   @override
-  final String htmlUrl;
+  @JsonKey()
+  final String? htmlUrl;
   @override
-  final String followersUrl;
+  @JsonKey()
+  final String? followersUrl;
   @override
-  final FollowingUrl followingUrl;
+  @JsonKey()
+  final String? followingUrl;
   @override
-  final GistsUrl gistsUrl;
+  @JsonKey()
+  final String? gistsUrl;
   @override
-  final StarredUrl starredUrl;
+  @JsonKey()
+  final String? starredUrl;
   @override
-  final String subscriptionsUrl;
+  @JsonKey()
+  final String? subscriptionsUrl;
   @override
-  final String organizationsUrl;
+  @JsonKey()
+  final String? organizationsUrl;
   @override
-  final String reposUrl;
+  @JsonKey()
+  final String? reposUrl;
   @override
-  final EventsUrl eventsUrl;
+  @JsonKey()
+  final String? eventsUrl;
   @override
-  final String receivedEventsUrl;
+  @JsonKey()
+  final String? receivedEventsUrl;
   @override
-  final Type type;
+  @JsonKey()
+  final String? type;
   @override
-  final bool siteAdmin;
+  @JsonKey()
+  final bool? siteAdmin;
 
   @override
   String toString() {
@@ -2514,63 +2620,63 @@ class _$_Owner implements _Owner {
 
 abstract class _Owner implements Owner {
   const factory _Owner(
-      {required final Login login,
-      required final int id,
-      required final NodeId nodeId,
-      required final String avatarUrl,
-      required final String gravatarId,
-      required final String url,
-      required final String htmlUrl,
-      required final String followersUrl,
-      required final FollowingUrl followingUrl,
-      required final GistsUrl gistsUrl,
-      required final StarredUrl starredUrl,
-      required final String subscriptionsUrl,
-      required final String organizationsUrl,
-      required final String reposUrl,
-      required final EventsUrl eventsUrl,
-      required final String receivedEventsUrl,
-      required final Type type,
-      required final bool siteAdmin}) = _$_Owner;
+      {final String? login,
+      final int? id,
+      final String? nodeId,
+      final String? avatarUrl,
+      final String? gravatarId,
+      final String? url,
+      final String? htmlUrl,
+      final String? followersUrl,
+      final String? followingUrl,
+      final String? gistsUrl,
+      final String? starredUrl,
+      final String? subscriptionsUrl,
+      final String? organizationsUrl,
+      final String? reposUrl,
+      final String? eventsUrl,
+      final String? receivedEventsUrl,
+      final String? type,
+      final bool? siteAdmin}) = _$_Owner;
 
   factory _Owner.fromJson(Map<String, dynamic> json) = _$_Owner.fromJson;
 
   @override
-  Login get login;
+  String? get login;
   @override
-  int get id;
+  int? get id;
   @override
-  NodeId get nodeId;
+  String? get nodeId;
   @override
-  String get avatarUrl;
+  String? get avatarUrl;
   @override
-  String get gravatarId;
+  String? get gravatarId;
   @override
-  String get url;
+  String? get url;
   @override
-  String get htmlUrl;
+  String? get htmlUrl;
   @override
-  String get followersUrl;
+  String? get followersUrl;
   @override
-  FollowingUrl get followingUrl;
+  String? get followingUrl;
   @override
-  GistsUrl get gistsUrl;
+  String? get gistsUrl;
   @override
-  StarredUrl get starredUrl;
+  String? get starredUrl;
   @override
-  String get subscriptionsUrl;
+  String? get subscriptionsUrl;
   @override
-  String get organizationsUrl;
+  String? get organizationsUrl;
   @override
-  String get reposUrl;
+  String? get reposUrl;
   @override
-  EventsUrl get eventsUrl;
+  String? get eventsUrl;
   @override
-  String get receivedEventsUrl;
+  String? get receivedEventsUrl;
   @override
-  Type get type;
+  String? get type;
   @override
-  bool get siteAdmin;
+  bool? get siteAdmin;
   @override
   @JsonKey(ignore: true)
   _$$_OwnerCopyWith<_$_Owner> get copyWith =>

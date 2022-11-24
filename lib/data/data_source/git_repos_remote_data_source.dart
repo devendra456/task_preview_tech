@@ -23,9 +23,13 @@ class GitReposRemoteDataSourceImpl implements GitReposRemoteDataSource {
       "${APIRoutes.getRepos}?page=$pageNumber&per_page=15",
     );
     if(res.statusCode == HttpStatus.ok){
+      final List<DataModel> data = [];
       try{
-        print(res);
-        return dataModelFromJson(res.data);
+        final json = res.data;
+        for(int i=0;i<json.length;i++){
+          data.add(DataModel.fromJson(json[i]));
+        }
+        return data;
       }catch(e){
         print(e);
         throw Exception("typecast error");

@@ -1,5 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
+import 'package:get/get.dart';
+import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:task_preview_tech/app/core/base/base_controller.dart';
 import 'package:task_preview_tech/domain/use_cases/get_otp_use_case.dart';
 
@@ -11,6 +13,10 @@ class HomeController extends BaseController {
 
   HomeController(this.gitReposUseCase);
 
+  int pageSize = 15;
+  final PagingController<int, DataModel> pagingController =
+      PagingController(firstPageKey: 1);
+
   @override
   void onInit() {
     super.onInit();
@@ -18,14 +24,43 @@ class HomeController extends BaseController {
 
   @override
   void onReady() {
-    print("jdsklfnfkj");
-    loadData();
+    pagingController.addPageRequestListener((pageNumber) {
+      loadData(pageNumber);
+    });
+    loadData(1);
     super.onReady();
   }
 
-  void loadData() async {
-    final future = gitReposUseCase(const GetReposParams(pageNumber: 1));
-    final res = await apiCallWithLoader<List<DataModel>>(future);
-    res.fold((l) => debugPrint(l.message), (r) => debugPrint(r.toString()));
+  void loadData(int pageNumber) async {
+    final future = gitReposUseCase(GetReposParams(pageNumber: pageNumber));
+    final res = await future;
+    res.fold(
+      _handelErrorResponse,
+      (r) {
+        _handelSuccessResponse(r, pageNumber);
+      },
+    );
   }
+
+  _handelErrorResponse(Failure failure) {
+    pagingController.error = failure.message;
+    showErrorMessage(failure.message);
+  }
+
+  _handelSuccessResponse(List<DataModel> list, int pageNumber) {
+    final isLastPage = list.length < pageSize;
+    if (isLastPage) {
+      pagingController.appendLastPage(list);
+    } else {
+      final nextPageKey = pageNumber + 1;
+      pagingController.appendPage(list, nextPageKey);
+    }
+  }
+
+  @override
+  void onClose() {
+    pagingController.dispose();
+    super.onClose();
+  }
+
 }
