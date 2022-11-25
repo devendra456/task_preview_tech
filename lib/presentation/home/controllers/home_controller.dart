@@ -3,10 +3,12 @@ import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:task_preview_tech/app/core/base/base_controller.dart';
+import 'package:task_preview_tech/app/core/di.dart';
+import 'package:task_preview_tech/data/network/network_info.dart';
 import 'package:task_preview_tech/domain/use_cases/get_otp_use_case.dart';
 
 import '../../../data/error/failure.dart';
-import '../../../domain/models/data_model.dart';
+import '../../../domain/entity/git_repos_entity.dart';
 
 class HomeController extends BaseController {
   final GetGitReposUseCase gitReposUseCase;
@@ -14,7 +16,7 @@ class HomeController extends BaseController {
   HomeController(this.gitReposUseCase);
 
   int pageSize = 15;
-  final PagingController<int, DataModel> pagingController =
+  final PagingController<int, GitReposEntity> pagingController =
       PagingController(firstPageKey: 1);
 
   @override
@@ -24,8 +26,11 @@ class HomeController extends BaseController {
 
   @override
   void onReady() {
-    pagingController.addPageRequestListener((pageNumber) {
-      loadData(pageNumber);
+    pagingController.addPageRequestListener((pageNumber) async{
+      final NetworkInfo networkInfo = getIt.get<NetworkInfo>();
+      if(await networkInfo.isConnected()){
+        loadData(pageNumber);
+      }
     });
     loadData(1);
     super.onReady();
@@ -47,7 +52,7 @@ class HomeController extends BaseController {
     showErrorMessage(failure.message);
   }
 
-  _handelSuccessResponse(List<DataModel> list, int pageNumber) {
+  _handelSuccessResponse(List<GitReposEntity> list, int pageNumber) {
     final isLastPage = list.length < pageSize;
     if (isLastPage) {
       pagingController.appendLastPage(list);

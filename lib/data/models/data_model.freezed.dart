@@ -20,84 +20,162 @@ DataModel _$DataModelFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$DataModel {
+  @JsonKey(defaultValue: 0, nullable: true, name: 'id')
   int? get id => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
   String? get nodeId => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'name')
   String? get name => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'full_name')
   String? get fullName => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'private')
   bool? get private => throw _privateConstructorUsedError;
-  Owner? get owner => throw _privateConstructorUsedError;
+  @JsonKey(required: true, nullable: true, name: 'owner')
+  OwnerBean? get owner => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
   String? get htmlUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'description')
   String? get description => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'fork')
   bool? get fork => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'url')
   String? get url => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'forks_url')
   String? get forksUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'keys_url')
   String? get keysUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'collaborators_url')
   String? get collaboratorsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'teams_url')
   String? get teamsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'hooks_url')
   String? get hooksUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'issue_events_url')
   String? get issueEventsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
   String? get eventsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'assignees_url')
   String? get assigneesUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'branches_url')
   String? get branchesUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'tags_url')
   String? get tagsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'blobs_url')
   String? get blobsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_tags_url')
   String? get gitTagsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_refs_url')
   String? get gitRefsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'trees_url')
   String? get treesUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'statuses_url')
   String? get statusesUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'languages_url')
   String? get languagesUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'stargazers_url')
   String? get stargazersUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'contributors_url')
   String? get contributorsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'subscribers_url')
   String? get subscribersUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'subscription_url')
   String? get subscriptionUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'commits_url')
   String? get commitsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_commits_url')
   String? get gitCommitsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'comments_url')
   String? get commentsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'issue_comment_url')
   String? get issueCommentUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'contents_url')
   String? get contentsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'compare_url')
   String? get compareUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'merges_url')
   String? get mergesUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'archive_url')
   String? get archiveUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'downloads_url')
   String? get downloadsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'issues_url')
   String? get issuesUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'pulls_url')
   String? get pullsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'milestones_url')
   String? get milestonesUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'notifications_url')
   String? get notificationsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'labels_url')
   String? get labelsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'releases_url')
   String? get releasesUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'deployments_url')
   String? get deploymentsUrl => throw _privateConstructorUsedError;
-  DateTime? get createdAt => throw _privateConstructorUsedError;
-  DateTime? get updatedAt => throw _privateConstructorUsedError;
-  DateTime? get pushedAt => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'created_at')
+  String? get createdAt => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'updated_at')
+  String? get updatedAt => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'pushed_at')
+  String? get pushedAt => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_url')
   String? get gitUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'ssh_url')
   String? get sshUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'clone_url')
   String? get cloneUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'svn_url')
   String? get svnUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'homepage')
   String? get homepage => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'size')
   int? get size => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'stargazers_count')
   int? get stargazersCount => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'watchers_count')
   int? get watchersCount => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'language')
   String? get language => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_issues')
   bool? get hasIssues => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_projects')
   bool? get hasProjects => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_downloads')
   bool? get hasDownloads => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_wiki')
   bool? get hasWiki => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_pages')
   bool? get hasPages => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_discussions')
   bool? get hasDiscussions => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'forks_count')
   int? get forksCount => throw _privateConstructorUsedError;
-  dynamic get mirrorUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'archived')
   bool? get archived => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'disabled')
   bool? get disabled => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues_count')
   int? get openIssuesCount => throw _privateConstructorUsedError;
-  License? get license => throw _privateConstructorUsedError;
+  @JsonKey(required: true, nullable: true, name: 'license')
+  LicenseBean? get license => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'allow_forking')
   bool? get allowForking => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'is_template')
   bool? get isTemplate => throw _privateConstructorUsedError;
+  @JsonKey(
+      defaultValue: false, nullable: true, name: 'web_commit_signoff_required')
   bool? get webCommitSignoffRequired => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: [], nullable: true, name: 'topics')
   List<dynamic>? get topics => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'visibility')
   String? get visibility => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'forks')
   int? get forks => throw _privateConstructorUsedError;
-  int? get open_issues => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues')
+  int? get openIssues => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'watchers')
   int? get watchers => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'default_branch')
   String? get defaultBranch => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -112,88 +190,165 @@ abstract class $DataModelCopyWith<$Res> {
       _$DataModelCopyWithImpl<$Res, DataModel>;
   @useResult
   $Res call(
-      {int? id,
-      String? nodeId,
-      String? name,
-      String? fullName,
-      bool? private,
-      Owner? owner,
-      String? htmlUrl,
-      String? description,
-      bool? fork,
-      String? url,
-      String? forksUrl,
-      String? keysUrl,
-      String? collaboratorsUrl,
-      String? teamsUrl,
-      String? hooksUrl,
-      String? issueEventsUrl,
-      String? eventsUrl,
-      String? assigneesUrl,
-      String? branchesUrl,
-      String? tagsUrl,
-      String? blobsUrl,
-      String? gitTagsUrl,
-      String? gitRefsUrl,
-      String? treesUrl,
-      String? statusesUrl,
-      String? languagesUrl,
-      String? stargazersUrl,
-      String? contributorsUrl,
-      String? subscribersUrl,
-      String? subscriptionUrl,
-      String? commitsUrl,
-      String? gitCommitsUrl,
-      String? commentsUrl,
-      String? issueCommentUrl,
-      String? contentsUrl,
-      String? compareUrl,
-      String? mergesUrl,
-      String? archiveUrl,
-      String? downloadsUrl,
-      String? issuesUrl,
-      String? pullsUrl,
-      String? milestonesUrl,
-      String? notificationsUrl,
-      String? labelsUrl,
-      String? releasesUrl,
-      String? deploymentsUrl,
-      DateTime? createdAt,
-      DateTime? updatedAt,
-      DateTime? pushedAt,
-      String? gitUrl,
-      String? sshUrl,
-      String? cloneUrl,
-      String? svnUrl,
-      String? homepage,
-      int? size,
-      int? stargazersCount,
-      int? watchersCount,
-      String? language,
-      bool? hasIssues,
-      bool? hasProjects,
-      bool? hasDownloads,
-      bool? hasWiki,
-      bool? hasPages,
-      bool? hasDiscussions,
-      int? forksCount,
-      dynamic mirrorUrl,
-      bool? archived,
-      bool? disabled,
-      int? openIssuesCount,
-      License? license,
-      bool? allowForking,
-      bool? isTemplate,
-      bool? webCommitSignoffRequired,
-      List<dynamic>? topics,
-      String? visibility,
-      int? forks,
-      int? open_issues,
-      int? watchers,
-      String? defaultBranch});
+      {@JsonKey(defaultValue: 0, nullable: true, name: 'id')
+          int? id,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          String? nodeId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'name')
+          String? name,
+      @JsonKey(defaultValue: "", nullable: true, name: 'full_name')
+          String? fullName,
+      @JsonKey(defaultValue: false, nullable: true, name: 'private')
+          bool? private,
+      @JsonKey(required: true, nullable: true, name: 'owner')
+          OwnerBean? owner,
+      @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
+          String? htmlUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'description')
+          String? description,
+      @JsonKey(defaultValue: false, nullable: true, name: 'fork')
+          bool? fork,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          String? url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'forks_url')
+          String? forksUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'keys_url')
+          String? keysUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'collaborators_url')
+          String? collaboratorsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'teams_url')
+          String? teamsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'hooks_url')
+          String? hooksUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issue_events_url')
+          String? issueEventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
+          String? eventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'assignees_url')
+          String? assigneesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'branches_url')
+          String? branchesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'tags_url')
+          String? tagsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'blobs_url')
+          String? blobsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_tags_url')
+          String? gitTagsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_refs_url')
+          String? gitRefsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'trees_url')
+          String? treesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'statuses_url')
+          String? statusesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'languages_url')
+          String? languagesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'stargazers_url')
+          String? stargazersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'contributors_url')
+          String? contributorsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscribers_url')
+          String? subscribersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscription_url')
+          String? subscriptionUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'commits_url')
+          String? commitsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_commits_url')
+          String? gitCommitsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'comments_url')
+          String? commentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issue_comment_url')
+          String? issueCommentUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'contents_url')
+          String? contentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'compare_url')
+          String? compareUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'merges_url')
+          String? mergesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'archive_url')
+          String? archiveUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'downloads_url')
+          String? downloadsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issues_url')
+          String? issuesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'pulls_url')
+          String? pullsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'milestones_url')
+          String? milestonesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'notifications_url')
+          String? notificationsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'labels_url')
+          String? labelsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'releases_url')
+          String? releasesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'deployments_url')
+          String? deploymentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'created_at')
+          String? createdAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'updated_at')
+          String? updatedAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'pushed_at')
+          String? pushedAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_url')
+          String? gitUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'ssh_url')
+          String? sshUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'clone_url')
+          String? cloneUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'svn_url')
+          String? svnUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'homepage')
+          String? homepage,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'size')
+          int? size,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'stargazers_count')
+          int? stargazersCount,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'watchers_count')
+          int? watchersCount,
+      @JsonKey(defaultValue: "", nullable: true, name: 'language')
+          String? language,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_issues')
+          bool? hasIssues,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_projects')
+          bool? hasProjects,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_downloads')
+          bool? hasDownloads,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_wiki')
+          bool? hasWiki,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_pages')
+          bool? hasPages,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_discussions')
+          bool? hasDiscussions,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'forks_count')
+          int? forksCount,
+      @JsonKey(defaultValue: false, nullable: true, name: 'archived')
+          bool? archived,
+      @JsonKey(defaultValue: false, nullable: true, name: 'disabled')
+          bool? disabled,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues_count')
+          int? openIssuesCount,
+      @JsonKey(required: true, nullable: true, name: 'license')
+          LicenseBean? license,
+      @JsonKey(defaultValue: false, nullable: true, name: 'allow_forking')
+          bool? allowForking,
+      @JsonKey(defaultValue: false, nullable: true, name: 'is_template')
+          bool? isTemplate,
+      @JsonKey(defaultValue: false, nullable: true, name: 'web_commit_signoff_required')
+          bool? webCommitSignoffRequired,
+      @JsonKey(defaultValue: [], nullable: true, name: 'topics')
+          List<dynamic>? topics,
+      @JsonKey(defaultValue: "", nullable: true, name: 'visibility')
+          String? visibility,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'forks')
+          int? forks,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues')
+          int? openIssues,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'watchers')
+          int? watchers,
+      @JsonKey(defaultValue: "", nullable: true, name: 'default_branch')
+          String? defaultBranch});
 
-  $OwnerCopyWith<$Res>? get owner;
-  $LicenseCopyWith<$Res>? get license;
+  $OwnerBeanCopyWith<$Res>? get owner;
+  $LicenseBeanCopyWith<$Res>? get license;
 }
 
 /// @nodoc
@@ -274,7 +429,6 @@ class _$DataModelCopyWithImpl<$Res, $Val extends DataModel>
     Object? hasPages = freezed,
     Object? hasDiscussions = freezed,
     Object? forksCount = freezed,
-    Object? mirrorUrl = null,
     Object? archived = freezed,
     Object? disabled = freezed,
     Object? openIssuesCount = freezed,
@@ -285,7 +439,7 @@ class _$DataModelCopyWithImpl<$Res, $Val extends DataModel>
     Object? topics = freezed,
     Object? visibility = freezed,
     Object? forks = freezed,
-    Object? open_issues = freezed,
+    Object? openIssues = freezed,
     Object? watchers = freezed,
     Object? defaultBranch = freezed,
   }) {
@@ -313,7 +467,7 @@ class _$DataModelCopyWithImpl<$Res, $Val extends DataModel>
       owner: freezed == owner
           ? _value.owner
           : owner // ignore: cast_nullable_to_non_nullable
-              as Owner?,
+              as OwnerBean?,
       htmlUrl: freezed == htmlUrl
           ? _value.htmlUrl
           : htmlUrl // ignore: cast_nullable_to_non_nullable
@@ -477,15 +631,15 @@ class _$DataModelCopyWithImpl<$Res, $Val extends DataModel>
       createdAt: freezed == createdAt
           ? _value.createdAt
           : createdAt // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
+              as String?,
       updatedAt: freezed == updatedAt
           ? _value.updatedAt
           : updatedAt // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
+              as String?,
       pushedAt: freezed == pushedAt
           ? _value.pushedAt
           : pushedAt // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
+              as String?,
       gitUrl: freezed == gitUrl
           ? _value.gitUrl
           : gitUrl // ignore: cast_nullable_to_non_nullable
@@ -550,10 +704,6 @@ class _$DataModelCopyWithImpl<$Res, $Val extends DataModel>
           ? _value.forksCount
           : forksCount // ignore: cast_nullable_to_non_nullable
               as int?,
-      mirrorUrl: null == mirrorUrl
-          ? _value.mirrorUrl
-          : mirrorUrl // ignore: cast_nullable_to_non_nullable
-              as dynamic,
       archived: freezed == archived
           ? _value.archived
           : archived // ignore: cast_nullable_to_non_nullable
@@ -569,7 +719,7 @@ class _$DataModelCopyWithImpl<$Res, $Val extends DataModel>
       license: freezed == license
           ? _value.license
           : license // ignore: cast_nullable_to_non_nullable
-              as License?,
+              as LicenseBean?,
       allowForking: freezed == allowForking
           ? _value.allowForking
           : allowForking // ignore: cast_nullable_to_non_nullable
@@ -594,9 +744,9 @@ class _$DataModelCopyWithImpl<$Res, $Val extends DataModel>
           ? _value.forks
           : forks // ignore: cast_nullable_to_non_nullable
               as int?,
-      open_issues: freezed == open_issues
-          ? _value.open_issues
-          : open_issues // ignore: cast_nullable_to_non_nullable
+      openIssues: freezed == openIssues
+          ? _value.openIssues
+          : openIssues // ignore: cast_nullable_to_non_nullable
               as int?,
       watchers: freezed == watchers
           ? _value.watchers
@@ -611,24 +761,24 @@ class _$DataModelCopyWithImpl<$Res, $Val extends DataModel>
 
   @override
   @pragma('vm:prefer-inline')
-  $OwnerCopyWith<$Res>? get owner {
+  $OwnerBeanCopyWith<$Res>? get owner {
     if (_value.owner == null) {
       return null;
     }
 
-    return $OwnerCopyWith<$Res>(_value.owner!, (value) {
+    return $OwnerBeanCopyWith<$Res>(_value.owner!, (value) {
       return _then(_value.copyWith(owner: value) as $Val);
     });
   }
 
   @override
   @pragma('vm:prefer-inline')
-  $LicenseCopyWith<$Res>? get license {
+  $LicenseBeanCopyWith<$Res>? get license {
     if (_value.license == null) {
       return null;
     }
 
-    return $LicenseCopyWith<$Res>(_value.license!, (value) {
+    return $LicenseBeanCopyWith<$Res>(_value.license!, (value) {
       return _then(_value.copyWith(license: value) as $Val);
     });
   }
@@ -642,90 +792,167 @@ abstract class _$$_DataModelCopyWith<$Res> implements $DataModelCopyWith<$Res> {
   @override
   @useResult
   $Res call(
-      {int? id,
-      String? nodeId,
-      String? name,
-      String? fullName,
-      bool? private,
-      Owner? owner,
-      String? htmlUrl,
-      String? description,
-      bool? fork,
-      String? url,
-      String? forksUrl,
-      String? keysUrl,
-      String? collaboratorsUrl,
-      String? teamsUrl,
-      String? hooksUrl,
-      String? issueEventsUrl,
-      String? eventsUrl,
-      String? assigneesUrl,
-      String? branchesUrl,
-      String? tagsUrl,
-      String? blobsUrl,
-      String? gitTagsUrl,
-      String? gitRefsUrl,
-      String? treesUrl,
-      String? statusesUrl,
-      String? languagesUrl,
-      String? stargazersUrl,
-      String? contributorsUrl,
-      String? subscribersUrl,
-      String? subscriptionUrl,
-      String? commitsUrl,
-      String? gitCommitsUrl,
-      String? commentsUrl,
-      String? issueCommentUrl,
-      String? contentsUrl,
-      String? compareUrl,
-      String? mergesUrl,
-      String? archiveUrl,
-      String? downloadsUrl,
-      String? issuesUrl,
-      String? pullsUrl,
-      String? milestonesUrl,
-      String? notificationsUrl,
-      String? labelsUrl,
-      String? releasesUrl,
-      String? deploymentsUrl,
-      DateTime? createdAt,
-      DateTime? updatedAt,
-      DateTime? pushedAt,
-      String? gitUrl,
-      String? sshUrl,
-      String? cloneUrl,
-      String? svnUrl,
-      String? homepage,
-      int? size,
-      int? stargazersCount,
-      int? watchersCount,
-      String? language,
-      bool? hasIssues,
-      bool? hasProjects,
-      bool? hasDownloads,
-      bool? hasWiki,
-      bool? hasPages,
-      bool? hasDiscussions,
-      int? forksCount,
-      dynamic mirrorUrl,
-      bool? archived,
-      bool? disabled,
-      int? openIssuesCount,
-      License? license,
-      bool? allowForking,
-      bool? isTemplate,
-      bool? webCommitSignoffRequired,
-      List<dynamic>? topics,
-      String? visibility,
-      int? forks,
-      int? open_issues,
-      int? watchers,
-      String? defaultBranch});
+      {@JsonKey(defaultValue: 0, nullable: true, name: 'id')
+          int? id,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          String? nodeId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'name')
+          String? name,
+      @JsonKey(defaultValue: "", nullable: true, name: 'full_name')
+          String? fullName,
+      @JsonKey(defaultValue: false, nullable: true, name: 'private')
+          bool? private,
+      @JsonKey(required: true, nullable: true, name: 'owner')
+          OwnerBean? owner,
+      @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
+          String? htmlUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'description')
+          String? description,
+      @JsonKey(defaultValue: false, nullable: true, name: 'fork')
+          bool? fork,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          String? url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'forks_url')
+          String? forksUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'keys_url')
+          String? keysUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'collaborators_url')
+          String? collaboratorsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'teams_url')
+          String? teamsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'hooks_url')
+          String? hooksUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issue_events_url')
+          String? issueEventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
+          String? eventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'assignees_url')
+          String? assigneesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'branches_url')
+          String? branchesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'tags_url')
+          String? tagsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'blobs_url')
+          String? blobsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_tags_url')
+          String? gitTagsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_refs_url')
+          String? gitRefsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'trees_url')
+          String? treesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'statuses_url')
+          String? statusesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'languages_url')
+          String? languagesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'stargazers_url')
+          String? stargazersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'contributors_url')
+          String? contributorsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscribers_url')
+          String? subscribersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscription_url')
+          String? subscriptionUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'commits_url')
+          String? commitsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_commits_url')
+          String? gitCommitsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'comments_url')
+          String? commentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issue_comment_url')
+          String? issueCommentUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'contents_url')
+          String? contentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'compare_url')
+          String? compareUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'merges_url')
+          String? mergesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'archive_url')
+          String? archiveUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'downloads_url')
+          String? downloadsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issues_url')
+          String? issuesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'pulls_url')
+          String? pullsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'milestones_url')
+          String? milestonesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'notifications_url')
+          String? notificationsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'labels_url')
+          String? labelsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'releases_url')
+          String? releasesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'deployments_url')
+          String? deploymentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'created_at')
+          String? createdAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'updated_at')
+          String? updatedAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'pushed_at')
+          String? pushedAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_url')
+          String? gitUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'ssh_url')
+          String? sshUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'clone_url')
+          String? cloneUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'svn_url')
+          String? svnUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'homepage')
+          String? homepage,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'size')
+          int? size,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'stargazers_count')
+          int? stargazersCount,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'watchers_count')
+          int? watchersCount,
+      @JsonKey(defaultValue: "", nullable: true, name: 'language')
+          String? language,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_issues')
+          bool? hasIssues,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_projects')
+          bool? hasProjects,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_downloads')
+          bool? hasDownloads,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_wiki')
+          bool? hasWiki,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_pages')
+          bool? hasPages,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_discussions')
+          bool? hasDiscussions,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'forks_count')
+          int? forksCount,
+      @JsonKey(defaultValue: false, nullable: true, name: 'archived')
+          bool? archived,
+      @JsonKey(defaultValue: false, nullable: true, name: 'disabled')
+          bool? disabled,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues_count')
+          int? openIssuesCount,
+      @JsonKey(required: true, nullable: true, name: 'license')
+          LicenseBean? license,
+      @JsonKey(defaultValue: false, nullable: true, name: 'allow_forking')
+          bool? allowForking,
+      @JsonKey(defaultValue: false, nullable: true, name: 'is_template')
+          bool? isTemplate,
+      @JsonKey(defaultValue: false, nullable: true, name: 'web_commit_signoff_required')
+          bool? webCommitSignoffRequired,
+      @JsonKey(defaultValue: [], nullable: true, name: 'topics')
+          List<dynamic>? topics,
+      @JsonKey(defaultValue: "", nullable: true, name: 'visibility')
+          String? visibility,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'forks')
+          int? forks,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues')
+          int? openIssues,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'watchers')
+          int? watchers,
+      @JsonKey(defaultValue: "", nullable: true, name: 'default_branch')
+          String? defaultBranch});
 
   @override
-  $OwnerCopyWith<$Res>? get owner;
+  $OwnerBeanCopyWith<$Res>? get owner;
   @override
-  $LicenseCopyWith<$Res>? get license;
+  $LicenseBeanCopyWith<$Res>? get license;
 }
 
 /// @nodoc
@@ -804,7 +1031,6 @@ class __$$_DataModelCopyWithImpl<$Res>
     Object? hasPages = freezed,
     Object? hasDiscussions = freezed,
     Object? forksCount = freezed,
-    Object? mirrorUrl = null,
     Object? archived = freezed,
     Object? disabled = freezed,
     Object? openIssuesCount = freezed,
@@ -815,7 +1041,7 @@ class __$$_DataModelCopyWithImpl<$Res>
     Object? topics = freezed,
     Object? visibility = freezed,
     Object? forks = freezed,
-    Object? open_issues = freezed,
+    Object? openIssues = freezed,
     Object? watchers = freezed,
     Object? defaultBranch = freezed,
   }) {
@@ -843,7 +1069,7 @@ class __$$_DataModelCopyWithImpl<$Res>
       owner: freezed == owner
           ? _value.owner
           : owner // ignore: cast_nullable_to_non_nullable
-              as Owner?,
+              as OwnerBean?,
       htmlUrl: freezed == htmlUrl
           ? _value.htmlUrl
           : htmlUrl // ignore: cast_nullable_to_non_nullable
@@ -1007,15 +1233,15 @@ class __$$_DataModelCopyWithImpl<$Res>
       createdAt: freezed == createdAt
           ? _value.createdAt
           : createdAt // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
+              as String?,
       updatedAt: freezed == updatedAt
           ? _value.updatedAt
           : updatedAt // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
+              as String?,
       pushedAt: freezed == pushedAt
           ? _value.pushedAt
           : pushedAt // ignore: cast_nullable_to_non_nullable
-              as DateTime?,
+              as String?,
       gitUrl: freezed == gitUrl
           ? _value.gitUrl
           : gitUrl // ignore: cast_nullable_to_non_nullable
@@ -1080,10 +1306,6 @@ class __$$_DataModelCopyWithImpl<$Res>
           ? _value.forksCount
           : forksCount // ignore: cast_nullable_to_non_nullable
               as int?,
-      mirrorUrl: null == mirrorUrl
-          ? _value.mirrorUrl
-          : mirrorUrl // ignore: cast_nullable_to_non_nullable
-              as dynamic,
       archived: freezed == archived
           ? _value.archived
           : archived // ignore: cast_nullable_to_non_nullable
@@ -1099,7 +1321,7 @@ class __$$_DataModelCopyWithImpl<$Res>
       license: freezed == license
           ? _value.license
           : license // ignore: cast_nullable_to_non_nullable
-              as License?,
+              as LicenseBean?,
       allowForking: freezed == allowForking
           ? _value.allowForking
           : allowForking // ignore: cast_nullable_to_non_nullable
@@ -1124,9 +1346,9 @@ class __$$_DataModelCopyWithImpl<$Res>
           ? _value.forks
           : forks // ignore: cast_nullable_to_non_nullable
               as int?,
-      open_issues: freezed == open_issues
-          ? _value.open_issues
-          : open_issues // ignore: cast_nullable_to_non_nullable
+      openIssues: freezed == openIssues
+          ? _value.openIssues
+          : openIssues // ignore: cast_nullable_to_non_nullable
               as int?,
       watchers: freezed == watchers
           ? _value.watchers
@@ -1144,306 +1366,387 @@ class __$$_DataModelCopyWithImpl<$Res>
 @JsonSerializable()
 class _$_DataModel implements _DataModel {
   const _$_DataModel(
-      {this.id = 0,
-      this.nodeId = "",
-      this.name = "",
-      this.fullName = "",
-      this.private = false,
-      required this.owner,
-      this.htmlUrl = "",
-      this.description = "",
-      this.fork = false,
-      this.url = "",
-      this.forksUrl = "",
-      this.keysUrl = "",
-      this.collaboratorsUrl = "",
-      this.teamsUrl = "",
-      this.hooksUrl = "",
-      this.issueEventsUrl = "",
-      this.eventsUrl = "",
-      this.assigneesUrl = "",
-      this.branchesUrl = "",
-      this.tagsUrl = "",
-      this.blobsUrl = "",
-      this.gitTagsUrl = "",
-      this.gitRefsUrl = "",
-      this.treesUrl = "",
-      this.statusesUrl = "",
-      this.languagesUrl = "",
-      this.stargazersUrl = "",
-      this.contributorsUrl = "",
-      this.subscribersUrl = "",
-      this.subscriptionUrl = "",
-      this.commitsUrl = "",
-      this.gitCommitsUrl = "",
-      this.commentsUrl = "",
-      this.issueCommentUrl = "",
-      this.contentsUrl = "",
-      this.compareUrl = "",
-      this.mergesUrl = "",
-      this.archiveUrl = "",
-      this.downloadsUrl = "",
-      this.issuesUrl = "",
-      this.pullsUrl = "",
-      this.milestonesUrl = "",
-      this.notificationsUrl = "",
-      this.labelsUrl = "",
-      this.releasesUrl = "",
-      this.deploymentsUrl = "",
-      required this.createdAt,
-      required this.updatedAt,
-      required this.pushedAt,
-      this.gitUrl = "",
-      this.sshUrl = "",
-      this.cloneUrl = "",
-      this.svnUrl = "",
-      this.homepage = "",
-      this.size = 0,
-      this.stargazersCount = 0,
-      this.watchersCount = 0,
-      this.language = "",
-      this.hasIssues = false,
-      this.hasProjects = false,
-      this.hasDownloads = false,
-      this.hasWiki = false,
-      this.hasPages = false,
-      this.hasDiscussions = false,
-      this.forksCount = 0,
-      required this.mirrorUrl,
-      this.archived = false,
-      this.disabled = false,
-      this.openIssuesCount = 0,
-      required this.license,
-      this.allowForking = false,
-      this.isTemplate = false,
-      this.webCommitSignoffRequired = false,
-      final List<dynamic>? topics = const [],
-      this.visibility = "",
-      this.forks = 0,
-      this.open_issues = 0,
-      this.watchers = 0,
-      this.defaultBranch = ""})
+      {@JsonKey(defaultValue: 0, nullable: true, name: 'id')
+          this.id,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          this.nodeId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'name')
+          this.name,
+      @JsonKey(defaultValue: "", nullable: true, name: 'full_name')
+          this.fullName,
+      @JsonKey(defaultValue: false, nullable: true, name: 'private')
+          this.private,
+      @JsonKey(required: true, nullable: true, name: 'owner')
+          this.owner,
+      @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
+          this.htmlUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'description')
+          this.description,
+      @JsonKey(defaultValue: false, nullable: true, name: 'fork')
+          this.fork,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          this.url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'forks_url')
+          this.forksUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'keys_url')
+          this.keysUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'collaborators_url')
+          this.collaboratorsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'teams_url')
+          this.teamsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'hooks_url')
+          this.hooksUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issue_events_url')
+          this.issueEventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
+          this.eventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'assignees_url')
+          this.assigneesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'branches_url')
+          this.branchesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'tags_url')
+          this.tagsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'blobs_url')
+          this.blobsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_tags_url')
+          this.gitTagsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_refs_url')
+          this.gitRefsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'trees_url')
+          this.treesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'statuses_url')
+          this.statusesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'languages_url')
+          this.languagesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'stargazers_url')
+          this.stargazersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'contributors_url')
+          this.contributorsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscribers_url')
+          this.subscribersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscription_url')
+          this.subscriptionUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'commits_url')
+          this.commitsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_commits_url')
+          this.gitCommitsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'comments_url')
+          this.commentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issue_comment_url')
+          this.issueCommentUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'contents_url')
+          this.contentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'compare_url')
+          this.compareUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'merges_url')
+          this.mergesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'archive_url')
+          this.archiveUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'downloads_url')
+          this.downloadsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issues_url')
+          this.issuesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'pulls_url')
+          this.pullsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'milestones_url')
+          this.milestonesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'notifications_url')
+          this.notificationsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'labels_url')
+          this.labelsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'releases_url')
+          this.releasesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'deployments_url')
+          this.deploymentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'created_at')
+          this.createdAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'updated_at')
+          this.updatedAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'pushed_at')
+          this.pushedAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_url')
+          this.gitUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'ssh_url')
+          this.sshUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'clone_url')
+          this.cloneUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'svn_url')
+          this.svnUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'homepage')
+          this.homepage,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'size')
+          this.size,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'stargazers_count')
+          this.stargazersCount,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'watchers_count')
+          this.watchersCount,
+      @JsonKey(defaultValue: "", nullable: true, name: 'language')
+          this.language,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_issues')
+          this.hasIssues,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_projects')
+          this.hasProjects,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_downloads')
+          this.hasDownloads,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_wiki')
+          this.hasWiki,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_pages')
+          this.hasPages,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_discussions')
+          this.hasDiscussions,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'forks_count')
+          this.forksCount,
+      @JsonKey(defaultValue: false, nullable: true, name: 'archived')
+          this.archived,
+      @JsonKey(defaultValue: false, nullable: true, name: 'disabled')
+          this.disabled,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues_count')
+          this.openIssuesCount,
+      @JsonKey(required: true, nullable: true, name: 'license')
+          this.license,
+      @JsonKey(defaultValue: false, nullable: true, name: 'allow_forking')
+          this.allowForking,
+      @JsonKey(defaultValue: false, nullable: true, name: 'is_template')
+          this.isTemplate,
+      @JsonKey(defaultValue: false, nullable: true, name: 'web_commit_signoff_required')
+          this.webCommitSignoffRequired,
+      @JsonKey(defaultValue: [], nullable: true, name: 'topics')
+          final List<dynamic>? topics,
+      @JsonKey(defaultValue: "", nullable: true, name: 'visibility')
+          this.visibility,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'forks')
+          this.forks,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues')
+          this.openIssues,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'watchers')
+          this.watchers,
+      @JsonKey(defaultValue: "", nullable: true, name: 'default_branch')
+          this.defaultBranch})
       : _topics = topics;
 
   factory _$_DataModel.fromJson(Map<String, dynamic> json) =>
       _$$_DataModelFromJson(json);
 
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: 0, nullable: true, name: 'id')
   final int? id;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
   final String? nodeId;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'name')
   final String? name;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'full_name')
   final String? fullName;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'private')
   final bool? private;
   @override
-  final Owner? owner;
+  @JsonKey(required: true, nullable: true, name: 'owner')
+  final OwnerBean? owner;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
   final String? htmlUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'description')
   final String? description;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'fork')
   final bool? fork;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'url')
   final String? url;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'forks_url')
   final String? forksUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'keys_url')
   final String? keysUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'collaborators_url')
   final String? collaboratorsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'teams_url')
   final String? teamsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'hooks_url')
   final String? hooksUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'issue_events_url')
   final String? issueEventsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
   final String? eventsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'assignees_url')
   final String? assigneesUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'branches_url')
   final String? branchesUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'tags_url')
   final String? tagsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'blobs_url')
   final String? blobsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_tags_url')
   final String? gitTagsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_refs_url')
   final String? gitRefsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'trees_url')
   final String? treesUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'statuses_url')
   final String? statusesUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'languages_url')
   final String? languagesUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'stargazers_url')
   final String? stargazersUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'contributors_url')
   final String? contributorsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'subscribers_url')
   final String? subscribersUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'subscription_url')
   final String? subscriptionUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'commits_url')
   final String? commitsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_commits_url')
   final String? gitCommitsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'comments_url')
   final String? commentsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'issue_comment_url')
   final String? issueCommentUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'contents_url')
   final String? contentsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'compare_url')
   final String? compareUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'merges_url')
   final String? mergesUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'archive_url')
   final String? archiveUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'downloads_url')
   final String? downloadsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'issues_url')
   final String? issuesUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'pulls_url')
   final String? pullsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'milestones_url')
   final String? milestonesUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'notifications_url')
   final String? notificationsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'labels_url')
   final String? labelsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'releases_url')
   final String? releasesUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'deployments_url')
   final String? deploymentsUrl;
   @override
-  final DateTime? createdAt;
+  @JsonKey(defaultValue: "", nullable: true, name: 'created_at')
+  final String? createdAt;
   @override
-  final DateTime? updatedAt;
+  @JsonKey(defaultValue: "", nullable: true, name: 'updated_at')
+  final String? updatedAt;
   @override
-  final DateTime? pushedAt;
+  @JsonKey(defaultValue: "", nullable: true, name: 'pushed_at')
+  final String? pushedAt;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_url')
   final String? gitUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'ssh_url')
   final String? sshUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'clone_url')
   final String? cloneUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'svn_url')
   final String? svnUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'homepage')
   final String? homepage;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: 0, nullable: true, name: 'size')
   final int? size;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: 0, nullable: true, name: 'stargazers_count')
   final int? stargazersCount;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: 0, nullable: true, name: 'watchers_count')
   final int? watchersCount;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'language')
   final String? language;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_issues')
   final bool? hasIssues;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_projects')
   final bool? hasProjects;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_downloads')
   final bool? hasDownloads;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_wiki')
   final bool? hasWiki;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_pages')
   final bool? hasPages;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_discussions')
   final bool? hasDiscussions;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: 0, nullable: true, name: 'forks_count')
   final int? forksCount;
   @override
-  final dynamic mirrorUrl;
-  @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'archived')
   final bool? archived;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'disabled')
   final bool? disabled;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues_count')
   final int? openIssuesCount;
   @override
-  final License? license;
+  @JsonKey(required: true, nullable: true, name: 'license')
+  final LicenseBean? license;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'allow_forking')
   final bool? allowForking;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'is_template')
   final bool? isTemplate;
   @override
-  @JsonKey()
+  @JsonKey(
+      defaultValue: false, nullable: true, name: 'web_commit_signoff_required')
   final bool? webCommitSignoffRequired;
   final List<dynamic>? _topics;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: [], nullable: true, name: 'topics')
   List<dynamic>? get topics {
     final value = _topics;
     if (value == null) return null;
@@ -1452,24 +1755,24 @@ class _$_DataModel implements _DataModel {
   }
 
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'visibility')
   final String? visibility;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: 0, nullable: true, name: 'forks')
   final int? forks;
   @override
-  @JsonKey()
-  final int? open_issues;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues')
+  final int? openIssues;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: 0, nullable: true, name: 'watchers')
   final int? watchers;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'default_branch')
   final String? defaultBranch;
 
   @override
   String toString() {
-    return 'DataModel(id: $id, nodeId: $nodeId, name: $name, fullName: $fullName, private: $private, owner: $owner, htmlUrl: $htmlUrl, description: $description, fork: $fork, url: $url, forksUrl: $forksUrl, keysUrl: $keysUrl, collaboratorsUrl: $collaboratorsUrl, teamsUrl: $teamsUrl, hooksUrl: $hooksUrl, issueEventsUrl: $issueEventsUrl, eventsUrl: $eventsUrl, assigneesUrl: $assigneesUrl, branchesUrl: $branchesUrl, tagsUrl: $tagsUrl, blobsUrl: $blobsUrl, gitTagsUrl: $gitTagsUrl, gitRefsUrl: $gitRefsUrl, treesUrl: $treesUrl, statusesUrl: $statusesUrl, languagesUrl: $languagesUrl, stargazersUrl: $stargazersUrl, contributorsUrl: $contributorsUrl, subscribersUrl: $subscribersUrl, subscriptionUrl: $subscriptionUrl, commitsUrl: $commitsUrl, gitCommitsUrl: $gitCommitsUrl, commentsUrl: $commentsUrl, issueCommentUrl: $issueCommentUrl, contentsUrl: $contentsUrl, compareUrl: $compareUrl, mergesUrl: $mergesUrl, archiveUrl: $archiveUrl, downloadsUrl: $downloadsUrl, issuesUrl: $issuesUrl, pullsUrl: $pullsUrl, milestonesUrl: $milestonesUrl, notificationsUrl: $notificationsUrl, labelsUrl: $labelsUrl, releasesUrl: $releasesUrl, deploymentsUrl: $deploymentsUrl, createdAt: $createdAt, updatedAt: $updatedAt, pushedAt: $pushedAt, gitUrl: $gitUrl, sshUrl: $sshUrl, cloneUrl: $cloneUrl, svnUrl: $svnUrl, homepage: $homepage, size: $size, stargazersCount: $stargazersCount, watchersCount: $watchersCount, language: $language, hasIssues: $hasIssues, hasProjects: $hasProjects, hasDownloads: $hasDownloads, hasWiki: $hasWiki, hasPages: $hasPages, hasDiscussions: $hasDiscussions, forksCount: $forksCount, mirrorUrl: $mirrorUrl, archived: $archived, disabled: $disabled, openIssuesCount: $openIssuesCount, license: $license, allowForking: $allowForking, isTemplate: $isTemplate, webCommitSignoffRequired: $webCommitSignoffRequired, topics: $topics, visibility: $visibility, forks: $forks, open_issues: $open_issues, watchers: $watchers, defaultBranch: $defaultBranch)';
+    return 'DataModel(id: $id, nodeId: $nodeId, name: $name, fullName: $fullName, private: $private, owner: $owner, htmlUrl: $htmlUrl, description: $description, fork: $fork, url: $url, forksUrl: $forksUrl, keysUrl: $keysUrl, collaboratorsUrl: $collaboratorsUrl, teamsUrl: $teamsUrl, hooksUrl: $hooksUrl, issueEventsUrl: $issueEventsUrl, eventsUrl: $eventsUrl, assigneesUrl: $assigneesUrl, branchesUrl: $branchesUrl, tagsUrl: $tagsUrl, blobsUrl: $blobsUrl, gitTagsUrl: $gitTagsUrl, gitRefsUrl: $gitRefsUrl, treesUrl: $treesUrl, statusesUrl: $statusesUrl, languagesUrl: $languagesUrl, stargazersUrl: $stargazersUrl, contributorsUrl: $contributorsUrl, subscribersUrl: $subscribersUrl, subscriptionUrl: $subscriptionUrl, commitsUrl: $commitsUrl, gitCommitsUrl: $gitCommitsUrl, commentsUrl: $commentsUrl, issueCommentUrl: $issueCommentUrl, contentsUrl: $contentsUrl, compareUrl: $compareUrl, mergesUrl: $mergesUrl, archiveUrl: $archiveUrl, downloadsUrl: $downloadsUrl, issuesUrl: $issuesUrl, pullsUrl: $pullsUrl, milestonesUrl: $milestonesUrl, notificationsUrl: $notificationsUrl, labelsUrl: $labelsUrl, releasesUrl: $releasesUrl, deploymentsUrl: $deploymentsUrl, createdAt: $createdAt, updatedAt: $updatedAt, pushedAt: $pushedAt, gitUrl: $gitUrl, sshUrl: $sshUrl, cloneUrl: $cloneUrl, svnUrl: $svnUrl, homepage: $homepage, size: $size, stargazersCount: $stargazersCount, watchersCount: $watchersCount, language: $language, hasIssues: $hasIssues, hasProjects: $hasProjects, hasDownloads: $hasDownloads, hasWiki: $hasWiki, hasPages: $hasPages, hasDiscussions: $hasDiscussions, forksCount: $forksCount, archived: $archived, disabled: $disabled, openIssuesCount: $openIssuesCount, license: $license, allowForking: $allowForking, isTemplate: $isTemplate, webCommitSignoffRequired: $webCommitSignoffRequired, topics: $topics, visibility: $visibility, forks: $forks, openIssues: $openIssues, watchers: $watchers, defaultBranch: $defaultBranch)';
   }
 
   @override
@@ -1585,7 +1888,6 @@ class _$_DataModel implements _DataModel {
             (identical(other.hasPages, hasPages) || other.hasPages == hasPages) &&
             (identical(other.hasDiscussions, hasDiscussions) || other.hasDiscussions == hasDiscussions) &&
             (identical(other.forksCount, forksCount) || other.forksCount == forksCount) &&
-            const DeepCollectionEquality().equals(other.mirrorUrl, mirrorUrl) &&
             (identical(other.archived, archived) || other.archived == archived) &&
             (identical(other.disabled, disabled) || other.disabled == disabled) &&
             (identical(other.openIssuesCount, openIssuesCount) || other.openIssuesCount == openIssuesCount) &&
@@ -1596,7 +1898,7 @@ class _$_DataModel implements _DataModel {
             const DeepCollectionEquality().equals(other._topics, _topics) &&
             (identical(other.visibility, visibility) || other.visibility == visibility) &&
             (identical(other.forks, forks) || other.forks == forks) &&
-            (identical(other.open_issues, open_issues) || other.open_issues == open_issues) &&
+            (identical(other.openIssues, openIssues) || other.openIssues == openIssues) &&
             (identical(other.watchers, watchers) || other.watchers == watchers) &&
             (identical(other.defaultBranch, defaultBranch) || other.defaultBranch == defaultBranch));
   }
@@ -1670,7 +1972,6 @@ class _$_DataModel implements _DataModel {
         hasPages,
         hasDiscussions,
         forksCount,
-        const DeepCollectionEquality().hash(mirrorUrl),
         archived,
         disabled,
         openIssuesCount,
@@ -1681,7 +1982,7 @@ class _$_DataModel implements _DataModel {
         const DeepCollectionEquality().hash(_topics),
         visibility,
         forks,
-        open_issues,
+        openIssues,
         watchers,
         defaultBranch
       ]);
@@ -1702,246 +2003,400 @@ class _$_DataModel implements _DataModel {
 
 abstract class _DataModel implements DataModel {
   const factory _DataModel(
-      {final int? id,
-      final String? nodeId,
-      final String? name,
-      final String? fullName,
-      final bool? private,
-      required final Owner? owner,
-      final String? htmlUrl,
-      final String? description,
-      final bool? fork,
-      final String? url,
-      final String? forksUrl,
-      final String? keysUrl,
-      final String? collaboratorsUrl,
-      final String? teamsUrl,
-      final String? hooksUrl,
-      final String? issueEventsUrl,
-      final String? eventsUrl,
-      final String? assigneesUrl,
-      final String? branchesUrl,
-      final String? tagsUrl,
-      final String? blobsUrl,
-      final String? gitTagsUrl,
-      final String? gitRefsUrl,
-      final String? treesUrl,
-      final String? statusesUrl,
-      final String? languagesUrl,
-      final String? stargazersUrl,
-      final String? contributorsUrl,
-      final String? subscribersUrl,
-      final String? subscriptionUrl,
-      final String? commitsUrl,
-      final String? gitCommitsUrl,
-      final String? commentsUrl,
-      final String? issueCommentUrl,
-      final String? contentsUrl,
-      final String? compareUrl,
-      final String? mergesUrl,
-      final String? archiveUrl,
-      final String? downloadsUrl,
-      final String? issuesUrl,
-      final String? pullsUrl,
-      final String? milestonesUrl,
-      final String? notificationsUrl,
-      final String? labelsUrl,
-      final String? releasesUrl,
-      final String? deploymentsUrl,
-      required final DateTime? createdAt,
-      required final DateTime? updatedAt,
-      required final DateTime? pushedAt,
-      final String? gitUrl,
-      final String? sshUrl,
-      final String? cloneUrl,
-      final String? svnUrl,
-      final String? homepage,
-      final int? size,
-      final int? stargazersCount,
-      final int? watchersCount,
-      final String? language,
-      final bool? hasIssues,
-      final bool? hasProjects,
-      final bool? hasDownloads,
-      final bool? hasWiki,
-      final bool? hasPages,
-      final bool? hasDiscussions,
-      final int? forksCount,
-      required final dynamic mirrorUrl,
-      final bool? archived,
-      final bool? disabled,
-      final int? openIssuesCount,
-      required final License? license,
-      final bool? allowForking,
-      final bool? isTemplate,
-      final bool? webCommitSignoffRequired,
-      final List<dynamic>? topics,
-      final String? visibility,
-      final int? forks,
-      final int? open_issues,
-      final int? watchers,
-      final String? defaultBranch}) = _$_DataModel;
+      {@JsonKey(defaultValue: 0, nullable: true, name: 'id')
+          final int? id,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          final String? nodeId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'name')
+          final String? name,
+      @JsonKey(defaultValue: "", nullable: true, name: 'full_name')
+          final String? fullName,
+      @JsonKey(defaultValue: false, nullable: true, name: 'private')
+          final bool? private,
+      @JsonKey(required: true, nullable: true, name: 'owner')
+          final OwnerBean? owner,
+      @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
+          final String? htmlUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'description')
+          final String? description,
+      @JsonKey(defaultValue: false, nullable: true, name: 'fork')
+          final bool? fork,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          final String? url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'forks_url')
+          final String? forksUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'keys_url')
+          final String? keysUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'collaborators_url')
+          final String? collaboratorsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'teams_url')
+          final String? teamsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'hooks_url')
+          final String? hooksUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issue_events_url')
+          final String? issueEventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
+          final String? eventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'assignees_url')
+          final String? assigneesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'branches_url')
+          final String? branchesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'tags_url')
+          final String? tagsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'blobs_url')
+          final String? blobsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_tags_url')
+          final String? gitTagsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_refs_url')
+          final String? gitRefsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'trees_url')
+          final String? treesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'statuses_url')
+          final String? statusesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'languages_url')
+          final String? languagesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'stargazers_url')
+          final String? stargazersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'contributors_url')
+          final String? contributorsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscribers_url')
+          final String? subscribersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscription_url')
+          final String? subscriptionUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'commits_url')
+          final String? commitsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_commits_url')
+          final String? gitCommitsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'comments_url')
+          final String? commentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issue_comment_url')
+          final String? issueCommentUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'contents_url')
+          final String? contentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'compare_url')
+          final String? compareUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'merges_url')
+          final String? mergesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'archive_url')
+          final String? archiveUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'downloads_url')
+          final String? downloadsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'issues_url')
+          final String? issuesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'pulls_url')
+          final String? pullsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'milestones_url')
+          final String? milestonesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'notifications_url')
+          final String? notificationsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'labels_url')
+          final String? labelsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'releases_url')
+          final String? releasesUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'deployments_url')
+          final String? deploymentsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'created_at')
+          final String? createdAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'updated_at')
+          final String? updatedAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'pushed_at')
+          final String? pushedAt,
+      @JsonKey(defaultValue: "", nullable: true, name: 'git_url')
+          final String? gitUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'ssh_url')
+          final String? sshUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'clone_url')
+          final String? cloneUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'svn_url')
+          final String? svnUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'homepage')
+          final String? homepage,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'size')
+          final int? size,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'stargazers_count')
+          final int? stargazersCount,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'watchers_count')
+          final int? watchersCount,
+      @JsonKey(defaultValue: "", nullable: true, name: 'language')
+          final String? language,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_issues')
+          final bool? hasIssues,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_projects')
+          final bool? hasProjects,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_downloads')
+          final bool? hasDownloads,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_wiki')
+          final bool? hasWiki,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_pages')
+          final bool? hasPages,
+      @JsonKey(defaultValue: false, nullable: true, name: 'has_discussions')
+          final bool? hasDiscussions,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'forks_count')
+          final int? forksCount,
+      @JsonKey(defaultValue: false, nullable: true, name: 'archived')
+          final bool? archived,
+      @JsonKey(defaultValue: false, nullable: true, name: 'disabled')
+          final bool? disabled,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues_count')
+          final int? openIssuesCount,
+      @JsonKey(required: true, nullable: true, name: 'license')
+          final LicenseBean? license,
+      @JsonKey(defaultValue: false, nullable: true, name: 'allow_forking')
+          final bool? allowForking,
+      @JsonKey(defaultValue: false, nullable: true, name: 'is_template')
+          final bool? isTemplate,
+      @JsonKey(defaultValue: false, nullable: true, name: 'web_commit_signoff_required')
+          final bool? webCommitSignoffRequired,
+      @JsonKey(defaultValue: [], nullable: true, name: 'topics')
+          final List<dynamic>? topics,
+      @JsonKey(defaultValue: "", nullable: true, name: 'visibility')
+          final String? visibility,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'forks')
+          final int? forks,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues')
+          final int? openIssues,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'watchers')
+          final int? watchers,
+      @JsonKey(defaultValue: "", nullable: true, name: 'default_branch')
+          final String? defaultBranch}) = _$_DataModel;
 
   factory _DataModel.fromJson(Map<String, dynamic> json) =
       _$_DataModel.fromJson;
 
   @override
+  @JsonKey(defaultValue: 0, nullable: true, name: 'id')
   int? get id;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
   String? get nodeId;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'name')
   String? get name;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'full_name')
   String? get fullName;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'private')
   bool? get private;
   @override
-  Owner? get owner;
+  @JsonKey(required: true, nullable: true, name: 'owner')
+  OwnerBean? get owner;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
   String? get htmlUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'description')
   String? get description;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'fork')
   bool? get fork;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'url')
   String? get url;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'forks_url')
   String? get forksUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'keys_url')
   String? get keysUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'collaborators_url')
   String? get collaboratorsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'teams_url')
   String? get teamsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'hooks_url')
   String? get hooksUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'issue_events_url')
   String? get issueEventsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
   String? get eventsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'assignees_url')
   String? get assigneesUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'branches_url')
   String? get branchesUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'tags_url')
   String? get tagsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'blobs_url')
   String? get blobsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_tags_url')
   String? get gitTagsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_refs_url')
   String? get gitRefsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'trees_url')
   String? get treesUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'statuses_url')
   String? get statusesUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'languages_url')
   String? get languagesUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'stargazers_url')
   String? get stargazersUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'contributors_url')
   String? get contributorsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'subscribers_url')
   String? get subscribersUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'subscription_url')
   String? get subscriptionUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'commits_url')
   String? get commitsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_commits_url')
   String? get gitCommitsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'comments_url')
   String? get commentsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'issue_comment_url')
   String? get issueCommentUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'contents_url')
   String? get contentsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'compare_url')
   String? get compareUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'merges_url')
   String? get mergesUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'archive_url')
   String? get archiveUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'downloads_url')
   String? get downloadsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'issues_url')
   String? get issuesUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'pulls_url')
   String? get pullsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'milestones_url')
   String? get milestonesUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'notifications_url')
   String? get notificationsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'labels_url')
   String? get labelsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'releases_url')
   String? get releasesUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'deployments_url')
   String? get deploymentsUrl;
   @override
-  DateTime? get createdAt;
+  @JsonKey(defaultValue: "", nullable: true, name: 'created_at')
+  String? get createdAt;
   @override
-  DateTime? get updatedAt;
+  @JsonKey(defaultValue: "", nullable: true, name: 'updated_at')
+  String? get updatedAt;
   @override
-  DateTime? get pushedAt;
+  @JsonKey(defaultValue: "", nullable: true, name: 'pushed_at')
+  String? get pushedAt;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'git_url')
   String? get gitUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'ssh_url')
   String? get sshUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'clone_url')
   String? get cloneUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'svn_url')
   String? get svnUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'homepage')
   String? get homepage;
   @override
+  @JsonKey(defaultValue: 0, nullable: true, name: 'size')
   int? get size;
   @override
+  @JsonKey(defaultValue: 0, nullable: true, name: 'stargazers_count')
   int? get stargazersCount;
   @override
+  @JsonKey(defaultValue: 0, nullable: true, name: 'watchers_count')
   int? get watchersCount;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'language')
   String? get language;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_issues')
   bool? get hasIssues;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_projects')
   bool? get hasProjects;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_downloads')
   bool? get hasDownloads;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_wiki')
   bool? get hasWiki;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_pages')
   bool? get hasPages;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'has_discussions')
   bool? get hasDiscussions;
   @override
+  @JsonKey(defaultValue: 0, nullable: true, name: 'forks_count')
   int? get forksCount;
   @override
-  dynamic get mirrorUrl;
-  @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'archived')
   bool? get archived;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'disabled')
   bool? get disabled;
   @override
+  @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues_count')
   int? get openIssuesCount;
   @override
-  License? get license;
+  @JsonKey(required: true, nullable: true, name: 'license')
+  LicenseBean? get license;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'allow_forking')
   bool? get allowForking;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'is_template')
   bool? get isTemplate;
   @override
+  @JsonKey(
+      defaultValue: false, nullable: true, name: 'web_commit_signoff_required')
   bool? get webCommitSignoffRequired;
   @override
+  @JsonKey(defaultValue: [], nullable: true, name: 'topics')
   List<dynamic>? get topics;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'visibility')
   String? get visibility;
   @override
+  @JsonKey(defaultValue: 0, nullable: true, name: 'forks')
   int? get forks;
   @override
-  int? get open_issues;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'open_issues')
+  int? get openIssues;
   @override
+  @JsonKey(defaultValue: 0, nullable: true, name: 'watchers')
   int? get watchers;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'default_branch')
   String? get defaultBranch;
   @override
   @JsonKey(ignore: true)
@@ -1949,36 +2404,52 @@ abstract class _DataModel implements DataModel {
       throw _privateConstructorUsedError;
 }
 
-License _$LicenseFromJson(Map<String, dynamic> json) {
-  return _License.fromJson(json);
+LicenseBean _$LicenseBeanFromJson(Map<String, dynamic> json) {
+  return _LicenseBean.fromJson(json);
 }
 
 /// @nodoc
-mixin _$License {
+mixin _$LicenseBean {
+  @JsonKey(defaultValue: "", nullable: true, name: 'key')
   String? get key => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'name')
   String? get name => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'spdx_id')
   String? get spdxId => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'url')
   String? get url => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
   String? get nodeId => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
-  $LicenseCopyWith<License> get copyWith => throw _privateConstructorUsedError;
+  $LicenseBeanCopyWith<LicenseBean> get copyWith =>
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $LicenseCopyWith<$Res> {
-  factory $LicenseCopyWith(License value, $Res Function(License) then) =
-      _$LicenseCopyWithImpl<$Res, License>;
+abstract class $LicenseBeanCopyWith<$Res> {
+  factory $LicenseBeanCopyWith(
+          LicenseBean value, $Res Function(LicenseBean) then) =
+      _$LicenseBeanCopyWithImpl<$Res, LicenseBean>;
   @useResult
   $Res call(
-      {String? key, String? name, String? spdxId, String? url, String? nodeId});
+      {@JsonKey(defaultValue: "", nullable: true, name: 'key')
+          String? key,
+      @JsonKey(defaultValue: "", nullable: true, name: 'name')
+          String? name,
+      @JsonKey(defaultValue: "", nullable: true, name: 'spdx_id')
+          String? spdxId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          String? url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          String? nodeId});
 }
 
 /// @nodoc
-class _$LicenseCopyWithImpl<$Res, $Val extends License>
-    implements $LicenseCopyWith<$Res> {
-  _$LicenseCopyWithImpl(this._value, this._then);
+class _$LicenseBeanCopyWithImpl<$Res, $Val extends LicenseBean>
+    implements $LicenseBeanCopyWith<$Res> {
+  _$LicenseBeanCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
   final $Val _value;
@@ -2020,21 +2491,32 @@ class _$LicenseCopyWithImpl<$Res, $Val extends License>
 }
 
 /// @nodoc
-abstract class _$$_LicenseCopyWith<$Res> implements $LicenseCopyWith<$Res> {
-  factory _$$_LicenseCopyWith(
-          _$_License value, $Res Function(_$_License) then) =
-      __$$_LicenseCopyWithImpl<$Res>;
+abstract class _$$_LicenseBeanCopyWith<$Res>
+    implements $LicenseBeanCopyWith<$Res> {
+  factory _$$_LicenseBeanCopyWith(
+          _$_LicenseBean value, $Res Function(_$_LicenseBean) then) =
+      __$$_LicenseBeanCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
-      {String? key, String? name, String? spdxId, String? url, String? nodeId});
+      {@JsonKey(defaultValue: "", nullable: true, name: 'key')
+          String? key,
+      @JsonKey(defaultValue: "", nullable: true, name: 'name')
+          String? name,
+      @JsonKey(defaultValue: "", nullable: true, name: 'spdx_id')
+          String? spdxId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          String? url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          String? nodeId});
 }
 
 /// @nodoc
-class __$$_LicenseCopyWithImpl<$Res>
-    extends _$LicenseCopyWithImpl<$Res, _$_License>
-    implements _$$_LicenseCopyWith<$Res> {
-  __$$_LicenseCopyWithImpl(_$_License _value, $Res Function(_$_License) _then)
+class __$$_LicenseBeanCopyWithImpl<$Res>
+    extends _$LicenseBeanCopyWithImpl<$Res, _$_LicenseBean>
+    implements _$$_LicenseBeanCopyWith<$Res> {
+  __$$_LicenseBeanCopyWithImpl(
+      _$_LicenseBean _value, $Res Function(_$_LicenseBean) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -2046,7 +2528,7 @@ class __$$_LicenseCopyWithImpl<$Res>
     Object? url = freezed,
     Object? nodeId = freezed,
   }) {
-    return _then(_$_License(
+    return _then(_$_LicenseBean(
       key: freezed == key
           ? _value.key
           : key // ignore: cast_nullable_to_non_nullable
@@ -2073,43 +2555,43 @@ class __$$_LicenseCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$_License implements _License {
-  const _$_License(
-      {this.key = "",
-      this.name = "",
-      this.spdxId = "",
-      this.url = "",
-      this.nodeId = ""});
+class _$_LicenseBean implements _LicenseBean {
+  const _$_LicenseBean(
+      {@JsonKey(defaultValue: "", nullable: true, name: 'key') this.key,
+      @JsonKey(defaultValue: "", nullable: true, name: 'name') this.name,
+      @JsonKey(defaultValue: "", nullable: true, name: 'spdx_id') this.spdxId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url') this.url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id') this.nodeId});
 
-  factory _$_License.fromJson(Map<String, dynamic> json) =>
-      _$$_LicenseFromJson(json);
+  factory _$_LicenseBean.fromJson(Map<String, dynamic> json) =>
+      _$$_LicenseBeanFromJson(json);
 
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'key')
   final String? key;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'name')
   final String? name;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'spdx_id')
   final String? spdxId;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'url')
   final String? url;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
   final String? nodeId;
 
   @override
   String toString() {
-    return 'License(key: $key, name: $name, spdxId: $spdxId, url: $url, nodeId: $nodeId)';
+    return 'LicenseBean(key: $key, name: $name, spdxId: $spdxId, url: $url, nodeId: $nodeId)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_License &&
+            other is _$_LicenseBean &&
             (identical(other.key, key) || other.key == key) &&
             (identical(other.name, name) || other.name == name) &&
             (identical(other.spdxId, spdxId) || other.spdxId == spdxId) &&
@@ -2124,103 +2606,151 @@ class _$_License implements _License {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_LicenseCopyWith<_$_License> get copyWith =>
-      __$$_LicenseCopyWithImpl<_$_License>(this, _$identity);
+  _$$_LicenseBeanCopyWith<_$_LicenseBean> get copyWith =>
+      __$$_LicenseBeanCopyWithImpl<_$_LicenseBean>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_LicenseToJson(
+    return _$$_LicenseBeanToJson(
       this,
     );
   }
 }
 
-abstract class _License implements License {
-  const factory _License(
-      {final String? key,
-      final String? name,
-      final String? spdxId,
-      final String? url,
-      final String? nodeId}) = _$_License;
+abstract class _LicenseBean implements LicenseBean {
+  const factory _LicenseBean(
+      {@JsonKey(defaultValue: "", nullable: true, name: 'key')
+          final String? key,
+      @JsonKey(defaultValue: "", nullable: true, name: 'name')
+          final String? name,
+      @JsonKey(defaultValue: "", nullable: true, name: 'spdx_id')
+          final String? spdxId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          final String? url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          final String? nodeId}) = _$_LicenseBean;
 
-  factory _License.fromJson(Map<String, dynamic> json) = _$_License.fromJson;
+  factory _LicenseBean.fromJson(Map<String, dynamic> json) =
+      _$_LicenseBean.fromJson;
 
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'key')
   String? get key;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'name')
   String? get name;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'spdx_id')
   String? get spdxId;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'url')
   String? get url;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
   String? get nodeId;
   @override
   @JsonKey(ignore: true)
-  _$$_LicenseCopyWith<_$_License> get copyWith =>
+  _$$_LicenseBeanCopyWith<_$_LicenseBean> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
-Owner _$OwnerFromJson(Map<String, dynamic> json) {
-  return _Owner.fromJson(json);
+OwnerBean _$OwnerBeanFromJson(Map<String, dynamic> json) {
+  return _OwnerBean.fromJson(json);
 }
 
 /// @nodoc
-mixin _$Owner {
+mixin _$OwnerBean {
+  @JsonKey(defaultValue: "", nullable: true, name: 'login')
   String? get login => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: 0, nullable: true, name: 'id')
   int? get id => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
   String? get nodeId => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'avatar_url')
   String? get avatarUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'gravatar_id')
   String? get gravatarId => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'url')
   String? get url => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
   String? get htmlUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'followers_url')
   String? get followersUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'following_url')
   String? get followingUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'gists_url')
   String? get gistsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'starred_url')
   String? get starredUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'subscriptions_url')
   String? get subscriptionsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'organizations_url')
   String? get organizationsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'repos_url')
   String? get reposUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
   String? get eventsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'received_events_url')
   String? get receivedEventsUrl => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: "", nullable: true, name: 'type')
   String? get type => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: false, nullable: true, name: 'site_admin')
   bool? get siteAdmin => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
-  $OwnerCopyWith<Owner> get copyWith => throw _privateConstructorUsedError;
+  $OwnerBeanCopyWith<OwnerBean> get copyWith =>
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $OwnerCopyWith<$Res> {
-  factory $OwnerCopyWith(Owner value, $Res Function(Owner) then) =
-      _$OwnerCopyWithImpl<$Res, Owner>;
+abstract class $OwnerBeanCopyWith<$Res> {
+  factory $OwnerBeanCopyWith(OwnerBean value, $Res Function(OwnerBean) then) =
+      _$OwnerBeanCopyWithImpl<$Res, OwnerBean>;
   @useResult
   $Res call(
-      {String? login,
-      int? id,
-      String? nodeId,
-      String? avatarUrl,
-      String? gravatarId,
-      String? url,
-      String? htmlUrl,
-      String? followersUrl,
-      String? followingUrl,
-      String? gistsUrl,
-      String? starredUrl,
-      String? subscriptionsUrl,
-      String? organizationsUrl,
-      String? reposUrl,
-      String? eventsUrl,
-      String? receivedEventsUrl,
-      String? type,
-      bool? siteAdmin});
+      {@JsonKey(defaultValue: "", nullable: true, name: 'login')
+          String? login,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'id')
+          int? id,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          String? nodeId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'avatar_url')
+          String? avatarUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'gravatar_id')
+          String? gravatarId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          String? url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
+          String? htmlUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'followers_url')
+          String? followersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'following_url')
+          String? followingUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'gists_url')
+          String? gistsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'starred_url')
+          String? starredUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscriptions_url')
+          String? subscriptionsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'organizations_url')
+          String? organizationsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'repos_url')
+          String? reposUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
+          String? eventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'received_events_url')
+          String? receivedEventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'type')
+          String? type,
+      @JsonKey(defaultValue: false, nullable: true, name: 'site_admin')
+          bool? siteAdmin});
 }
 
 /// @nodoc
-class _$OwnerCopyWithImpl<$Res, $Val extends Owner>
-    implements $OwnerCopyWith<$Res> {
-  _$OwnerCopyWithImpl(this._value, this._then);
+class _$OwnerBeanCopyWithImpl<$Res, $Val extends OwnerBean>
+    implements $OwnerBeanCopyWith<$Res> {
+  _$OwnerBeanCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
   final $Val _value;
@@ -2327,36 +2857,57 @@ class _$OwnerCopyWithImpl<$Res, $Val extends Owner>
 }
 
 /// @nodoc
-abstract class _$$_OwnerCopyWith<$Res> implements $OwnerCopyWith<$Res> {
-  factory _$$_OwnerCopyWith(_$_Owner value, $Res Function(_$_Owner) then) =
-      __$$_OwnerCopyWithImpl<$Res>;
+abstract class _$$_OwnerBeanCopyWith<$Res> implements $OwnerBeanCopyWith<$Res> {
+  factory _$$_OwnerBeanCopyWith(
+          _$_OwnerBean value, $Res Function(_$_OwnerBean) then) =
+      __$$_OwnerBeanCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
-      {String? login,
-      int? id,
-      String? nodeId,
-      String? avatarUrl,
-      String? gravatarId,
-      String? url,
-      String? htmlUrl,
-      String? followersUrl,
-      String? followingUrl,
-      String? gistsUrl,
-      String? starredUrl,
-      String? subscriptionsUrl,
-      String? organizationsUrl,
-      String? reposUrl,
-      String? eventsUrl,
-      String? receivedEventsUrl,
-      String? type,
-      bool? siteAdmin});
+      {@JsonKey(defaultValue: "", nullable: true, name: 'login')
+          String? login,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'id')
+          int? id,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          String? nodeId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'avatar_url')
+          String? avatarUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'gravatar_id')
+          String? gravatarId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          String? url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
+          String? htmlUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'followers_url')
+          String? followersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'following_url')
+          String? followingUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'gists_url')
+          String? gistsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'starred_url')
+          String? starredUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscriptions_url')
+          String? subscriptionsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'organizations_url')
+          String? organizationsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'repos_url')
+          String? reposUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
+          String? eventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'received_events_url')
+          String? receivedEventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'type')
+          String? type,
+      @JsonKey(defaultValue: false, nullable: true, name: 'site_admin')
+          bool? siteAdmin});
 }
 
 /// @nodoc
-class __$$_OwnerCopyWithImpl<$Res> extends _$OwnerCopyWithImpl<$Res, _$_Owner>
-    implements _$$_OwnerCopyWith<$Res> {
-  __$$_OwnerCopyWithImpl(_$_Owner _value, $Res Function(_$_Owner) _then)
+class __$$_OwnerBeanCopyWithImpl<$Res>
+    extends _$OwnerBeanCopyWithImpl<$Res, _$_OwnerBean>
+    implements _$$_OwnerBeanCopyWith<$Res> {
+  __$$_OwnerBeanCopyWithImpl(
+      _$_OwnerBean _value, $Res Function(_$_OwnerBean) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -2381,7 +2932,7 @@ class __$$_OwnerCopyWithImpl<$Res> extends _$OwnerCopyWithImpl<$Res, _$_Owner>
     Object? type = freezed,
     Object? siteAdmin = freezed,
   }) {
-    return _then(_$_Owner(
+    return _then(_$_OwnerBean(
       login: freezed == login
           ? _value.login
           : login // ignore: cast_nullable_to_non_nullable
@@ -2460,95 +3011,113 @@ class __$$_OwnerCopyWithImpl<$Res> extends _$OwnerCopyWithImpl<$Res, _$_Owner>
 
 /// @nodoc
 @JsonSerializable()
-class _$_Owner implements _Owner {
-  const _$_Owner(
-      {this.login = "",
-      this.id = 0,
-      this.nodeId = "",
-      this.avatarUrl = "",
-      this.gravatarId = "",
-      this.url = "",
-      this.htmlUrl = "",
-      this.followersUrl = "",
-      this.followingUrl = "",
-      this.gistsUrl = "",
-      this.starredUrl = "",
-      this.subscriptionsUrl = "",
-      this.organizationsUrl = "",
-      this.reposUrl = "",
-      this.eventsUrl = "",
-      this.receivedEventsUrl = "",
-      this.type = "",
-      this.siteAdmin = false});
+class _$_OwnerBean implements _OwnerBean {
+  const _$_OwnerBean(
+      {@JsonKey(defaultValue: "", nullable: true, name: 'login')
+          this.login,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'id')
+          this.id,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          this.nodeId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'avatar_url')
+          this.avatarUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'gravatar_id')
+          this.gravatarId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          this.url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
+          this.htmlUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'followers_url')
+          this.followersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'following_url')
+          this.followingUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'gists_url')
+          this.gistsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'starred_url')
+          this.starredUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscriptions_url')
+          this.subscriptionsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'organizations_url')
+          this.organizationsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'repos_url')
+          this.reposUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
+          this.eventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'received_events_url')
+          this.receivedEventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'type')
+          this.type,
+      @JsonKey(defaultValue: false, nullable: true, name: 'site_admin')
+          this.siteAdmin});
 
-  factory _$_Owner.fromJson(Map<String, dynamic> json) =>
-      _$$_OwnerFromJson(json);
+  factory _$_OwnerBean.fromJson(Map<String, dynamic> json) =>
+      _$$_OwnerBeanFromJson(json);
 
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'login')
   final String? login;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: 0, nullable: true, name: 'id')
   final int? id;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
   final String? nodeId;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'avatar_url')
   final String? avatarUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'gravatar_id')
   final String? gravatarId;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'url')
   final String? url;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
   final String? htmlUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'followers_url')
   final String? followersUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'following_url')
   final String? followingUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'gists_url')
   final String? gistsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'starred_url')
   final String? starredUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'subscriptions_url')
   final String? subscriptionsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'organizations_url')
   final String? organizationsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'repos_url')
   final String? reposUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
   final String? eventsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'received_events_url')
   final String? receivedEventsUrl;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: "", nullable: true, name: 'type')
   final String? type;
   @override
-  @JsonKey()
+  @JsonKey(defaultValue: false, nullable: true, name: 'site_admin')
   final bool? siteAdmin;
 
   @override
   String toString() {
-    return 'Owner(login: $login, id: $id, nodeId: $nodeId, avatarUrl: $avatarUrl, gravatarId: $gravatarId, url: $url, htmlUrl: $htmlUrl, followersUrl: $followersUrl, followingUrl: $followingUrl, gistsUrl: $gistsUrl, starredUrl: $starredUrl, subscriptionsUrl: $subscriptionsUrl, organizationsUrl: $organizationsUrl, reposUrl: $reposUrl, eventsUrl: $eventsUrl, receivedEventsUrl: $receivedEventsUrl, type: $type, siteAdmin: $siteAdmin)';
+    return 'OwnerBean(login: $login, id: $id, nodeId: $nodeId, avatarUrl: $avatarUrl, gravatarId: $gravatarId, url: $url, htmlUrl: $htmlUrl, followersUrl: $followersUrl, followingUrl: $followingUrl, gistsUrl: $gistsUrl, starredUrl: $starredUrl, subscriptionsUrl: $subscriptionsUrl, organizationsUrl: $organizationsUrl, reposUrl: $reposUrl, eventsUrl: $eventsUrl, receivedEventsUrl: $receivedEventsUrl, type: $type, siteAdmin: $siteAdmin)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_Owner &&
+            other is _$_OwnerBean &&
             (identical(other.login, login) || other.login == login) &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.nodeId, nodeId) || other.nodeId == nodeId) &&
@@ -2607,78 +3176,115 @@ class _$_Owner implements _Owner {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_OwnerCopyWith<_$_Owner> get copyWith =>
-      __$$_OwnerCopyWithImpl<_$_Owner>(this, _$identity);
+  _$$_OwnerBeanCopyWith<_$_OwnerBean> get copyWith =>
+      __$$_OwnerBeanCopyWithImpl<_$_OwnerBean>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_OwnerToJson(
+    return _$$_OwnerBeanToJson(
       this,
     );
   }
 }
 
-abstract class _Owner implements Owner {
-  const factory _Owner(
-      {final String? login,
-      final int? id,
-      final String? nodeId,
-      final String? avatarUrl,
-      final String? gravatarId,
-      final String? url,
-      final String? htmlUrl,
-      final String? followersUrl,
-      final String? followingUrl,
-      final String? gistsUrl,
-      final String? starredUrl,
-      final String? subscriptionsUrl,
-      final String? organizationsUrl,
-      final String? reposUrl,
-      final String? eventsUrl,
-      final String? receivedEventsUrl,
-      final String? type,
-      final bool? siteAdmin}) = _$_Owner;
+abstract class _OwnerBean implements OwnerBean {
+  const factory _OwnerBean(
+      {@JsonKey(defaultValue: "", nullable: true, name: 'login')
+          final String? login,
+      @JsonKey(defaultValue: 0, nullable: true, name: 'id')
+          final int? id,
+      @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
+          final String? nodeId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'avatar_url')
+          final String? avatarUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'gravatar_id')
+          final String? gravatarId,
+      @JsonKey(defaultValue: "", nullable: true, name: 'url')
+          final String? url,
+      @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
+          final String? htmlUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'followers_url')
+          final String? followersUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'following_url')
+          final String? followingUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'gists_url')
+          final String? gistsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'starred_url')
+          final String? starredUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'subscriptions_url')
+          final String? subscriptionsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'organizations_url')
+          final String? organizationsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'repos_url')
+          final String? reposUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
+          final String? eventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'received_events_url')
+          final String? receivedEventsUrl,
+      @JsonKey(defaultValue: "", nullable: true, name: 'type')
+          final String? type,
+      @JsonKey(defaultValue: false, nullable: true, name: 'site_admin')
+          final bool? siteAdmin}) = _$_OwnerBean;
 
-  factory _Owner.fromJson(Map<String, dynamic> json) = _$_Owner.fromJson;
+  factory _OwnerBean.fromJson(Map<String, dynamic> json) =
+      _$_OwnerBean.fromJson;
 
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'login')
   String? get login;
   @override
+  @JsonKey(defaultValue: 0, nullable: true, name: 'id')
   int? get id;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'node_id')
   String? get nodeId;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'avatar_url')
   String? get avatarUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'gravatar_id')
   String? get gravatarId;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'url')
   String? get url;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'html_url')
   String? get htmlUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'followers_url')
   String? get followersUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'following_url')
   String? get followingUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'gists_url')
   String? get gistsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'starred_url')
   String? get starredUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'subscriptions_url')
   String? get subscriptionsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'organizations_url')
   String? get organizationsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'repos_url')
   String? get reposUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'events_url')
   String? get eventsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'received_events_url')
   String? get receivedEventsUrl;
   @override
+  @JsonKey(defaultValue: "", nullable: true, name: 'type')
   String? get type;
   @override
+  @JsonKey(defaultValue: false, nullable: true, name: 'site_admin')
   bool? get siteAdmin;
   @override
   @JsonKey(ignore: true)
-  _$$_OwnerCopyWith<_$_Owner> get copyWith =>
+  _$$_OwnerBeanCopyWith<_$_OwnerBean> get copyWith =>
       throw _privateConstructorUsedError;
 }

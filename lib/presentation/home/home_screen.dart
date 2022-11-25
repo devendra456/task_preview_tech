@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:task_preview_tech/app/core/base/base_view.dart';
 import 'package:task_preview_tech/app/widgets/loader_widget.dart';
-import 'package:task_preview_tech/domain/models/data_model.dart';
+import 'package:task_preview_tech/domain/entity/git_repos_entity.dart';
 
 import '../../app/theme/color_manager.dart';
 import 'controllers/home_controller.dart';
@@ -15,9 +15,9 @@ class HomeScreen extends BaseView<HomeController> {
 
   @override
   Widget body(BuildContext context) {
-    return PagedListView<int, DataModel>.separated(
+    return PagedListView<int, GitReposEntity>.separated(
       pagingController: controller.pagingController,
-      builderDelegate: PagedChildBuilderDelegate<DataModel>(
+      builderDelegate: PagedChildBuilderDelegate<GitReposEntity>(
         itemBuilder: (context, item, index) => ListTile(
           contentPadding: const EdgeInsets.symmetric(horizontal: 4),
           leading: const Icon(
@@ -53,7 +53,7 @@ class HomeScreen extends BaseView<HomeController> {
                   const SizedBox(
                     width: 4,
                   ),
-                  Text("${item.open_issues}"),
+                  Text("${item.openIssues}"),
                   const SizedBox(
                     width: 8,
                   ),

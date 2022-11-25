@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:task_preview_tech/domain/models/data_model.dart';
 
 
 class SQFLiteDatabaseHelper {
@@ -34,8 +33,8 @@ class SQFLiteDatabaseHelper {
         name TEXT,
         description TEXT,
         language TEXT,
-        watchers int,
-        open_issues int
+        watchers INTEGER,
+        openIssues INTEGER
         )
         '''
   };

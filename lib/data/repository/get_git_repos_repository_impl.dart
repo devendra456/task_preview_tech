@@ -4,13 +4,13 @@ import 'dart:io';
 
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:task_preview_tech/domain/models/data_model.dart';
 import 'package:task_preview_tech/domain/repository/get_git_repos_repository.dart';
 
 import '../data_source/git_repos_local_data_source.dart';
 import '../data_source/git_repos_remote_data_source.dart';
 import '../error/error_handler.dart';
 import '../error/failure.dart';
+import '../models/data_model.dart';
 import '../network/api_routes.dart';
 import '../network/network_info.dart';
 
@@ -36,7 +36,7 @@ class GetGitReposRepositoryImpl
       }
     } else {
       try {
-        final res = await gitReposLocalDataSource.getSavedRepos();
+        final res = await gitReposLocalDataSource.getSavedRepos(pageNumber);
         return Right(res);
       } catch (e) {
         return Left(ErrorHandler.handle(e).failure);
@@ -44,3 +44,5 @@ class GetGitReposRepositoryImpl
     }
   }
 }
+
+

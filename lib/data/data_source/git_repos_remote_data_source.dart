@@ -1,8 +1,7 @@
 
 import 'dart:io';
 
-import 'package:task_preview_tech/domain/models/data_model.dart';
-
+import '../models/data_model.dart';
 import '../network/api_base_client.dart';
 import '../network/api_routes.dart';
 
